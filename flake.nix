@@ -15,15 +15,8 @@
         dev-go-script = pkgs.writeShellScriptBin "dev-back"
           ''
             PROJECT_DIR=$(echo "$DIRENV_DIR" | cut -c 2-)
-            cd "$PROJECT_DIR/backend" || return
+            cd "$PROJECT_DIR:=./backend" || return
             reflex -r '\.go$' -s -- go run .
-          '';
-
-        dev-front-script = pkgs.writeShellScriptBin "dev-front"
-          ''
-            PROJECT_DIR=$(echo "$DIRENV_DIR" | cut -c 2-)
-            cd "$PROJECT_DIR/frontend" || return
-            bun --watch run start
           '';
       in
       {
@@ -46,7 +39,7 @@
             printf "\e[33m
             Let's begin coding 😎
             run \e[1mdev-back\e[0m\e[33m -> to develop backend
-            run \e[1mdev-front\e[0m\e[33m -> to develop frontend
+            run \e[1mcd frontend; bun install; bun run dev\e[0m\e[33m -> to develop frontend
             \e[0m
             "
           '';
@@ -57,7 +50,7 @@
             go
           ] ++ [
             dev-go-script
-            dev-front-script
+            # dev-front-script
           ];
         };
       }
