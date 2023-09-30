@@ -22,6 +22,7 @@ export function Prompt() {
                 size={"icon"}
                 className={cn(
                     "absolute bottom-[8px] right-3 transform -translate-x-1/2 -translate-y-1/2",
+                    isMultiline && "right-6",
                 )}
             >
                 <PaperAirplaneIcon className="w-5" />
