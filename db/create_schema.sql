@@ -1,5 +1,5 @@
 CREATE TABLE universities (
-  id int,
+  id SERIAL PRIMARY KEY,
 
   name text,
   description text,
@@ -10,23 +10,23 @@ CREATE TABLE universities (
 )
 
 CREATE TABLE majors (
-  id int,
-  university_id int,
+  id SERIAL PRIMARY KEY,
+  university_id SERIAL,
 
   name text,
   description text,
 
   ECTS int NULL,
-  points_to_qualify int
+  points_to_qualify int NULL
 )
 
 CREATE TABLE subjects_to_majors (
-  major_id int,
-  subject_id int
+  major_id SERIAL,
+  subject_id SERIAL
 )
 
 CREATE TABLE subject (
-  id int,
+  id SERIAL PRIMARY KEY,
 
   name text,
   description text,
