@@ -1,16 +1,24 @@
 import { Prompt } from "@/components/Prompt";
-import { Responses } from "@/components/Responses";
+import { Messages } from "@/components/Messages";
 import { Card } from "@/components/ui/card";
 // import { IconMinusVertical } from "@tabler/icons-react";
 
 export function Chat() {
     return (
         <div className="grid mx-auto md:grid-cols-[5fr_2fr] grid-row gap-4 h-full">
-            <Card className="flex flex-col mx-auto p-6 gap-4 order-1">
-                <Responses
-                    responses={[
-                        "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
-                        "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+            <Card className="flex flex-col mx-auto gap-4 order-1">
+                <Messages
+                    data={[
+                        {
+                            message:
+                                "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+                            type: "user",
+                        },
+                        {
+                            message:
+                                "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+                            type: "ai",
+                        },
                     ]}
                 />
                 <Prompt />
