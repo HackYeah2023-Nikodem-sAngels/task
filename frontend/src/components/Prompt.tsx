@@ -8,9 +8,9 @@ export function Prompt() {
     const [isMultiline, setIsMultiline] = useState(false);
 
     return (
-        <div className="relative p-6">
+        <div className="sticky bottom-0 p-6 ">
             <Textarea
-                className="mx-auto py-3 text-base font-normal shadow"
+                className="mx-auto bg-white py-3 text-base font-normal shadow"
                 placeholder="Send a message..."
                 maxRows={3}
                 onHeightChange={(height) => {

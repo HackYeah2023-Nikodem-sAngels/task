@@ -23,11 +23,11 @@ export function Messages(props: Props) {
                 <div
                     className={cn(
                         response.type === "ai" ? "bg-blue-100" : "",
-                        "flex flex-col gap-4 p-8",
+                        "flex flex-col gap-4 p-8 ",
                     )}
                     key={i}
                 >
-                    <div className="flex items-start gap-4">
+                    <div className="mb-6 flex items-start gap-4">
                         {response.type === "ai" ? (
                             <>
                                 <img className="h-8 w-8" src="/ai.gif" />
@@ -42,20 +42,18 @@ export function Messages(props: Props) {
                             </>
                         )}
                     </div>
-                    <div className="flex w-full items-center justify-around gap-4 px-8 pt-6">
-                        {response.type === "ai" &&
-                            isFinished &&
-                            response.actions?.map((el, i) => {
-                                return (
-                                    <button
-                                        key={i}
-                                        className="flex w-5/6 items-center justify-center rounded-2xl border border-solid border-gray-400 px-4 py-3 hover:bg-blue-200"
-                                    >
-                                        {el}
-                                    </button>
-                                );
-                            })}
-                    </div>
+                    {response.type === "ai" &&
+                        isFinished &&
+                        response.actions?.map((el, i) => {
+                            return (
+                                <button
+                                    key={i}
+                                    className="ml-12 flex items-center justify-center rounded-xl border border-solid border-gray-400 px-4 py-3 hover:bg-blue-200"
+                                >
+                                    {el}
+                                </button>
+                            );
+                        })}
                 </div>
             ))}
         </div>
