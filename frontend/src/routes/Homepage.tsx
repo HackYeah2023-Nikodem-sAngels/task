@@ -8,7 +8,7 @@ export function Homepage() {
             className="w-full h-full items-center justify-center"
             onClick={() => navigate("/map")}
         >
-            <h1 className="scroll-m-20 text-9xl tracking-tighter font-extrabold text-center mt-32 ">
+            <h1 className="scroll-m-20 text-9xl font-header tracking-tighter font-bold text-center mt-32 ">
                 <span className="bg-gradient-to-r bg-clip-text text-transparent from-indigo-600 to-cyan-500 capitalize">
                     education
                 </span>{" "}
