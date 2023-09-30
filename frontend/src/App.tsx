@@ -1,8 +1,10 @@
+import { Input } from "./components/ui/input";
+
 function App() {
     return (
-        <p className="text-red-600 bg-green-600">
-            Red text with green background
-        </p>
+        <div>
+            <Input />
+        </div>
     );
 }
 
