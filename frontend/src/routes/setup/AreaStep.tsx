@@ -1,13 +1,11 @@
 import { Map } from "@/components/Map";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
-import { SetupData } from "../Setup";
+import { StepProps } from "../Setup";
 import { Card } from "@/components/ui/card";
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
 
-export function SelectArea(props: {
-    onSubmit: React.Dispatch<React.SetStateAction<SetupData>>;
-}) {
+export function AreaStep(props: StepProps) {
     const [areas, setAreas] = useState<string[]>([]);
 
     return (
@@ -16,13 +14,13 @@ export function SelectArea(props: {
                 className="flex flex-col gap-4"
                 onSubmit={(e) => {
                     e.preventDefault();
-                    props.onSubmit((data) => ({
-                        ...(data ?? {}),
+                    props.onSubmit({
+                        ...props.data,
                         regions: areas,
-                    }));
+                    });
                 }}
             >
-                <h1 className="text-center text-lg">
+                <h1 className="text-center text-lg font-medium">
                     Wybierz województwa twoich wymarzonych szkół
                 </h1>
                 <Map value={areas} onChange={setAreas} />
@@ -32,7 +30,7 @@ export function SelectArea(props: {
                         className="text-base"
                         variant={"secondary"}
                         size={"lg"}
-                        onClick={() => props.onSubmit((data) => ({ ...data }))}
+                        onClick={() => props.onSubmit(props.data)}
                     >
                         Pomiń
                     </Button>
