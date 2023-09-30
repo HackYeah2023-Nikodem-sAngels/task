@@ -5,8 +5,8 @@ import { StepProps } from "../Setup";
 import { Card } from "@/components/ui/card";
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
 
-export function AreaStep(props: StepProps) {
-    const [areas, setAreas] = useState<string[]>([]);
+export function RegionStep(props: StepProps) {
+    const [regions, setRegions] = useState<string[]>([]);
 
     return (
         <Card className="h-fit p-8">
@@ -16,14 +16,14 @@ export function AreaStep(props: StepProps) {
                     e.preventDefault();
                     props.onSubmit({
                         ...props.data,
-                        regions: areas,
+                        regions: regions,
                     });
                 }}
             >
                 <h1 className="text-center text-lg font-medium">
                     Wybierz województwa twoich wymarzonych szkół
                 </h1>
-                <Map value={areas} onChange={setAreas} />
+                <Map value={regions} onChange={setRegions} />
 
                 <div className="flex justify-between">
                     <Button
@@ -37,7 +37,7 @@ export function AreaStep(props: StepProps) {
                     <Button
                         className="ml-auto flex gap-2"
                         type="submit"
-                        disabled={areas.length === 0}
+                        disabled={regions.length === 0}
                         size={"lg"}
                     >
                         Dalej

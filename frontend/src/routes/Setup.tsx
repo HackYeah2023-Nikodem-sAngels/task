@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { AreaStep } from "./setup/AreaStep";
+import { RegionStep } from "./setup/RegionStep";
 import { StudiedStep } from "./setup/StudiedStep";
 import { StudyLevelStep } from "./setup/StudyLevelStep";
 
@@ -16,22 +16,22 @@ function CurrentStep(props: {
                     data={props.data}
                     onSubmit={(data) => {
                         props.setData(data);
-                        props.setStep(
-                            data.studyLevel === "1"
-                                ? "studied/regions"
-                                : "studied/regions/level",
-                        );
+                        props.setStep("studied/regions");
                     }}
                 />
             );
         }
         case "studied/regions": {
             return (
-                <AreaStep
+                <RegionStep
                     data={props.data}
                     onSubmit={(data) => {
                         props.setData(data);
-                        props.setStep("studied/regions/level");
+                        props.setStep(
+                            data.studyLevel === "1"
+                                ? "studied/regions/level(1or2)/interests"
+                                : "studied/regions/level",
+                        );
                     }}
                 />
             );
