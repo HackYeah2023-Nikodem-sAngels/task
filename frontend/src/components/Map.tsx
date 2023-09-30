@@ -69,8 +69,8 @@ const voivodeships = [
 
 export function Map(props: FormFieldProps<string>) {
     return (
-        <div className="w-screen h-screen">
-            <svg viewBox="0 0 700 680">
+        <div className="w-full h-full">
+            <svg viewBox="0 0 497 463">
                 {voivodeships.map((el, index) => {
                     return (
                         <path
@@ -78,7 +78,9 @@ export function Map(props: FormFieldProps<string>) {
                             d={el.path}
                             onClick={() => props.onChange(el.name)}
                             className={cn(
-                                el.name === props.value ? "fill-green-600" : "",
+                                el.name === props.value
+                                    ? "fill-blue-400"
+                                    : "fill-gray-200"
                             )}
                         />
                     );
