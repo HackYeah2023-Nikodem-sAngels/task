@@ -5,6 +5,7 @@ import (
 	r "backend/router"
 	t "backend/types"
 	"log"
+	"text/template"
 
 	"github.com/caarlos0/env/v9"
 	"github.com/joho/godotenv"
@@ -20,6 +21,11 @@ func main() {
 	err = env.Parse(&conf)
 	if err != nil {
 		log.Fatalf("Error parsing environmental variables:\n%v", err)
+	}
+
+	conf.TEMPLATES, err = template.ParseFiles("./gpt_api/system_msg.tmpl")
+	if err != nil {
+		log.Fatalf("Error parsing templates:\n%v", err)
 	}
 
 	err = db.InitConnection(conf)

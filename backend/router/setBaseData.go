@@ -17,6 +17,13 @@ func setBaseData(ctx *gin.Context) {
 		ctx.JSON(http.StatusBadRequest, msg)
 	}
 
+	switch data.Language {
+	case "pl", "en":
+	default:
+		ctx.JSON(http.StatusBadRequest, t.JsonErr{Message: "wrong language provided"})
+		return
+	}
+
 	if data.Country == "" {
 		data.Country = "Poland"
 	}
@@ -39,6 +46,10 @@ func setBaseData(ctx *gin.Context) {
 			data.NoMaturaResults = true
 		}
 	case 2:
+		if data.LastStudies == "" {
+			ctx.JSON(http.StatusBadRequest, t.JsonErr{Message: "last studies not provided"})
+			return
+		}
 	case 3:
 		if data.Specialization == "" {
 			ctx.JSON(http.StatusBadRequest, t.JsonErr{Message: "specialization not provided"})
@@ -50,7 +61,7 @@ func setBaseData(ctx *gin.Context) {
 	}
 
 	session := sessions.Default(ctx)
-	session.Set("base", data)
+	session.Set("chatData", data)
 
 	err = session.Save()
 	if err != nil {

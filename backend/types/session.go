@@ -17,4 +17,6 @@ type BaseInformation struct {
 	NoFutureSkills   bool
 	FutureSkills     []string `json:"futureSkills"`
 	Specialization   string   `json:"specialization"`
+	LastStudies      string   `json:"lastStudies"`
+	Language         string   `json:"language"`
 }

@@ -4,6 +4,7 @@ import (
 	"backend/database"
 	t "backend/types"
 	"encoding/gob"
+	"log"
 
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-contrib/sessions/postgres"
@@ -16,31 +17,16 @@ import (
 
 func CreateRouter(conf t.Config) (*gin.Engine, error) {
 	gob.Register(t.BaseInformation{})
+	gob.Register(gpt.OpenAISession{})
 
 	r := gin.Default()
-
-	r.GET("/justtesting", func(ctx *gin.Context) {
-		s, err := gpt.NewSession(conf)
-
-		if err != nil {
-			ctx.JSON(http.StatusServiceUnavailable, t.JsonErr{Message: "mati wez to jakos ogarnij na froncie bo gpt spadl z rowerka"})
-		}
-
-		res, err := s.Start("polish")
-
-		if err != nil {
-			ctx.JSON(http.StatusServiceUnavailable, t.JsonErr{Message: "mati wez to jakos ogarnij na froncie bo gpt spadl z rowerka"})
-		}
-
-		ctx.JSON(http.StatusOK, res)
-	})
 
 	store, err := postgres.NewStore(database.DB, []byte(conf.SESSION_SECRET))
 	if err != nil {
 		return nil, err
 	}
 
-	r.Use(sessions.Sessions("sessions", store))
+	r.Use(sessions.Sessions("hackyeah", store))
 
 	r.NoRoute(func(ctx *gin.Context) {
 		ctx.String(http.StatusNotFound, "404")
@@ -50,8 +36,65 @@ func CreateRouter(conf t.Config) (*gin.Engine, error) {
 
 	r.GET("/tmp-api/session", func(ctx *gin.Context) {
 		session := sessions.Default(ctx)
-		base := session.Get("base")
+		base := session.Get("chatData")
 		ctx.JSON(http.StatusOK, base)
+	})
+
+	r.GET("/api/questions", func(ctx *gin.Context) {
+		session := sessions.Default(ctx)
+		if session.Get("chatData") == nil {
+			ctx.JSON(http.StatusBadRequest, t.JsonErr{Message: "No session created"})
+			return
+		}
+
+		var baseData t.BaseInformation = session.Get("chatData").(t.BaseInformation)
+		if baseData.Language == "" {
+			ctx.JSON(http.StatusBadRequest, t.JsonErr{Message: "you did not provide a language"})
+			return
+		}
+
+		s, err := gpt.NewOpenAISession(conf)
+		if err != nil {
+			ctx.JSON(http.StatusServiceUnavailable, t.JsonErr{Message: "mati wez to jakos ogarnij na froncie bo gpt spadl z rowerka"})
+			return
+		}
+
+		res, err := s.Start(baseData, conf)
+		if err != nil {
+			ctx.JSON(http.StatusServiceUnavailable, t.JsonErr{Message: "mati wez to jakos ogarnij na froncie bo gpt spadl z rowerka"})
+			return
+		}
+
+		session.Set("chatData", s)
+		session.Save()
+
+		ctx.JSON(http.StatusOK, res)
+	})
+
+	r.POST("/api/questions", func(ctx *gin.Context) {
+		var json t.JsonAnswer
+		var chatData gpt.OpenAISession
+
+		session := sessions.Default(ctx)
+		chatData = session.Get("chatData").(gpt.OpenAISession)
+
+		err := ctx.BindJSON(&json)
+		if err != nil {
+			ctx.JSON(http.StatusBadRequest, t.JsonErr{Message: "wrong input"})
+			return
+		}
+
+		res, err := chatData.AnswerAndGetNext(json.Answer, conf)
+		if err != nil {
+			log.Println(err)
+			ctx.JSON(http.StatusServiceUnavailable, t.JsonErr{Message: "mati wez to jakos ogarnij na froncie bo gpt spadl z rowerka"})
+			return
+		}
+
+		session.Set("chatData", chatData)
+		session.Save()
+
+		ctx.JSON(http.StatusOK, res)
 	})
 
 	return r, nil

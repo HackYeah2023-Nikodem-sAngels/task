@@ -1,22 +1,21 @@
 package gpt_api
 
 import (
+	"bytes"
 	"context"
 	"fmt"
 	"strings"
 
-	openai "github.com/sashabaranov/go-openai"
-
 	t "backend/types"
-	// "bufio"
-	// "strings"
+
+	openai "github.com/sashabaranov/go-openai"
 )
 
 var messageStart = "start"
 var messageSystemSetup = `
 you are a assistant that helps the user choose a major, by asking him personal questions
 you ALWAYS respond with a single question regarding the topic, and possible answers in separate lines, preceded by a number and a closing bracket
-NEVER provide a other type of response
+NEVER provide any other type of response
 
 ask about preferences, experience, interests
 
@@ -26,29 +25,28 @@ don't ask about estimated exam results, cost of studying, preference in private 
 on [` + messageStart + `] (language) you respond with the first question in specified language
 `
 
-type Session struct {
-	client         *openai.Client
+type OpenAISession struct {
 	MessageHistory []openai.ChatCompletionMessage
+	configData     t.Config
 }
 
-func (s *Session) AddMessage(message openai.ChatCompletionMessage) []openai.ChatCompletionMessage {
+func (s *OpenAISession) AddMessage(message openai.ChatCompletionMessage) []openai.ChatCompletionMessage {
 	s.MessageHistory = append(s.MessageHistory, message)
 	return s.MessageHistory
 }
 
-func NewSession(conf t.Config) (Session, error) {
-	client := openai.NewClient(conf.GPT_API_KEY)
-	session := Session{client, []openai.ChatCompletionMessage{}}
+func NewOpenAISession(conf t.Config) (OpenAISession, error) {
+	session := OpenAISession{[]openai.ChatCompletionMessage{}, conf}
 
 	_, err := session.ask(messageSystemSetup, openai.ChatMessageRoleSystem, false)
 
 	return session, err
 }
 
-var Dummy = false // For testing, to not eat through the tokens
+func (s *OpenAISession) ask(question string, role string, saveResponse bool) (string, error) {
+	client := openai.NewClient(s.configData.GPT_API_KEY)
 
-func (s *Session) ask(question string, role string, saveResponse bool) (string, error) {
-	if Dummy {
+	if !s.configData.PROD {
 		return "Dummy answer to " + question, nil
 	}
 
@@ -58,7 +56,7 @@ func (s *Session) ask(question string, role string, saveResponse bool) (string, 
 	}
 	s.AddMessage(newMsg)
 
-	resp, err := s.client.CreateChatCompletion(
+	resp, err := client.CreateChatCompletion(
 		context.Background(),
 		openai.ChatCompletionRequest{
 			Model:    openai.GPT3Dot5Turbo,
@@ -79,25 +77,29 @@ func (s *Session) ask(question string, role string, saveResponse bool) (string, 
 	return res.Content, nil
 }
 
-func (s *Session) getQuestion(question string) (Question, error) {
+func (s *OpenAISession) getQuestion(question string) (t.Question, error) {
 	rawQuestion, err := s.ask(question, openai.ChatMessageRoleUser, true)
 	return ParseQuestion(rawQuestion), err
 }
 
-func (s *Session) Start(language string) (Question, error) {
-	return s.getQuestion(fmt.Sprintf("[%v] (%v)", messageStart, language))
+func (s *OpenAISession) Start(startData t.BaseInformation, conf t.Config) (t.Question, error) {
+	var renderedTempl bytes.Buffer
+
+	err := conf.TEMPLATES.ExecuteTemplate(&renderedTempl, "firstMsg", startData)
+	fmt.Println(renderedTempl.String())
+	if err != nil {
+		return t.Question{}, err
+	}
+
+	return s.getQuestion(renderedTempl.String())
 }
 
-func (s *Session) AnswerAndGetNext(answer string) (Question, error) {
+func (s *OpenAISession) AnswerAndGetNext(answer string, conf t.Config) (t.Question, error) {
+	s.configData = conf
 	return s.getQuestion(answer)
 }
 
-type Question struct {
-	Question string   `json:"question"`
-	Answers  []string `json:"answers"`
-}
-
-func ParseQuestion(rawQuestion string) Question {
+func ParseQuestion(rawQuestion string) t.Question {
 	lines := strings.Split(rawQuestion, "\n")
 
 	question := lines[0]
@@ -108,5 +110,5 @@ func ParseQuestion(rawQuestion string) Question {
 		answers = append(answers, ans)
 	}
 
-	return Question{question, answers}
+	return t.Question{question, answers}
 }
