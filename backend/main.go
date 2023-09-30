@@ -1,8 +1,6 @@
 package main
 
 import (
-	// "github.com/gin-contrib/sessions"
-	// "github.com/gin-contrib/sessions/postgres"
 	db "backend/database"
 	r "backend/router"
 	t "backend/types"
@@ -29,6 +27,10 @@ func main() {
 		log.Fatalf("Error connecting to database:\n%v", err)
 	}
 
-	router := r.CreateRouter(conf)
+	router, err := r.CreateRouter(conf)
+	if err != nil {
+		log.Fatalf("Error creating web server:\n%v", err)
+	}
+
 	router.Run()
 }
