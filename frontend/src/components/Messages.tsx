@@ -32,7 +32,7 @@ export function Messages(props: Props) {
                             <UserCircleIcon className="w-8 text-muted-foreground" />
                         )}
                         <span ref={ref} className="w-[80ch]">
-                            {/* {response.message} */}
+                            {response.message}
                         </span>
                     </div>
                     <div className="flex w-full items-center justify-between pb-4 pe-6 pl-16">
