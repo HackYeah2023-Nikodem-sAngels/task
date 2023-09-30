@@ -90,7 +90,8 @@ export function Map(props: FormFieldProps<string[]>) {
                             className={cn(
                                 props.value.includes(el.name)
                                     ? "fill-blue-400"
-                                    : "fill-gray-200"
+                                    : "fill-gray-200 hover:fill-blue-200",
+                                "hover:cursor-pointer"
                             )}
                         />
                     );

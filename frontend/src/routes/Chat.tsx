@@ -2,8 +2,13 @@ import { Prompt } from "@/components/Prompt";
 import { Messages } from "@/components/Messages";
 import { Card } from "@/components/ui/card";
 // import { IconMinusVertical } from "@tabler/icons-react";
+// import { useTextAnimation } from "@/hooks/useTextAnimation";
+// import { useRef } from "react";
 
 export function Chat() {
+    // const ref = useRef<HTMLDivElement>(null);
+    // useTextAnimation(ref.current!, "tu bedzie jakis tekst");
+
     return (
         <div className="grid mx-auto md:grid-cols-[5fr_2fr] grid-row gap-4 h-full">
             <Card className="flex flex-col mx-auto gap-4 order-1">
@@ -23,6 +28,8 @@ export function Chat() {
                 />
                 <Prompt />
             </Card>
+
+            {/* <div ref={ref}></div> */}
 
             {/* Jak będzie czas to może resize zrobimy */}
             {/* <IconMinusVertical */}
