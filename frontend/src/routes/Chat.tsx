@@ -16,13 +16,18 @@ export function Chat() {
                     data={[
                         {
                             message:
-                                "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+                                "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat. Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat. Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat. Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat. Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat",
                             type: "user",
                         },
                         {
                             message:
                                 "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
                             type: "ai",
+                            actions: [
+                                "napisz mi mega skompliklopwany esej ale taki serio dobry",
+                                "ssd",
+                                "awaw efefege  fefefef efef efeefsgrw efefrbre efefgs",
+                            ],
                         },
                     ]}
                 />

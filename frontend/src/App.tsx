@@ -5,6 +5,7 @@ import {
 } from "react-router-dom";
 import { Homepage } from "./routes/Homepage";
 import { Setup } from "./routes/Setup";
+import { Chat } from "./routes/Chat";
 
 function App() {
     const language = Intl.DateTimeFormat().resolvedOptions().locale.slice(0, 2);
@@ -20,6 +21,7 @@ function App() {
         },
         {
             path: "/:language/chat",
+            element: <Chat />,
         },
         {
             path: "/:language/setup",
