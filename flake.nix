@@ -15,7 +15,7 @@
         dev-go-script = pkgs.writeShellScriptBin "dev-back"
           ''
             PROJECT_DIR=$(echo "$DIRENV_DIR" | cut -c 2-)
-            cd "$PROJECT_DIR:=./backend" || return
+            cd "$PROJECT_DIR/backend" || return
             reflex -r '\.go$' -s -- go run .
           '';
       in
