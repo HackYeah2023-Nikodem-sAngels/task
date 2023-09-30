@@ -6,14 +6,9 @@ export function Chat() {
     return (
         <div className="flex h-full">
             <div className="grid-row mx-auto grid h-full gap-4 md:grid-cols-[5fr_2fr]">
-                <Card className="order-1 mx-auto flex flex-col gap-4">
+                <Card className="mb:w-[32ch] order-1 mx-auto flex flex-col gap-4 sm:w-[60ch]  xl:w-[80ch]">
                     <Messages
                         data={[
-                            {
-                                message:
-                                    "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat. Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat. Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat. Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat. Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat",
-                                type: "user",
-                            },
                             {
                                 message:
                                     "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
@@ -21,8 +16,13 @@ export function Chat() {
                                 actions: [
                                     "napisz mi mega skompliklopwany esej ale taki serio dobry",
                                     "ssd",
-                                    "awaw efefege  fefefef efef efeefsgrw efefrbre efefgs",
+                                    "awaw efefege fefefef efef efeefsgrw efefrbre efefgs",
                                 ],
+                            },
+                            {
+                                message:
+                                    "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat. Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat. Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat. Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat. Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat",
+                                type: "user",
                             },
                         ]}
                     />

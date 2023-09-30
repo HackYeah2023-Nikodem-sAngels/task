@@ -29,15 +29,20 @@ export function Messages(props: Props) {
                 >
                     <div className="flex items-start gap-4">
                         {response.type === "ai" ? (
-                            <img className="h-8 w-8" src="/ai.gif" />
+                            <>
+                                <img className="h-8 w-8" src="/ai.gif" />
+                                <span ref={ref}></span>
+                            </>
                         ) : (
-                            <UserCircleIcon className="h-8 w-8 text-muted-foreground" />
+                            <>
+                                <div className="h-8 w-8">
+                                    <UserCircleIcon className="h-8 w-8 text-muted-foreground" />
+                                </div>
+                                <span>{response.message}</span>
+                            </>
                         )}
-                        <span ref={ref} className="max-w-[80ch]">
-                            {response.message}
-                        </span>
                     </div>
-                    <div className="flex w-full items-center justify-around gap-4 px-8">
+                    <div className="flex w-full items-center justify-around gap-4 px-8 pt-6">
                         {response.type === "ai" &&
                             isFinished &&
                             response.actions?.map((el, i) => {
