@@ -37,10 +37,28 @@ function CurrentStep(props: {
             );
         }
         case "studied/regions/level": {
-            return <StudyLevelStep data={props.data} onSubmit={() => false} />;
+            return (
+                <StudyLevelStep
+                    data={props.data}
+                    onSubmit={(data) => {
+                        props.setData(data);
+                        props.setStep(
+                            data.studyLevel === "1" ||
+                                data.studyLevel === "2" ||
+                                data.studyLevel === "1+2"
+                                ? "studied/regions/level(1or2)/interests"
+                                : "studied/regions/level(3)/specialization",
+                        );
+                    }}
+                />
+            );
         }
-        case "studied/regions/level(1or2)/interests":
-        case "studied/regions/level(3)/specialization":
+        case "studied/regions/level(1or2)/interests": {
+            return "1or2";
+        }
+        case "studied/regions/level(3)/specialization": {
+            return "3";
+        }
     }
 }
 
