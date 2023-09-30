@@ -1,6 +1,7 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { Form } from "./routes/Form";
 import { Homepage } from "./routes/Homepage";
+import { Chat } from "./routes/Chat";
 
 function App() {
     const router = createBrowserRouter([
@@ -11,6 +12,10 @@ function App() {
         {
             path: "/map",
             element: <Form />,
+        },
+        {
+            path: "/chat",
+            element: <Chat />,
         },
     ]);
 
