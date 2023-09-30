@@ -10,7 +10,7 @@ export function Prompt() {
     return (
         <div className="relative p-6">
             <Textarea
-                className="shadow mx-auto py-3 text-base font-normal"
+                className="mx-auto py-3 text-base font-normal shadow"
                 placeholder="Send a message..."
                 maxRows={3}
                 onHeightChange={(height) => {
@@ -21,8 +21,7 @@ export function Prompt() {
                 variant={isMultiline ? "default" : "ghost"}
                 size={"icon"}
                 className={cn(
-                    "absolute bottom-[8px] right-3 transform -translate-x-1/2 -translate-y-1/2",
-                    isMultiline && "right-6",
+                    "absolute bottom-[8px] right-3 -translate-x-1/2 -translate-y-1/2 transform",
                 )}
             >
                 <PaperAirplaneIcon className="w-5" />

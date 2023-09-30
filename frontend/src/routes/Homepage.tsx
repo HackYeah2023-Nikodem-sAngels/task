@@ -1,26 +1,18 @@
-import { useNavigate } from "react-router-dom";
+import { Button } from "@/components/ui/button";
+import { ArrowRightIcon } from "@heroicons/react/24/outline";
 
 export function Homepage() {
-    const navigate = useNavigate();
-
     return (
-        <div
-            className="w-full h-full items-center justify-center"
-            onClick={() => navigate("/map")}
-        >
-            <h1 className="scroll-m-20 text-9xl font-header tracking-tighter font-bold text-center mt-32 ">
-                <span className="bg-gradient-to-r bg-clip-text text-transparent from-indigo-600 to-cyan-500 capitalize">
-                    education
-                </span>{" "}
-                <span>
-                    {/* className="bg-gradient-to-r bg-clip-text text-transparent from-purple-600 to-fuchsia-700"> */}
-                    in
-                </span>{" "}
-                <span className="capitalize">
-                    {/* className="bg-gradient-to-r bg-clip-text text-transparent from-orange-500 to-yellow-600"> */}
-                    innovation
-                </span>
+        <div className="mx-auto flex flex-col items-center gap-12 ">
+            <h1 className="mt-32 scroll-m-20 text-center text-6xl font-bold leading-tight tracking-tighter ">
+                <span>Znajdź</span>{" "}
+                <span className="text-primary">uczelnię</span>{" "}
+                <span>dla siebie</span>
             </h1>
+            <Button size={"lg"} className="flex gap-2 text-lg font-medium">
+                Rozpocznij
+                <ArrowRightIcon className="w-5" />
+            </Button>
         </div>
     );
 }

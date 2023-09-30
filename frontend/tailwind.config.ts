@@ -73,8 +73,7 @@ module.exports = {
             },
         },
         fontFamily: {
-            sans: ["Inter", "sans-serif"],
-            header: ["Poppins", "sans-serif"],
+            sans: ["Open Sans", "sans-serif"],
         },
     },
     plugins: [require("tailwindcss-animate")],
