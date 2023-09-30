@@ -5,7 +5,10 @@ import { Button } from "./ui/button";
 export function Prompt() {
     return (
         <div className="relative">
-            <Textarea className="shadow mx-auto py-3 text-base" />
+            <Textarea
+                className="shadow mx-auto py-3 text-base font-normal"
+                placeholder="Send a message..."
+            />
             <Button
                 variant={"ghost"}
                 size={"icon"}
