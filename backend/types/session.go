@@ -8,8 +8,8 @@ type Matura struct {
 type BaseInformation struct {
 	Country          string `json:"country"` // default Poland
 	NoRegionSelected bool
-	Region           string `json:"region"`
-	StudyLevel       int    `json:"studyLevel"`
+	Regions          []string `json:"regions"`
+	StudyLevel       int      `json:"studyLevel"`
 	NoInterests      bool
 	Interests        []string `json:"interests"`
 	NoMaturaResults  bool
