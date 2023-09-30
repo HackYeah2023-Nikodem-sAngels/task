@@ -10,12 +10,30 @@ import (
 	"github.com/gin-gonic/gin"
 
 	"net/http"
+
+	gpt "backend/gpt_api"
 )
 
 func CreateRouter(conf t.Config) (*gin.Engine, error) {
 	gob.Register(t.BaseInformation{})
 
 	r := gin.Default()
+
+	r.GET("/justtesting", func(ctx *gin.Context) {
+		s, err := gpt.NewSession(conf)
+
+		if err != nil {
+			ctx.JSON(http.StatusServiceUnavailable, t.JsonErr{Message: "mati wez to jakos ogarnij na froncie bo gpt spadl z rowerka"})
+		}
+
+		res, err := s.Start("polish")
+
+		if err != nil {
+			ctx.JSON(http.StatusServiceUnavailable, t.JsonErr{Message: "mati wez to jakos ogarnij na froncie bo gpt spadl z rowerka"})
+		}
+
+		ctx.JSON(http.StatusOK, res)
+	})
 
 	store, err := postgres.NewStore(database.DB, []byte(conf.SESSION_SECRET))
 	if err != nil {

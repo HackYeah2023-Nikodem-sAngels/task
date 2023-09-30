@@ -8,4 +8,5 @@ type Config struct {
 	DB_PASS        string `env:"POSTGRES_PASSWORD,required"`
 	APP_PORT       string `env:"PORT" envDefault:"80"`
 	SESSION_SECRET string `env:"APP_SECRET,required"`
+	GPT_API_KEY    string `env:"GPT_API_KEY,required"`
 }
