@@ -1,12 +1,12 @@
 CREATE TABLE universities (
-    id int,
+  id int,
 
-    name text,
-    description text,
+  name text,
+  description text,
 
-    country text,
-    region text,
-    city text,
+  country text,
+  region text,
+  city text
 )
 
 CREATE TABLE majors (
@@ -17,12 +17,12 @@ CREATE TABLE majors (
   description text,
 
   ECTS int NULL,
-  points_to_qualify int,
+  points_to_qualify int
 )
 
 CREATE TABLE subjects_to_majors (
   major_id int,
-  subject_id int,
+  subject_id int
 )
 
 CREATE TABLE subject (
@@ -31,5 +31,5 @@ CREATE TABLE subject (
   name text,
   description text,
 
-  number_of_lectures int,
+  number_of_lectures int
 )
