@@ -4,12 +4,11 @@ import (
 	// "github.com/gin-contrib/sessions"
 	// "github.com/gin-contrib/sessions/postgres"
 	db "backend/database"
+	r "backend/router"
 	t "backend/types"
 	"log"
-	"net/http"
 
 	"github.com/caarlos0/env/v9"
-	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
 )
 
@@ -30,11 +29,6 @@ func main() {
 		log.Fatalf("Error connecting to database:\n%v", err)
 	}
 
-	r := gin.Default()
-
-	r.NoRoute(func(ctx *gin.Context) {
-		ctx.String(http.StatusNotFound, "404")
-	})
-
-	r.Run()
+	router := r.CreateRouter(conf)
+	router.Run()
 }
