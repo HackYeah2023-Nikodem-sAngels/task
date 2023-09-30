@@ -28,6 +28,7 @@
               shellcheck.enable = true;
               eslint.enable = true;
               gofmt.enable = true;
+              black.enable = true;
             };
           };
         };
@@ -45,12 +46,12 @@
           '';
 
           buildInputs = with pkgs; [
+            python312
             bun
             reflex
             go
           ] ++ [
             dev-go-script
-            # dev-front-script
           ];
         };
       }
