@@ -3,9 +3,8 @@ import {
     createBrowserRouter,
     Navigate,
 } from "react-router-dom";
-import { Form } from "./routes/Form";
 import { Homepage } from "./routes/Homepage";
-import { Chat } from "./routes/Chat";
+import { Setup } from "./routes/Setup";
 
 function App() {
     const language = Intl.DateTimeFormat().resolvedOptions().locale.slice(0, 2);
@@ -20,12 +19,11 @@ function App() {
             element: <Homepage />,
         },
         {
-            path: "/:language/map",
-            element: <Form />,
+            path: "/:language/chat",
         },
         {
-            path: "/:language/chat",
-            element: <Chat />,
+            path: "/:language/setup",
+            element: <Setup />,
         },
     ]);
 

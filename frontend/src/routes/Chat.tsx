@@ -10,8 +10,8 @@ export function Chat() {
     // useTextAnimation(ref.current!, "tu bedzie jakis tekst");
 
     return (
-        <div className="grid mx-auto md:grid-cols-[5fr_2fr] grid-row gap-4 h-full">
-            <Card className="flex flex-col mx-auto gap-4 order-1">
+        <div className="grid-row mx-auto grid h-full gap-4 md:grid-cols-[5fr_2fr]">
+            <Card className="order-1 mx-auto flex flex-col gap-4">
                 <Messages
                     data={[
                         {

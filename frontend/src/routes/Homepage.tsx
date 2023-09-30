@@ -18,7 +18,11 @@ export function Homepage() {
                 <span className="text-primary">uczelnię</span>{" "}
                 <span>dla siebie</span>
             </h1>
-            <Button size={"lg"} className="flex gap-2 text-lg font-medium">
+            <Button
+                size={"lg"}
+                className="flex gap-2 text-lg font-medium"
+                onClick={() => navigate("/pl/setup")}
+            >
                 Rozpocznij
                 <ArrowRightIcon className="w-5" />
             </Button>

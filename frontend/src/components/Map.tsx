@@ -69,8 +69,8 @@ const voivodeships = [
 
 export function Map(props: FormFieldProps<string[]>) {
     return (
-        <div className="w-full h-full">
-            <svg viewBox="0 0 497 463">
+        <div className="h-96 w-96">
+            <svg viewBox="5 0 497 463">
                 {voivodeships.map((el, index) => {
                     return (
                         <path
@@ -80,8 +80,8 @@ export function Map(props: FormFieldProps<string[]>) {
                                 if (props.value.includes(el.name)) {
                                     props.onChange(
                                         props.value.filter(
-                                            (current) => current !== el.name
-                                        )
+                                            (current) => current !== el.name,
+                                        ),
                                     );
                                 } else {
                                     props.onChange([...props.value, el.name]);
@@ -91,7 +91,7 @@ export function Map(props: FormFieldProps<string[]>) {
                                 props.value.includes(el.name)
                                     ? "fill-blue-400"
                                     : "fill-gray-200 hover:fill-blue-200",
-                                "hover:cursor-pointer"
+                                "hover:cursor-pointer",
                             )}
                         />
                     );
