@@ -21,40 +21,35 @@ export function Messages(props: Props) {
         <div className="flex flex-1 flex-col">
             {props.data.map((response, i) => (
                 <div
-                    className={cn(response.type === "ai" ? "bg-blue-100" : "")}
+                    className={cn(
+                        response.type === "ai" ? "bg-blue-100" : "",
+                        "flex flex-col gap-4 p-8",
+                    )}
                     key={i}
                 >
-                    <div className=" flex items-start gap-4 p-4 pe-6">
-                        {/* max-w-[820px] */}
+                    <div className="flex items-start gap-4">
                         {response.type === "ai" ? (
                             <img className="h-8 w-8" src="/ai.gif" />
                         ) : (
-                            <UserCircleIcon className="w-8 text-muted-foreground" />
+                            <UserCircleIcon className="h-8 w-8 text-muted-foreground" />
                         )}
-                        <span ref={ref} className="w-[80ch]">
+                        <span ref={ref} className="max-w-[80ch]">
                             {response.message}
                         </span>
                     </div>
-                    <div className="flex w-full items-center justify-between pb-4 pe-6 pl-16">
-                        {/*  max-w-[820px] */}
-                        {response.type === "ai" && isFinished ? (
+                    <div className="flex w-full items-center justify-around gap-4 px-8">
+                        {response.type === "ai" &&
+                            isFinished &&
                             response.actions?.map((el, i) => {
                                 return (
-                                    <React.Fragment key={i}>
-                                        <div
-                                            className={`mt-4 flex w-1/3 items-center justify-center`}
-                                            // ${response.actions?.length}
-                                        >
-                                            <div className="min-h-10 flex h-max w-5/6 items-center justify-center rounded-2xl border border-solid border-gray-400 px-4 py-3 hover:bg-blue-200">
-                                                {el}
-                                            </div>
-                                        </div>
-                                    </React.Fragment>
+                                    <button
+                                        key={i}
+                                        className="flex w-5/6 items-center justify-center rounded-2xl border border-solid border-gray-400 px-4 py-3 hover:bg-blue-200"
+                                    >
+                                        {el}
+                                    </button>
                                 );
-                            })
-                        ) : (
-                            <></>
-                        )}
+                            })}
                     </div>
                 </div>
             ))}
