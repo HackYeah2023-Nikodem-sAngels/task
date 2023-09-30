@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Map } from "@/components/Map";
 
 export function Form() {
-    const [voivodeship, setVoivodeship] = useState<string>("");
+    const [voivodeship, setVoivodeship] = useState<string[]>([]);
 
     return (
         <div className="w-full h-full">

@@ -67,7 +67,7 @@ const voivodeships = [
     },
 ];
 
-export function Map(props: FormFieldProps<string>) {
+export function Map(props: FormFieldProps<string[]>) {
     return (
         <div className="w-full h-full">
             <svg viewBox="0 0 497 463">
@@ -76,9 +76,19 @@ export function Map(props: FormFieldProps<string>) {
                         <path
                             key={index}
                             d={el.path}
-                            onClick={() => props.onChange(el.name)}
+                            onClick={() => {
+                                if (props.value.includes(el.name)) {
+                                    props.onChange(
+                                        props.value.filter(
+                                            (current) => current !== el.name
+                                        )
+                                    );
+                                } else {
+                                    props.onChange([...props.value, el.name]);
+                                }
+                            }}
                             className={cn(
-                                el.name === props.value
+                                props.value.includes(el.name)
                                     ? "fill-blue-400"
                                     : "fill-gray-200"
                             )}
