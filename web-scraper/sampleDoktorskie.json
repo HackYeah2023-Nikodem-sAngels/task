@@ -1,0 +1,2149 @@
+{
+    "results": [
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Nauk Humanistycznych",
+            "wojewodztwo": "wielkopolskie",
+            "uczelnia": "Uniwersytet im. Adama Mickiewicza w Poznaniu",
+            "dyscypliny": [
+                "archeologia",
+                "filozofia",
+                "historia",
+                "nauki o kulturze i religii",
+                "nauki o sztuce",
+                "nauki teologiczne"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Pozna\u0144ska Szko\u0142a Doktorska Instytut\u00f3w Polskiej Akademii Nauk",
+            "wojewodztwo": "wielkopolskie",
+            "uczelnia": "Instytut Chemii Bioorganicznej Polskiej Akademii Nauk",
+            "dyscypliny": [
+                "nauki medyczne",
+                "rolnictwo i ogrodnictwo",
+                "nauki biologiczne",
+                "nauki chemiczne",
+                "nauki fizyczne"
+            ],
+            "www": "https://psd-ipan.ichb.pl/"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Nauk o Kulturze Fizycznej",
+            "wojewodztwo": "malopolskie",
+            "uczelnia": "Akademia Wychowania Fizycznego im. Bronis\u0142awa Czecha w Krakowie",
+            "dyscypliny": [
+                "nauki o kulturze fizycznej"
+            ],
+            "www": "www.awf.krakow.pl "
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Nauk \u015acis\u0142ych i Przyrodniczych U\u0141",
+            "wojewodztwo": "lodzkie",
+            "uczelnia": "Uniwersytet \u0141\u00f3dzki",
+            "dyscypliny": [
+                "matematyka",
+                "nauki biologiczne",
+                "nauki chemiczne",
+                "nauki fizyczne",
+                "nauki o Ziemi i \u015brodowisku"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Akademii Pedagogiki Specjalnej im Marii Grzegorzewskiej",
+            "wojewodztwo": "mazowieckie",
+            "uczelnia": "Akademia Pedagogiki Specjalnej im. Marii Grzegorzewskiej w Warszawie",
+            "dyscypliny": [
+                "nauki socjologiczne",
+                "pedagogika",
+                "psychologia"
+            ],
+            "www": "www.aps.edu.pl"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska KUL",
+            "wojewodztwo": "lubelskie",
+            "uczelnia": "Katolicki Uniwersytet Lubelski Jana Paw\u0142a II w Lublinie",
+            "dyscypliny": [
+                "filozofia",
+                "historia",
+                "j\u0119zykoznawstwo",
+                "literaturoznawstwo",
+                "nauki o sztuce",
+                "nauki prawne",
+                "nauki socjologiczne",
+                "pedagogika",
+                "prawo kanoniczne",
+                "psychologia",
+                "nauki teologiczne"
+            ],
+            "www": "https://phd.kul.pl/"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska w Zachodniopomorskim Uniwersytecie Technologicznym w Szczecinie",
+            "wojewodztwo": "zachodniopomorskie",
+            "uczelnia": "Zachodniopomorski Uniwersytet Technologiczny w Szczecinie",
+            "dyscypliny": [
+                "architektura i urbanistyka",
+                "automatyka, elektronika i elektrotechnika",
+                "informatyka techniczna i telekomunikacja ",
+                "in\u017cynieria chemiczna",
+                "in\u017cynieria l\u0105dowa i transport",
+                "in\u017cynieria materia\u0142owa",
+                "in\u017cynieria mechaniczna",
+                "in\u017cynieria \u015brodowiska, g\u00f3rnictwo i energetyka",
+                "rolnictwo i ogrodnictwo",
+                "technologia \u017cywno\u015bci i \u017cywienia",
+                "zootechnika i rybactwo"
+            ],
+            "www": "https://szkoladoktorska.zut.edu.pl/index.php?id=21571"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Nauk Spo\u0142ecznych",
+            "wojewodztwo": "podlaskie",
+            "uczelnia": "Uniwersytet w Bia\u0142ymstoku",
+            "dyscypliny": [
+                "ekonomia i finanse",
+                "nauki prawne",
+                "nauki socjologiczne",
+                "pedagogika"
+            ],
+            "www": "https://szkolydoktorskie.uwb.edu.pl/ns/"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Akademii Wychowania Fizycznego J\u00f3zefa Pi\u0142sudskiego w Warszawie",
+            "wojewodztwo": "mazowieckie",
+            "uczelnia": "Akademia Wychowania Fizycznego J\u00f3zefa Pi\u0142sudskiego w Warszawie",
+            "dyscypliny": [
+                "nauki o kulturze fizycznej"
+            ],
+            "www": "https://www.awf.edu.pl/"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Uniwersytetu Muzycznego Fryderyka Chopina",
+            "wojewodztwo": "mazowieckie",
+            "uczelnia": "Uniwersytet Muzyczny Fryderyka Chopina w Warszawie",
+            "dyscypliny": [
+                "sztuki muzyczne"
+            ],
+            "www": "www.chopin.edu.pl"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Uniwersytetu Medycznego w Bia\u0142ymstoku",
+            "wojewodztwo": "podlaskie",
+            "uczelnia": "Uniwersytet Medyczny w Bia\u0142ymstoku",
+            "dyscypliny": [
+                "nauki farmaceutyczne",
+                "nauki o zdrowiu",
+                "nauki medyczne"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Akademii Muzycznej imienia Stanis\u0142awa Moniuszki w Gda\u0144sku",
+            "wojewodztwo": "pomorskie",
+            "uczelnia": "Akademia Muzyczna im. Stanis\u0142awa Moniuszki w Gda\u0144sku",
+            "dyscypliny": [
+                "sztuki muzyczne"
+            ],
+            "www": "www.amuz.gda.pl"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Nauk \u015acis\u0142ych i Technicznych",
+            "wojewodztwo": "lubuskie",
+            "uczelnia": "Uniwersytet Zielonog\u00f3rski",
+            "dyscypliny": [
+                "automatyka, elektronika i elektrotechnika",
+                "informatyka techniczna i telekomunikacja ",
+                "in\u017cynieria l\u0105dowa i transport",
+                "in\u017cynieria mechaniczna",
+                "in\u017cynieria \u015brodowiska, g\u00f3rnictwo i energetyka",
+                "matematyka",
+                "nauki biologiczne",
+                "nauki fizyczne",
+                "astronomia"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Solowego i Zespo\u0142owego Wsp\u00f3\u0142czesnego Wykonawstwa Muzycznego",
+            "wojewodztwo": "wielkopolskie",
+            "uczelnia": "Akademia Muzyczna im. Ignacego Jana Paderewskiego w Poznaniu",
+            "dyscypliny": [
+                "sztuki muzyczne"
+            ],
+            "www": "www.amuz.edu.pl "
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Chrze\u015bcija\u0144skiej Akademii Teologicznej w Warszawie",
+            "wojewodztwo": "mazowieckie",
+            "uczelnia": "Chrze\u015bcija\u0144ska Akademia Teologiczna w Warszawie",
+            "dyscypliny": [
+                "pedagogika",
+                "nauki teologiczne"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska",
+            "wojewodztwo": "wielkopolskie",
+            "uczelnia": "Uniwersytet Medyczny im. Karola Marcinkowskiego w Poznaniu",
+            "dyscypliny": [
+                "nauki farmaceutyczne",
+                "nauki o zdrowiu",
+                "nauki medyczne"
+            ],
+            "www": "http://szkoladoktorska.ump.edu.pl/"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Uniwersytetu Medycznego we Wroc\u0142awiu",
+            "wojewodztwo": "dolnoslaskie",
+            "uczelnia": "Uniwersytet Medyczny im. Piast\u00f3w \u015al\u0105skich we Wroc\u0142awiu",
+            "dyscypliny": [
+                "nauki farmaceutyczne",
+                "nauki o zdrowiu",
+                "nauki medyczne"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Nauk Spo\u0142ecznych U\u0141",
+            "wojewodztwo": "lodzkie",
+            "uczelnia": "Uniwersytet \u0141\u00f3dzki",
+            "dyscypliny": [
+                "ekonomia i finanse",
+                "geografia spo\u0142eczno-ekonomiczna i gospodarka przestrzenna",
+                "nauki o polityce i administracji",
+                "nauki o zarz\u0105dzaniu i jako\u015bci",
+                "nauki prawne",
+                "nauki socjologiczne",
+                "pedagogika",
+                "psychologia"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Nauk \u015acis\u0142ych",
+            "wojewodztwo": "wielkopolskie",
+            "uczelnia": "Uniwersytet im. Adama Mickiewicza w Poznaniu",
+            "dyscypliny": [
+                "informatyka",
+                "matematyka",
+                "nauki chemiczne",
+                "nauki fizyczne",
+                "astronomia"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Akademii Sztuk Pi\u0119knych imienia Eugeniusza Gepperta we Wroc\u0142awiu",
+            "wojewodztwo": "dolnoslaskie",
+            "uczelnia": "Akademia Sztuk Pi\u0119knych im. Eugeniusza Gepperta we Wroc\u0142awiu",
+            "dyscypliny": [
+                "sztuki plastyczne i konserwacja dzie\u0142 sztuki"
+            ],
+            "www": "www.asp.wroc.pl"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Papieskiego Wydzia\u0142u Teologicznego we Wroc\u0142awiu",
+            "wojewodztwo": "dolnoslaskie",
+            "uczelnia": "Papieski Wydzia\u0142 Teologiczny we Wroc\u0142awiu",
+            "dyscypliny": [
+                "nauki teologiczne"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Papieskiego Wydzia\u0142u Teologicznego w Warszawie",
+            "wojewodztwo": "mazowieckie",
+            "uczelnia": "Akademia Katolicka w Warszawie",
+            "dyscypliny": [
+                "nauki teologiczne"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Pomorskiego Uniwersytetu Medycznego w Szczecinie",
+            "wojewodztwo": "zachodniopomorskie",
+            "uczelnia": "Pomorski Uniwersytet Medyczny w Szczecinie",
+            "dyscypliny": [
+                "nauki o zdrowiu",
+                "nauki medyczne"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Uniwersytetu Ekonomicznego w Poznaniu",
+            "wojewodztwo": "wielkopolskie",
+            "uczelnia": "Uniwersytet Ekonomiczny w Poznaniu",
+            "dyscypliny": [
+                "ekonomia i finanse",
+                "nauki o zarz\u0105dzaniu i jako\u015bci"
+            ],
+            "www": "www.szkoladoktorska.ue.poznan.pl"
+        },
+        {
+            "uniwersytet": "Interdyscyplinarna Szko\u0142a Doktorska Nauk Rolniczych",
+            "wojewodztwo": null,
+            "uczelnia": "Instytut Rozrodu Zwierz\u0105t i Bada\u0144 \u017bywno\u015bci Polskiej Akademii Nauk",
+            "dyscypliny": [
+                "rolnictwo i ogrodnictwo",
+                "technologia \u017cywno\u015bci i \u017cywienia",
+                "weterynaria",
+                "zootechnika i rybactwo"
+            ],
+            "www": "www.pan.olsztyn.pl"
+        },
+        {
+            "uniwersytet": "Akademia Muzyczna im Karola Lipi\u0144skiego we Wroc\u0142awiu",
+            "wojewodztwo": null,
+            "uczelnia": "Akademia Muzyczna im. Karola Lipi\u0144skiego we Wroc\u0142awiu",
+            "dyscypliny": [
+                "sztuki muzyczne"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Nauk Humanistycznych U\u0141",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet \u0141\u00f3dzki",
+            "dyscypliny": [
+                "archeologia",
+                "filozofia",
+                "historia",
+                "j\u0119zykoznawstwo",
+                "literaturoznawstwo",
+                "nauki o kulturze i religii",
+                "nauki o sztuce"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Akademia Wychowania Fizycznego we Wroc\u0142awiu",
+            "wojewodztwo": null,
+            "uczelnia": "Akademia Wychowania Fizycznego im. Polskich Olimpijczyk\u00f3w we Wroc\u0142awiu",
+            "dyscypliny": [
+                "nauki o kulturze fizycznej"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Uniwersytetu Morskiego w Gdyni",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Morski w Gdyni",
+            "dyscypliny": [
+                "automatyka, elektronika i elektrotechnika",
+                "nauki o zarz\u0105dzaniu i jako\u015bci"
+            ],
+            "www": "https://umg.edu.pl/szkola-doktorska"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska",
+            "wojewodztwo": null,
+            "uczelnia": "Akademia Sztuk Pi\u0119knych im. Jana Matejki w Krakowie",
+            "dyscypliny": [
+                "sztuki plastyczne i konserwacja dzie\u0142 sztuki"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Nauk Humanistycznych i Spo\u0142ecznych",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Zielonog\u00f3rski",
+            "dyscypliny": [
+                "filozofia",
+                "historia",
+                "j\u0119zykoznawstwo",
+                "literaturoznawstwo",
+                "nauki o polityce i administracji",
+                "nauki o zarz\u0105dzaniu i jako\u015bci",
+                "pedagogika"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Uniwersytetu Wroc\u0142awskiego",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Wroc\u0142awski",
+            "dyscypliny": [
+                "archeologia",
+                "filozofia",
+                "historia",
+                "j\u0119zykoznawstwo",
+                "literaturoznawstwo",
+                "nauki o kulturze i religii",
+                "nauki o sztuce",
+                "geografia spo\u0142eczno-ekonomiczna i gospodarka przestrzenna",
+                "nauki o bezpiecze\u0144stwie",
+                "nauki o komunikacji spo\u0142ecznej i mediach",
+                "nauki o polityce i administracji",
+                "nauki prawne",
+                "nauki socjologiczne",
+                "pedagogika",
+                "psychologia",
+                "informatyka",
+                "matematyka",
+                "nauki biologiczne",
+                "nauki chemiczne",
+                "nauki fizyczne",
+                "nauki o Ziemi i \u015brodowisku",
+                "astronomia"
+            ],
+            "www": "www.uni.wroc.pl"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Nauk Przyrodniczych i Rolniczych",
+            "wojewodztwo": null,
+            "uczelnia": "Instytut Botaniki im. W\u0142adys\u0142awa Szafera Polskiej Akademii Nauk",
+            "dyscypliny": [
+                "rolnictwo i ogrodnictwo",
+                "zootechnika i rybactwo",
+                "nauki biologiczne"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska IPPT PAN",
+            "wojewodztwo": null,
+            "uczelnia": "Instytut Podstawowych Problem\u00f3w Techniki Polskiej Akademii Nauk",
+            "dyscypliny": [
+                "automatyka, elektronika i elektrotechnika",
+                "informatyka techniczna i telekomunikacja ",
+                "in\u017cynieria materia\u0142owa",
+                "in\u017cynieria mechaniczna"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska AWF Pozna\u0144",
+            "wojewodztwo": null,
+            "uczelnia": "Akademia Wychowania Fizycznego im. Eugeniusza Piaseckiego w Poznaniu",
+            "dyscypliny": [
+                "nauki o kulturze fizycznej"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Mi\u0119dzynarodowa \u015arodowiskowa Szko\u0142a Doktorska przy Centrum Studi\u00f3w Polarnych",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet \u015al\u0105ski w Katowicach",
+            "dyscypliny": [
+                "in\u017cynieria materia\u0142owa",
+                "matematyka",
+                "nauki o Ziemi i \u015brodowisku"
+            ],
+            "www": "https://www.mssd.us.edu.pl/"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska w Uniwersytecie Ekonomicznym w Katowicach",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Ekonomiczny w Katowicach",
+            "dyscypliny": [
+                "ekonomia i finanse",
+                "nauki o zarz\u0105dzaniu i jako\u015bci"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Nauk Spo\u0142ecznych Academia Rerum Socialium",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Miko\u0142aja Kopernika w Toruniu",
+            "dyscypliny": [
+                "ekonomia i finanse",
+                "geografia spo\u0142eczno-ekonomiczna i gospodarka przestrzenna",
+                "nauki o bezpiecze\u0144stwie",
+                "nauki o komunikacji spo\u0142ecznej i mediach",
+                "nauki o polityce i administracji",
+                "nauki o zarz\u0105dzaniu i jako\u015bci",
+                "nauki prawne",
+                "nauki socjologiczne",
+                "pedagogika"
+            ],
+            "www": "www.phd.umk/ars"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska",
+            "wojewodztwo": null,
+            "uczelnia": "Akademia Muzyczna im. Krzysztofa Pendereckiego w Krakowie",
+            "dyscypliny": [
+                "sztuki muzyczne"
+            ],
+            "www": "www.amuz.krakow.pl"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Uniwersytetu Jana Kochanowskiego w Kielcach",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Jana Kochanowskiego w Kielcach",
+            "dyscypliny": [
+                "historia",
+                "j\u0119zykoznawstwo",
+                "literaturoznawstwo",
+                "nauki o zdrowiu",
+                "nauki medyczne",
+                "nauki o bezpiecze\u0144stwie",
+                "nauki o polityce i administracji",
+                "nauki prawne",
+                "nauki biologiczne",
+                "nauki chemiczne",
+                "nauki fizyczne",
+                "nauki o Ziemi i \u015brodowisku"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska ICT and Design",
+            "wojewodztwo": null,
+            "uczelnia": "Polsko-Japo\u0144ska Akademia Technik Komputerowych",
+            "dyscypliny": [
+                "informatyka techniczna i telekomunikacja ",
+                "sztuki plastyczne i konserwacja dzie\u0142 sztuki"
+            ],
+            "www": "https://pja.edu.pl/"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Nauk Humanistycznych i Spo\u0142ecznych",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Gda\u0144ski",
+            "dyscypliny": [
+                "archeologia",
+                "filozofia",
+                "historia",
+                "j\u0119zykoznawstwo",
+                "literaturoznawstwo",
+                "nauki o kulturze i religii",
+                "nauki o sztuce",
+                "ekonomia i finanse",
+                "geografia spo\u0142eczno-ekonomiczna i gospodarka przestrzenna",
+                "nauki o polityce i administracji",
+                "nauki o zarz\u0105dzaniu i jako\u015bci",
+                "nauki prawne",
+                "nauki socjologiczne",
+                "pedagogika",
+                "psychologia"
+            ],
+            "www": "https://sd.ug.edu.pl/humanistyczna/glowna"
+        },
+        {
+            "uniwersytet": "Wroc\u0142awska Szko\u0142a Doktorska Instytut\u00f3w Polskiej Akademii Nauk",
+            "wojewodztwo": null,
+            "uczelnia": "Instytut Niskich Temperatur i Bada\u0144 Strukturalnych im. W\u0142odzimierza Trzebiatowskiego Polskiej Akademii Nauk",
+            "dyscypliny": [
+                "nauki medyczne",
+                "nauki biologiczne",
+                "nauki chemiczne",
+                "nauki fizyczne"
+            ],
+            "www": "http://wsdipan.intibs.pl/"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Uniwersytetu Przyrodniczego w Lublinie",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Przyrodniczy w Lublinie",
+            "dyscypliny": [
+                "in\u017cynieria mechaniczna",
+                "in\u017cynieria \u015brodowiska, g\u00f3rnictwo i energetyka",
+                "rolnictwo i ogrodnictwo",
+                "technologia \u017cywno\u015bci i \u017cywienia",
+                "weterynaria",
+                "zootechnika i rybactwo",
+                "nauki biologiczne"
+            ],
+            "www": "https://www.up.lublin.pl/6236/"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Nauk \u015acis\u0142ych i Przyrodniczych",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Miko\u0142aja Kopernika w Toruniu",
+            "dyscypliny": [
+                "matematyka",
+                "nauki biologiczne",
+                "nauki chemiczne",
+                "nauki fizyczne",
+                "nauki o Ziemi i \u015brodowisku",
+                "astronomia"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Nauk Spo\u0142ecznych UMCS",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Marii Curie-Sk\u0142odowskiej w Lublinie",
+            "dyscypliny": [
+                "ekonomia i finanse",
+                "geografia spo\u0142eczno-ekonomiczna i gospodarka przestrzenna",
+                "nauki o komunikacji spo\u0142ecznej i mediach",
+                "nauki o polityce i administracji",
+                "nauki o zarz\u0105dzaniu i jako\u015bci",
+                "nauki prawne",
+                "nauki socjologiczne",
+                "pedagogika",
+                "psychologia"
+            ],
+            "www": "https://www.umcs.pl/pl/szkoly-doktorskie,16879.htm"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska AFiB Vistula",
+            "wojewodztwo": null,
+            "uczelnia": "Akademia Finans\u00f3w i Biznesu Vistula",
+            "dyscypliny": [
+                "historia",
+                "nauki o polityce i administracji"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Nauk Humanistycznych",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Jagiello\u0144ski w Krakowie",
+            "dyscypliny": [
+                "archeologia",
+                "filozofia",
+                "historia",
+                "j\u0119zykoznawstwo",
+                "literaturoznawstwo",
+                "nauki o kulturze i religii",
+                "nauki o sztuce"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska \u015al\u0105skiego Uniwersytetu Medycznego w Katowicach",
+            "wojewodztwo": null,
+            "uczelnia": "\u015al\u0105ski Uniwersytet Medyczny w Katowicach",
+            "dyscypliny": [
+                "nauki farmaceutyczne",
+                "nauki o zdrowiu",
+                "nauki medyczne"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Kompozycji, Teorii Muzyki, Rytmiki i Edukacji Muzycznej",
+            "wojewodztwo": null,
+            "uczelnia": "Akademia Muzyczna im. Ignacego Jana Paderewskiego w Poznaniu",
+            "dyscypliny": [
+                "sztuki muzyczne"
+            ],
+            "www": "www.amuz.edu.pl"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Nauk Medycznych i Nauk o Zdrowiu",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Jagiello\u0144ski w Krakowie",
+            "dyscypliny": [
+                "nauki farmaceutyczne",
+                "nauki o zdrowiu",
+                "nauki medyczne"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska",
+            "wojewodztwo": null,
+            "uczelnia": "Pa\u0144stwowa Wy\u017csza Szko\u0142a Filmowa, Telewizyjna i Teatralna im. Leona Schillera w \u0141odzi",
+            "dyscypliny": [
+                "sztuki filmowe i teatralne"
+            ],
+            "www": "www.filmschool.lodz.pl"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Nauk o J\u0119zyku i Literaturze",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet im. Adama Mickiewicza w Poznaniu",
+            "dyscypliny": [
+                "j\u0119zykoznawstwo",
+                "literaturoznawstwo"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Uniwersytetu Medycznego w Lublinie",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Medyczny w Lublinie",
+            "dyscypliny": [
+                "nauki farmaceutyczne",
+                "nauki o zdrowiu",
+                "nauki medyczne"
+            ],
+            "www": "www.szkoladoktorska.umlub.pl"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Uniwersytetu Kazimierza Wielkiego",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Kazimierza Wielkiego w Bydgoszczy",
+            "dyscypliny": [
+                "historia",
+                "j\u0119zykoznawstwo",
+                "literaturoznawstwo",
+                "in\u017cynieria mechaniczna",
+                "nauki o polityce i administracji",
+                "pedagogika",
+                "psychologia",
+                "nauki biologiczne",
+                "sztuki muzyczne"
+            ],
+            "www": "https://szkoladoktorska.ukw.edu.pl//jednostka/szkola_doktorska/"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Ekonomiczny we Wroc\u0142awiu",
+            "dyscypliny": [
+                "technologia \u017cywno\u015bci i \u017cywienia",
+                "ekonomia i finanse",
+                "nauki o zarz\u0105dzaniu i jako\u015bci"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Wsp\u00f3lna Szko\u0142a Doktorska",
+            "wojewodztwo": null,
+            "uczelnia": "Politechnika \u015al\u0105ska",
+            "dyscypliny": [
+                "architektura i urbanistyka",
+                "in\u017cynieria biomedyczna",
+                "automatyka, elektronika i elektrotechnika",
+                "informatyka techniczna i telekomunikacja ",
+                "in\u017cynieria chemiczna",
+                "in\u017cynieria l\u0105dowa i transport",
+                "in\u017cynieria materia\u0142owa",
+                "in\u017cynieria mechaniczna",
+                "in\u017cynieria \u015brodowiska, g\u00f3rnictwo i energetyka",
+                "nauki medyczne",
+                "nauki o zarz\u0105dzaniu i jako\u015bci",
+                "nauki chemiczne"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Tr\u00f3jmiejska Szko\u0142a Doktorska Polskiej Akademii Nauk",
+            "wojewodztwo": null,
+            "uczelnia": "Instytut Maszyn Przep\u0142ywowych im. Roberta Szewalskiego Polskiej Akademii Nauk",
+            "dyscypliny": [
+                "in\u017cynieria l\u0105dowa i transport",
+                "in\u017cynieria mechaniczna",
+                "nauki o Ziemi i \u015brodowisku"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Uniwersytetu Opolskiego",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Opolski",
+            "dyscypliny": [
+                "historia",
+                "j\u0119zykoznawstwo",
+                "literaturoznawstwo",
+                "nauki o polityce i administracji",
+                "nauki prawne",
+                "nauki biologiczne",
+                "nauki chemiczne",
+                "nauki teologiczne"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a doktorska w dyscyplinie ekonomia i finanse, nauki prawne i nauki o zarz\u0105dzaniu i jako\u015bci",
+            "wojewodztwo": null,
+            "uczelnia": "Akademia Leona Ko\u017ami\u0144skiego w Warszawie",
+            "dyscypliny": [
+                "ekonomia i finanse",
+                "nauki o zarz\u0105dzaniu i jako\u015bci",
+                "nauki prawne"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Nauk o Kulturze Fizycznej",
+            "wojewodztwo": null,
+            "uczelnia": "Akademia Wychowania Fizycznego im. Jerzego Kukuczki w Katowicach",
+            "dyscypliny": [
+                "nauki o kulturze fizycznej"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Nauk Spo\u0142ecznych",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet im. Adama Mickiewicza w Poznaniu",
+            "dyscypliny": [
+                "geografia spo\u0142eczno-ekonomiczna i gospodarka przestrzenna",
+                "nauki o bezpiecze\u0144stwie",
+                "nauki o komunikacji spo\u0142ecznej i mediach",
+                "nauki o polityce i administracji",
+                "nauki prawne",
+                "nauki socjologiczne",
+                "pedagogika",
+                "psychologia"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska w Uniwersytecie \u015al\u0105skim w Katowicach",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet \u015al\u0105ski w Katowicach",
+            "dyscypliny": [
+                "filozofia",
+                "historia",
+                "j\u0119zykoznawstwo",
+                "literaturoznawstwo",
+                "nauki o kulturze i religii",
+                "informatyka techniczna i telekomunikacja ",
+                "in\u017cynieria materia\u0142owa",
+                "geografia spo\u0142eczno-ekonomiczna i gospodarka przestrzenna",
+                "nauki o komunikacji spo\u0142ecznej i mediach",
+                "nauki o polityce i administracji",
+                "nauki prawne",
+                "nauki socjologiczne",
+                "pedagogika",
+                "psychologia",
+                "matematyka",
+                "nauki biologiczne",
+                "nauki chemiczne",
+                "nauki fizyczne",
+                "nauki o Ziemi i \u015brodowisku",
+                "nauki teologiczne",
+                "sztuki filmowe i teatralne",
+                "sztuki plastyczne i konserwacja dzie\u0142 sztuki"
+            ],
+            "www": "https://us.edu.pl/szkola-doktorska/"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Warszawskiego Uniwersytetu Medycznego",
+            "wojewodztwo": null,
+            "uczelnia": "Warszawski Uniwersytet Medyczny",
+            "dyscypliny": [
+                "nauki farmaceutyczne",
+                "nauki o zdrowiu",
+                "nauki medyczne"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Pierwsza Szko\u0142a Doktorska Gda\u0144skiego Uniwersytetu Medycznego",
+            "wojewodztwo": null,
+            "uczelnia": "Gda\u0144ski Uniwersytet Medyczny",
+            "dyscypliny": [
+                "nauki farmaceutyczne",
+                "nauki o zdrowiu",
+                "nauki medyczne"
+            ],
+            "www": "https://doktoranci.gumed.edu.pl/56505.html"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Uniwersytetu Warmi\u0144sko-Mazurskiego w Olsztynie",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Warmi\u0144sko-Mazurski w Olsztynie",
+            "dyscypliny": [
+                "historia",
+                "j\u0119zykoznawstwo",
+                "in\u017cynieria l\u0105dowa i transport",
+                "in\u017cynieria mechaniczna",
+                "in\u017cynieria \u015brodowiska, g\u00f3rnictwo i energetyka",
+                "nauki medyczne",
+                "rolnictwo i ogrodnictwo",
+                "technologia \u017cywno\u015bci i \u017cywienia",
+                "weterynaria",
+                "zootechnika i rybactwo",
+                "ekonomia i finanse",
+                "nauki prawne",
+                "pedagogika",
+                "nauki biologiczne",
+                "nauki teologiczne"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska w Uniwersytecie Przyrodniczym we Wroc\u0142awiu",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Przyrodniczy we Wroc\u0142awiu",
+            "dyscypliny": [
+                "in\u017cynieria l\u0105dowa i transport",
+                "in\u017cynieria \u015brodowiska, g\u00f3rnictwo i energetyka",
+                "rolnictwo i ogrodnictwo",
+                "technologia \u017cywno\u015bci i \u017cywienia",
+                "weterynaria",
+                "zootechnika i rybactwo",
+                "nauki biologiczne"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Akademii Muzycznej w \u0141odzi",
+            "wojewodztwo": null,
+            "uczelnia": "Akademia Muzyczna im. Gra\u017cyny i Kiejstuta Bacewicz\u00f3w w \u0141odzi",
+            "dyscypliny": [
+                "sztuki muzyczne"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Nauk Spo\u0142ecznych",
+            "wojewodztwo": null,
+            "uczelnia": "Instytut Filozofii i Socjologii Polskiej Akademii Nauk",
+            "dyscypliny": [
+                "filozofia",
+                "nauki o polityce i administracji",
+                "nauki socjologiczne",
+                "psychologia"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Akademii Wychowania Fizycznego i Sportu im J\u0119drzeja \u015aniadeckiego w Gda\u0144sku",
+            "wojewodztwo": null,
+            "uczelnia": "Akademia Wychowania Fizycznego i Sportu im. J\u0119drzeja \u015aniadeckiego w Gda\u0144sku",
+            "dyscypliny": [
+                "nauki o kulturze fizycznej"
+            ],
+            "www": "www.szkoladoktorska.awf.gda.pl"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Nauk o Zwierz\u0119tach i Bezpiecze\u0144stwie \u017bywno\u015bci",
+            "wojewodztwo": null,
+            "uczelnia": "Instytut Genetyki i Biotechnologii Zwierz\u0105t Polskiej Akademii Nauk",
+            "dyscypliny": [
+                "weterynaria",
+                "zootechnika i rybactwo"
+            ],
+            "www": "www.igbzpan.pl"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Historycznych Praktyk Wykonawczych i Budowy Instrument\u00f3w",
+            "wojewodztwo": null,
+            "uczelnia": "Akademia Muzyczna im. Ignacego Jana Paderewskiego w Poznaniu",
+            "dyscypliny": [
+                "sztuki muzyczne"
+            ],
+            "www": "www.amuz.edu.pl"
+        },
+        {
+            "uniwersytet": "Interdyscyplinarna Szko\u0142a Doktorska Academia Copernicana",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Miko\u0142aja Kopernika w Toruniu",
+            "dyscypliny": [
+                "archeologia",
+                "filozofia",
+                "historia",
+                "j\u0119zykoznawstwo",
+                "literaturoznawstwo",
+                "nauki o sztuce",
+                "nauki farmaceutyczne",
+                "nauki o zdrowiu",
+                "nauki medyczne",
+                "ekonomia i finanse",
+                "nauki o komunikacji spo\u0142ecznej i mediach",
+                "nauki o polityce i administracji",
+                "nauki o zarz\u0105dzaniu i jako\u015bci",
+                "nauki prawne",
+                "nauki socjologiczne",
+                "pedagogika",
+                "matematyka",
+                "nauki biologiczne",
+                "nauki chemiczne",
+                "nauki fizyczne",
+                "nauki o Ziemi i \u015brodowisku",
+                "astronomia",
+                "nauki teologiczne",
+                "sztuki plastyczne i konserwacja dzie\u0142 sztuki"
+            ],
+            "www": "https://www.ac.umk.pl/"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Technologii Informacyjnych i Biomedycznych Instytut\u00f3w PAN",
+            "wojewodztwo": null,
+            "uczelnia": "Instytut Podstawowych Problem\u00f3w Techniki Polskiej Akademii Nauk",
+            "dyscypliny": [
+                "in\u017cynieria biomedyczna",
+                "informatyka techniczna i telekomunikacja ",
+                "nauki medyczne"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Nauk \u015acis\u0142ych i Przyrodniczych",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Jagiello\u0144ski w Krakowie",
+            "dyscypliny": [
+                "informatyka techniczna i telekomunikacja ",
+                "informatyka",
+                "matematyka",
+                "nauki biologiczne",
+                "nauki chemiczne",
+                "nauki fizyczne",
+                "nauki o Ziemi i \u015brodowisku",
+                "astronomia"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Nauk \u015acis\u0142ych i Przyrodniczych",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Gda\u0144ski",
+            "dyscypliny": [
+                "matematyka",
+                "nauki biologiczne",
+                "nauki chemiczne",
+                "nauki fizyczne",
+                "nauki o Ziemi i \u015brodowisku"
+            ],
+            "www": "https://sd.ug.edu.pl/scisle/glowna"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska BioPlanet",
+            "wojewodztwo": null,
+            "uczelnia": "Muzeum i Instytut Zoologii Polskiej Akademii Nauk",
+            "dyscypliny": [
+                "nauki biologiczne",
+                "nauki o Ziemi i \u015brodowisku"
+            ],
+            "www": "https://szkoladoktorska-bioplanet.pl/"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Politechniki Pozna\u0144skiej",
+            "wojewodztwo": null,
+            "uczelnia": "Politechnika Pozna\u0144ska",
+            "dyscypliny": [
+                "architektura i urbanistyka",
+                "automatyka, elektronika i elektrotechnika",
+                "informatyka techniczna i telekomunikacja ",
+                "in\u017cynieria l\u0105dowa i transport",
+                "in\u017cynieria materia\u0142owa",
+                "in\u017cynieria mechaniczna",
+                "in\u017cynieria \u015brodowiska, g\u00f3rnictwo i energetyka",
+                "nauki o zarz\u0105dzaniu i jako\u015bci",
+                "nauki chemiczne"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Nauk Przyrodniczych",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet im. Adama Mickiewicza w Poznaniu",
+            "dyscypliny": [
+                "nauki biologiczne",
+                "nauki o Ziemi i \u015brodowisku"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska BioMedChem U\u0141-PAN",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet \u0141\u00f3dzki",
+            "dyscypliny": [
+                "nauki medyczne",
+                "nauki biologiczne",
+                "nauki chemiczne"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Nauk \u015acis\u0142ych i Przyrodniczych",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet w Bia\u0142ymstoku",
+            "dyscypliny": [
+                "nauki biologiczne",
+                "nauki chemiczne",
+                "nauki fizyczne"
+            ],
+            "www": "https://szkolydoktorskie.uwb.edu.pl/nsip/"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska",
+            "wojewodztwo": null,
+            "uczelnia": "Politechnika \u015awi\u0119tokrzyska",
+            "dyscypliny": [
+                "automatyka, elektronika i elektrotechnika",
+                "in\u017cynieria l\u0105dowa i transport",
+                "in\u017cynieria mechaniczna",
+                "in\u017cynieria \u015brodowiska, g\u00f3rnictwo i energetyka"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska",
+            "wojewodztwo": null,
+            "uczelnia": "Narodowe Centrum Bada\u0144 J\u0105drowych",
+            "dyscypliny": [
+                "nauki chemiczne",
+                "nauki fizyczne"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Nauk Spo\u0142ecznych",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Jagiello\u0144ski w Krakowie",
+            "dyscypliny": [
+                "filozofia",
+                "nauki o zdrowiu",
+                "nauki medyczne",
+                "ekonomia i finanse",
+                "geografia spo\u0142eczno-ekonomiczna i gospodarka przestrzenna",
+                "nauki o komunikacji spo\u0142ecznej i mediach",
+                "nauki o polityce i administracji",
+                "nauki o zarz\u0105dzaniu i jako\u015bci",
+                "nauki prawne",
+                "nauki socjologiczne",
+                "pedagogika",
+                "psychologia",
+                "nauki biologiczne"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Nauk Medycznych i Nauk o Zdrowiu",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Miko\u0142aja Kopernika w Toruniu",
+            "dyscypliny": [
+                "nauki farmaceutyczne",
+                "nauki o zdrowiu",
+                "nauki medyczne"
+            ],
+            "www": "www.phd.umk.pl/amb/"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Nauk \u015acis\u0142ych i Przyrodniczych UMCS",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Marii Curie-Sk\u0142odowskiej w Lublinie",
+            "dyscypliny": [
+                "rolnictwo i ogrodnictwo",
+                "matematyka",
+                "nauki biologiczne",
+                "nauki chemiczne",
+                "nauki fizyczne",
+                "nauki o Ziemi i \u015brodowisku"
+            ],
+            "www": "https://www.umcs.pl/pl/szkoly-doktorskie,16879.htm"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Pedagogiczny im. Komisji Edukacji Narodowej w Krakowie",
+            "dyscypliny": [
+                "filozofia",
+                "historia",
+                "j\u0119zykoznawstwo",
+                "literaturoznawstwo",
+                "geografia spo\u0142eczno-ekonomiczna i gospodarka przestrzenna",
+                "nauki o bezpiecze\u0144stwie",
+                "nauki o polityce i administracji",
+                "pedagogika",
+                "matematyka",
+                "nauki biologiczne",
+                "nauki fizyczne",
+                "nauki o Ziemi i \u015brodowisku",
+                "sztuki plastyczne i konserwacja dzie\u0142 sztuki"
+            ],
+            "www": "https://szkola-doktorska.up.krakow.pl"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska",
+            "wojewodztwo": null,
+            "uczelnia": "Akademia Sztuk Pi\u0119knych im. W\u0142adys\u0142awa Strzemi\u0144skiego w \u0141odzi",
+            "dyscypliny": [
+                "sztuki plastyczne i konserwacja dzie\u0142 sztuki"
+            ],
+            "www": "https://www.asp.lodz.pl/"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska GeoPlanet",
+            "wojewodztwo": null,
+            "uczelnia": "Centrum Astronomiczne im. Miko\u0142aja Kopernika Polskiej Akademii Nauk",
+            "dyscypliny": [
+                "automatyka, elektronika i elektrotechnika",
+                "geografia spo\u0142eczno-ekonomiczna i gospodarka przestrzenna",
+                "nauki fizyczne",
+                "nauki o Ziemi i \u015brodowisku",
+                "astronomia"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska w Szkole G\u0142\u00f3wnej Handlowej w Warszawie",
+            "wojewodztwo": null,
+            "uczelnia": "Szko\u0142a G\u0142\u00f3wna Handlowa w Warszawie",
+            "dyscypliny": [
+                "ekonomia i finanse",
+                "nauki o polityce i administracji",
+                "nauki o zarz\u0105dzaniu i jako\u015bci"
+            ],
+            "www": "https://www.sgh.waw.pl/doktorant/szkola-doktorska-sgh"
+        },
+        {
+            "uniwersytet": "Krakowska Interdyscyplinarna Szko\u0142a Doktorska",
+            "wojewodztwo": null,
+            "uczelnia": "Instytut Fizyki J\u0105drowej im. Henryka Niewodnicza\u0144skiego Polskiej Akademii Nauk",
+            "dyscypliny": [
+                "in\u017cynieria materia\u0142owa",
+                "in\u017cynieria \u015brodowiska, g\u00f3rnictwo i energetyka",
+                "nauki farmaceutyczne",
+                "nauki medyczne",
+                "nauki chemiczne",
+                "nauki fizyczne"
+            ],
+            "www": "www.kisd.ifj.edu.pl"
+        },
+        {
+            "uniwersytet": "Szko\u0142a doktorska",
+            "wojewodztwo": null,
+            "uczelnia": "Akademia Muzyczna im. Feliksa Nowowiejskiego w Bydgoszczy",
+            "dyscypliny": [
+                "sztuki muzyczne"
+            ],
+            "www": "www.amfn.pl"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Politechniki Wroc\u0142awskiej",
+            "wojewodztwo": null,
+            "uczelnia": "Politechnika Wroc\u0142awska",
+            "dyscypliny": [
+                "architektura i urbanistyka",
+                "in\u017cynieria biomedyczna",
+                "automatyka, elektronika i elektrotechnika",
+                "informatyka techniczna i telekomunikacja",
+                "in\u017cynieria chemiczna",
+                "in\u017cynieria l\u0105dowa i transport",
+                "in\u017cynieria mechaniczna",
+                "in\u017cynieria \u015brodowiska, g\u00f3rnictwo i energetyka",
+                "in\u017cynieria l\u0105dowa, geodezja i transport",
+                "automatyka, elektronika, elektrotechnika i technologie kosmiczne",
+                "nauki o zarz\u0105dzaniu i jako\u015bci",
+                "matematyka",
+                "nauki chemiczne",
+                "nauki fizyczne"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Rolniczy im. Hugona Ko\u0142\u0142\u0105taja w Krakowie",
+            "dyscypliny": [
+                "in\u017cynieria l\u0105dowa i transport",
+                "in\u017cynieria mechaniczna",
+                "in\u017cynieria \u015brodowiska, g\u00f3rnictwo i energetyka",
+                "rolnictwo i ogrodnictwo",
+                "technologia \u017cywno\u015bci i \u017cywienia",
+                "zootechnika i rybactwo",
+                "nauki le\u015bne",
+                "ekonomia i finanse"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska",
+            "wojewodztwo": null,
+            "uczelnia": "Politechnika Bydgoska im. Jana i J\u0119drzeja \u015aniadeckich",
+            "dyscypliny": [
+                "informatyka techniczna i telekomunikacja",
+                "in\u017cynieria mechaniczna",
+                "in\u017cynieria l\u0105dowa, geodezja i transport",
+                "automatyka, elektronika, elektrotechnika i technologie kosmiczne",
+                "rolnictwo i ogrodnictwo",
+                "zootechnika i rybactwo",
+                "nauki chemiczne"
+            ],
+            "www": "https://pbs.edu.pl/pl/doktorant/kontakt"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Akademii Sztuk Pi\u0119knych w Warszawie",
+            "wojewodztwo": null,
+            "uczelnia": "Akademia Sztuk Pi\u0119knych w Warszawie",
+            "dyscypliny": [
+                "sztuki plastyczne i konserwacja dzie\u0142 sztuki"
+            ],
+            "www": "http://asp.waw.pl"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Uniwersytetu im, Adama Mickiewicza w Poznaniu",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet im. Adama Mickiewicza w Poznaniu",
+            "dyscypliny": [
+                "archeologia",
+                "filozofia",
+                "historia",
+                "j\u0119zykoznawstwo",
+                "literaturoznawstwo",
+                "nauki o kulturze i religii",
+                "nauki o sztuce",
+                "geografia spo\u0142eczno-ekonomiczna i gospodarka przestrzenna",
+                "nauki o bezpiecze\u0144stwie",
+                "nauki o komunikacji spo\u0142ecznej i mediach",
+                "nauki o polityce i administracji",
+                "nauki prawne",
+                "nauki socjologiczne",
+                "pedagogika",
+                "psychologia",
+                "informatyka",
+                "matematyka",
+                "nauki biologiczne",
+                "nauki chemiczne",
+                "nauki fizyczne",
+                "nauki o Ziemi i \u015brodowisku",
+                "astronomia",
+                "nauki teologiczne"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Nauk Spo\u0142ecznych i Humanistycznych",
+            "wojewodztwo": null,
+            "uczelnia": "SWPS Uniwersytet Humanistycznospo\u0142eczny z siedzib\u0105 w Warszawie",
+            "dyscypliny": [
+                "literaturoznawstwo",
+                "nauki o kulturze i religii",
+                "nauki socjologiczne",
+                "psychologia"
+            ],
+            "www": "www.swps.pl"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Uniwersytetu Przyrodniczego w Poznaniu",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Przyrodniczy w Poznaniu",
+            "dyscypliny": [
+                "in\u017cynieria mechaniczna",
+                "in\u017cynieria \u015brodowiska, g\u00f3rnictwo i energetyka",
+                "rolnictwo i ogrodnictwo",
+                "technologia \u017cywno\u015bci i \u017cywienia",
+                "zootechnika i rybactwo",
+                "nauki le\u015bne",
+                "ekonomia i finanse",
+                "nauki biologiczne"
+            ],
+            "www": "https://puls.edu.pl/doktorant/szkola-doktorska"
+        },
+        {
+            "uniwersytet": "Szko\u0142a doktorska",
+            "wojewodztwo": null,
+            "uczelnia": "Akademia Sztuk Pi\u0119knych w Gda\u0144sku",
+            "dyscypliny": [
+                "sztuki plastyczne i konserwacja dzie\u0142 sztuki"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Politechniki Rzeszowskiej im. Ignacego \u0141ukasiewicza",
+            "wojewodztwo": null,
+            "uczelnia": "Politechnika Rzeszowska im. Ignacego \u0141ukasiewicza",
+            "dyscypliny": [
+                "automatyka, elektronika i elektrotechnika",
+                "informatyka techniczna i telekomunikacja",
+                "in\u017cynieria chemiczna",
+                "in\u017cynieria l\u0105dowa i transport",
+                "in\u017cynieria materia\u0142owa",
+                "in\u017cynieria mechaniczna",
+                "in\u017cynieria \u015brodowiska, g\u00f3rnictwo i energetyka"
+            ],
+            "www": "https://szkoladoktorska.prz.edu.pl/"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Anthropos IPAN",
+            "wojewodztwo": null,
+            "uczelnia": "Instytut Historii im. Tadeusza Manteuffla Polskiej Akademii Nauk",
+            "dyscypliny": [
+                "archeologia",
+                "historia",
+                "j\u0119zykoznawstwo",
+                "literaturoznawstwo",
+                "nauki o kulturze i religii",
+                "nauki o sztuce",
+                "geografia spo\u0142eczno-ekonomiczna i gospodarka przestrzenna"
+            ],
+            "www": "https://anthropos.edu.pl/"
+        },
+        {
+            "uniwersytet": "Szko\u0142a doktorska Akademii WSB",
+            "wojewodztwo": null,
+            "uczelnia": "Akademia WSB",
+            "dyscypliny": [
+                "nauki o bezpiecze\u0144stwie",
+                "nauki o zarz\u0105dzaniu i jako\u015bci",
+                "pedagogika"
+            ],
+            "www": "https://wsb.edu.pl"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Politechniki Koszali\u0144skiej",
+            "wojewodztwo": null,
+            "uczelnia": "Politechnika Koszali\u0144ska",
+            "dyscypliny": [
+                "automatyka, elektronika i elektrotechnika",
+                "in\u017cynieria l\u0105dowa i transport",
+                "in\u017cynieria mechaniczna",
+                "in\u017cynieria l\u0105dowa, geodezja i transport",
+                "automatyka, elektronika, elektrotechnika i technologie kosmiczne",
+                "ekonomia i finanse",
+                "nauki o polityce i administracji",
+                "sztuki plastyczne i konserwacja dzie\u0142 sztuki"
+            ],
+            "www": "https://www.tu.koszalin.pl/szkoladoktorska"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Uniwersytetu Kardyna\u0142a Stefana Wyszy\u0144skiego w Warszawie",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Kardyna\u0142a Stefana Wyszy\u0144skiego w Warszawie",
+            "dyscypliny": [
+                "archeologia",
+                "filozofia",
+                "historia",
+                "literaturoznawstwo",
+                "nauki o kulturze i religii",
+                "nauki o polityce i administracji",
+                "nauki prawne",
+                "nauki socjologiczne",
+                "pedagogika",
+                "prawo kanoniczne",
+                "psychologia",
+                "matematyka",
+                "nauki chemiczne",
+                "nauki fizyczne",
+                "nauki teologiczne"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Akademii im. Jakuba z Parady\u017ca",
+            "wojewodztwo": null,
+            "uczelnia": "Akademia im. Jakuba z Parady\u017ca",
+            "dyscypliny": [
+                "j\u0119zykoznawstwo",
+                "in\u017cynieria mechaniczna",
+                "pedagogika"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska w Politechnice Lubelskiej",
+            "wojewodztwo": null,
+            "uczelnia": "Politechnika Lubelska",
+            "dyscypliny": [
+                "automatyka, elektronika i elektrotechnika",
+                "in\u017cynieria l\u0105dowa i transport",
+                "in\u017cynieria mechaniczna",
+                "in\u017cynieria \u015brodowiska, g\u00f3rnictwo i energetyka"
+            ],
+            "www": "www.sdwpl.pollub.pl"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Akademii Sztuki w Szczecinie",
+            "wojewodztwo": null,
+            "uczelnia": "Akademia Sztuki w Szczecinie",
+            "dyscypliny": [
+                "sztuki muzyczne",
+                "sztuki plastyczne i konserwacja dzie\u0142 sztuki"
+            ],
+            "www": "www.akademiasztuki.eu"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Uniwersytetu Przyrodniczo-Humanistycznego w Siedlcach",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Przyrodniczo-Humanistyczny w Siedlcach",
+            "dyscypliny": [
+                "historia",
+                "literaturoznawstwo",
+                "nauki o zdrowiu",
+                "rolnictwo i ogrodnictwo",
+                "zootechnika i rybactwo",
+                "nauki o bezpiecze\u0144stwie",
+                "pedagogika",
+                "nauki biologiczne",
+                "nauki chemiczne"
+            ],
+            "www": "www.szkoladoktorska.uph.edu.pl"
+        },
+        {
+            "uniwersytet": "AgroBioTech PhD",
+            "wojewodztwo": null,
+            "uczelnia": "Instytut Biotechnologii Przemys\u0142u Rolno-Spo\u017cywczego im. prof. Wac\u0142awa D\u0105browskiego \u2013 Pa\u0144stwowy Instytut Badawczy",
+            "dyscypliny": [
+                "rolnictwo i ogrodnictwo",
+                "technologia \u017cywno\u015bci i \u017cywienia"
+            ],
+            "www": "http://agrobiotech.edu.pl"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Uniwersytetu Szczeci\u0144skiego",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Szczeci\u0144ski",
+            "dyscypliny": [
+                "filozofia",
+                "historia",
+                "j\u0119zykoznawstwo",
+                "literaturoznawstwo",
+                "nauki o kulturze fizycznej",
+                "ekonomia i finanse",
+                "geografia spo\u0142eczno-ekonomiczna i gospodarka przestrzenna",
+                "nauki o polityce i administracji",
+                "nauki o zarz\u0105dzaniu i jako\u015bci",
+                "nauki prawne",
+                "pedagogika",
+                "matematyka",
+                "nauki biologiczne",
+                "nauki fizyczne",
+                "nauki o Ziemi i \u015brodowisku",
+                "nauki teologiczne"
+            ],
+            "www": "https://szkoladoktorska.usz.edu.pl/"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Akademii Ekonomiczno-Humanistycznej w Warszawie",
+            "wojewodztwo": null,
+            "uczelnia": "Akademia Ekonomiczno-Humanistyczna w Warszawie",
+            "dyscypliny": [
+                "ekonomia i finanse",
+                "nauki o polityce i administracji",
+                "nauki prawne",
+                "psychologia"
+            ],
+            "www": "www.vizja.pl"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Medycyny Translacyjnej",
+            "wojewodztwo": null,
+            "uczelnia": "Centrum Medyczne Kszta\u0142cenia Podyplomowego w Warszawie",
+            "dyscypliny": [
+                "in\u017cynieria biomedyczna",
+                "nauki o zdrowiu",
+                "nauki medyczne",
+                "nauki biologiczne",
+                "weterynaria"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Dolno\u015bl\u0105skiej Szko\u0142y Wy\u017cszej",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Dolno\u015bl\u0105ski DSW we Wroc\u0142awiu",
+            "dyscypliny": [
+                "nauki o komunikacji spo\u0142ecznej i mediach",
+                "pedagogika"
+            ],
+            "www": "www.dsw.edu.pl"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Biologii Molekularnej i Chemii Biologicznej",
+            "wojewodztwo": null,
+            "uczelnia": "Instytut Biochemii i Biofizyki Polskiej Akademii Nauk",
+            "dyscypliny": [
+                "nauki biologiczne",
+                "nauki chemiczne"
+            ],
+            "www": "www.ibb.edu.pl"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Nauk Humanistycznych",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet w Bia\u0142ymstoku",
+            "dyscypliny": [
+                "filozofia",
+                "historia",
+                "j\u0119zykoznawstwo",
+                "literaturoznawstwo"
+            ],
+            "www": "https://szkolydoktorskie.uwb.edu.pl/nh/"
+        },
+        {
+            "uniwersytet": "Interdyscyplinarna Szko\u0142a Doktorska Politechniki \u0141\u00f3dzkiej",
+            "wojewodztwo": null,
+            "uczelnia": "Politechnika \u0141\u00f3dzka",
+            "dyscypliny": [
+                "architektura i urbanistyka",
+                "informatyka techniczna i telekomunikacja",
+                "in\u017cynieria chemiczna",
+                "in\u017cynieria materia\u0142owa",
+                "in\u017cynieria mechaniczna",
+                "in\u017cynieria l\u0105dowa, geodezja i transport",
+                "automatyka, elektronika, elektrotechnika i technologie kosmiczne",
+                "technologia \u017cywno\u015bci i \u017cywienia",
+                "nauki o zarz\u0105dzaniu i jako\u015bci",
+                "matematyka",
+                "nauki chemiczne",
+                "nauki fizyczne"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Jana D\u0142ugosza w Cz\u0119stochowie",
+            "dyscypliny": [
+                "historia",
+                "j\u0119zykoznawstwo",
+                "literaturoznawstwo",
+                "nauki o zdrowiu",
+                "nauki chemiczne",
+                "nauki fizyczne",
+                "sztuki muzyczne",
+                "sztuki plastyczne i konserwacja dzie\u0142 sztuki"
+            ],
+            "www": "www.szkoladoktorska.ujd.edu.pl"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Nauk Humanistycznych, Teologicznych i Artystycznych",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Miko\u0142aja Kopernika w Toruniu",
+            "dyscypliny": [
+                "archeologia",
+                "filozofia",
+                "historia",
+                "j\u0119zykoznawstwo",
+                "literaturoznawstwo",
+                "nauki o sztuce",
+                "nauki teologiczne",
+                "sztuki plastyczne i konserwacja dzie\u0142 sztuki"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Warszawska Szko\u0142a Doktorska Nauk \u015acis\u0142ych i BioMedycznych",
+            "wojewodztwo": null,
+            "uczelnia": "Instytut Biologii Do\u015bwiadczalnej im. Marcelego Nenckiego Polskiej Akademii Nauk",
+            "dyscypliny": [
+                "nauki medyczne",
+                "nauki biologiczne",
+                "nauki chemiczne",
+                "nauki fizyczne"
+            ],
+            "www": "https://warsaw4phd.eu/"
+        },
+        {
+            "uniwersytet": "Szko\u0142a doktorska",
+            "wojewodztwo": null,
+            "uczelnia": "Politechnika Opolska",
+            "dyscypliny": [
+                "architektura i urbanistyka",
+                "automatyka, elektronika i elektrotechnika",
+                "informatyka techniczna i telekomunikacja",
+                "in\u017cynieria l\u0105dowa i transport",
+                "in\u017cynieria mechaniczna",
+                "in\u017cynieria \u015brodowiska, g\u00f3rnictwo i energetyka",
+                "in\u017cynieria l\u0105dowa, geodezja i transport",
+                "automatyka, elektronika, elektrotechnika i technologie kosmiczne",
+                "nauki o kulturze fizycznej",
+                "nauki o zdrowiu",
+                "ekonomia i finanse",
+                "nauki o zarz\u0105dzaniu i jako\u015bci"
+            ],
+            "www": "www.szkoladoktorska.po.opole.pl"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska",
+            "wojewodztwo": null,
+            "uczelnia": "Federacja Akademii Wojskowych",
+            "dyscypliny": [
+                "nauki o bezpiecze\u0144stwie",
+                "pedagogika"
+            ],
+            "www": "https://www.faw.edu.pl/index.php/pl/regulamin-szkola-doktorska"
+        },
+        {
+            "uniwersytet": "Szko\u0142\u0105 Doktorska Akademii Humanistyczno-Ekonomicznej w \u0141odzi",
+            "wojewodztwo": null,
+            "uczelnia": "Akademia Humanistyczno-Ekonomiczna w \u0141odzi",
+            "dyscypliny": [
+                "j\u0119zykoznawstwo",
+                "sztuki plastyczne i konserwacja dzie\u0142 sztuki"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Teorii Informacji Kwantowej",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Gda\u0144ski",
+            "dyscypliny": [
+                "matematyka",
+                "nauki chemiczne",
+                "nauki fizyczne"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska AGH",
+            "wojewodztwo": null,
+            "uczelnia": "Akademia G\u00f3rniczo-Hutnicza im. Stanis\u0142awa Staszica w Krakowie",
+            "dyscypliny": [
+                "nauki o kulturze i religii",
+                "in\u017cynieria biomedyczna",
+                "informatyka techniczna i telekomunikacja",
+                "in\u017cynieria chemiczna",
+                "in\u017cynieria materia\u0142owa",
+                "in\u017cynieria mechaniczna",
+                "in\u017cynieria \u015brodowiska, g\u00f3rnictwo i energetyka",
+                "in\u017cynieria l\u0105dowa, geodezja i transport",
+                "automatyka, elektronika, elektrotechnika i technologie kosmiczne",
+                "ekonomia i finanse",
+                "nauki o zarz\u0105dzaniu i jako\u015bci",
+                "nauki socjologiczne",
+                "informatyka",
+                "matematyka",
+                "nauki chemiczne",
+                "nauki fizyczne",
+                "nauki o Ziemi i \u015brodowisku"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Politechniki Morskiej w Szczecinie",
+            "wojewodztwo": null,
+            "uczelnia": "Politechnika Morska w Szczecinie",
+            "dyscypliny": [
+                "in\u017cynieria mechaniczna",
+                "in\u017cynieria l\u0105dowa, geodezja i transport"
+            ],
+            "www": "www.pm.szczecin.pl"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Politechniki Bia\u0142ostockiej",
+            "wojewodztwo": null,
+            "uczelnia": "Politechnika Bia\u0142ostocka",
+            "dyscypliny": [
+                "in\u017cynieria biomedyczna",
+                "automatyka, elektronika i elektrotechnika",
+                "informatyka techniczna i telekomunikacja",
+                "in\u017cynieria l\u0105dowa i transport",
+                "in\u017cynieria mechaniczna",
+                "in\u017cynieria \u015brodowiska, g\u00f3rnictwo i energetyka",
+                "nauki o zarz\u0105dzaniu i jako\u015bci"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska SGGW w Szkole G\u0142\u00f3wnej Gospodarstwa Wiejskiego w Warszawie",
+            "wojewodztwo": null,
+            "uczelnia": "Szko\u0142a G\u0142\u00f3wna Gospodarstwa Wiejskiego w Warszawie",
+            "dyscypliny": [
+                "informatyka techniczna i telekomunikacja",
+                "in\u017cynieria l\u0105dowa i transport",
+                "in\u017cynieria mechaniczna",
+                "in\u017cynieria \u015brodowiska, g\u00f3rnictwo i energetyka",
+                "in\u017cynieria l\u0105dowa, geodezja i transport",
+                "rolnictwo i ogrodnictwo",
+                "technologia \u017cywno\u015bci i \u017cywienia",
+                "weterynaria",
+                "zootechnika i rybactwo",
+                "nauki le\u015bne",
+                "ekonomia i finanse",
+                "nauki socjologiczne",
+                "nauki biologiczne",
+                "weterynaria"
+            ],
+            "www": "https://www.sggw.edu.pl/strona-glowna/nauka/szkola-doktorska/"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Politechniki Warszawskiej",
+            "wojewodztwo": null,
+            "uczelnia": "Politechnika Warszawska",
+            "dyscypliny": [
+                "architektura i urbanistyka",
+                "in\u017cynieria biomedyczna",
+                "informatyka techniczna i telekomunikacja",
+                "in\u017cynieria chemiczna",
+                "in\u017cynieria materia\u0142owa",
+                "in\u017cynieria mechaniczna",
+                "in\u017cynieria \u015brodowiska, g\u00f3rnictwo i energetyka",
+                "in\u017cynieria l\u0105dowa, geodezja i transport",
+                "automatyka, elektronika, elektrotechnika i technologie kosmiczne",
+                "nauki o zarz\u0105dzaniu i jako\u015bci",
+                "matematyka",
+                "nauki chemiczne",
+                "nauki fizyczne"
+            ],
+            "www": "https://www.pw.edu.pl/"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Akademii Pomorskiej w S\u0142upsku",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Pomorski w S\u0142upsku",
+            "dyscypliny": [
+                "historia",
+                "literaturoznawstwo",
+                "nauki o bezpiecze\u0144stwie",
+                "nauki biologiczne"
+            ],
+            "www": "https://www.apsl.edu.pl/doktoranci/szkola-doktorska"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Instytutu Farmakologii im. Jerzego Maja Polskiej Akademii Nauk",
+            "wojewodztwo": null,
+            "uczelnia": "Instytut Farmakologii im. Jerzego Maja Polskiej Akademii Nauk",
+            "dyscypliny": [
+                "nauki farmaceutyczne",
+                "nauki medyczne"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Politechniki Cz\u0119stochowskiej",
+            "wojewodztwo": null,
+            "uczelnia": "Politechnika Cz\u0119stochowska",
+            "dyscypliny": [
+                "automatyka, elektronika i elektrotechnika",
+                "informatyka techniczna i telekomunikacja",
+                "in\u017cynieria materia\u0142owa",
+                "in\u017cynieria mechaniczna",
+                "in\u017cynieria \u015brodowiska, g\u00f3rnictwo i energetyka",
+                "nauki o zarz\u0105dzaniu i jako\u015bci"
+            ],
+            "www": "https://pcz.pl/badania-i-nauka/szkola-doktorska"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Medycyny Molekularnej",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Medyczny w \u0141odzi",
+            "dyscypliny": [
+                "nauki farmaceutyczne",
+                "nauki medyczne"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Politechniki Krakowskiej",
+            "wojewodztwo": null,
+            "uczelnia": "Politechnika Krakowska im. Tadeusza Ko\u015bciuszki",
+            "dyscypliny": [
+                "architektura i urbanistyka",
+                "informatyka techniczna i telekomunikacja",
+                "in\u017cynieria chemiczna",
+                "in\u017cynieria materia\u0142owa",
+                "in\u017cynieria mechaniczna",
+                "in\u017cynieria \u015brodowiska, g\u00f3rnictwo i energetyka",
+                "in\u017cynieria l\u0105dowa, geodezja i transport",
+                "automatyka, elektronika, elektrotechnika i technologie kosmiczne"
+            ],
+            "www": "www.szkoladoktorska.pk.edu.pl"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Lubelskiej Akademii WSEI",
+            "wojewodztwo": null,
+            "uczelnia": "Lubelska Akademia WSEI",
+            "dyscypliny": [
+                "informatyka techniczna i telekomunikacja",
+                "ekonomia i finanse"
+            ],
+            "www": "https://www.wsei.lublin.pl/studia-doktorskie/szkola-doktorska/"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska na Politechnice Gda\u0144skiej",
+            "wojewodztwo": null,
+            "uczelnia": "Politechnika Gda\u0144ska",
+            "dyscypliny": [
+                "architektura i urbanistyka",
+                "in\u017cynieria biomedyczna",
+                "automatyka, elektronika i elektrotechnika",
+                "informatyka techniczna i telekomunikacja",
+                "in\u017cynieria l\u0105dowa i transport",
+                "in\u017cynieria materia\u0142owa",
+                "in\u017cynieria mechaniczna",
+                "in\u017cynieria \u015brodowiska, g\u00f3rnictwo i energetyka",
+                "in\u017cynieria l\u0105dowa, geodezja i transport",
+                "automatyka, elektronika, elektrotechnika i technologie kosmiczne",
+                "ekonomia i finanse",
+                "nauki o zarz\u0105dzaniu i jako\u015bci",
+                "matematyka",
+                "nauki chemiczne",
+                "nauki fizyczne"
+            ],
+            "www": "https://pg.edu.pl/szkola-doktorska"
+        },
+        {
+            "uniwersytet": "Interdyscyplinarna Szko\u0142a Doktorska Akademii Techniczno-Humanistycznej w Bielsku-Bia\u0142ej",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Bielsko-Bialski",
+            "dyscypliny": [
+                "j\u0119zykoznawstwo",
+                "literaturoznawstwo",
+                "informatyka techniczna i telekomunikacja",
+                "in\u017cynieria materia\u0142owa",
+                "in\u017cynieria mechaniczna",
+                "in\u017cynieria \u015brodowiska, g\u00f3rnictwo i energetyka",
+                "in\u017cynieria l\u0105dowa, geodezja i transport",
+                "nauki o zdrowiu",
+                "nauki o zarz\u0105dzaniu i jako\u015bci",
+                "pedagogika"
+            ],
+            "www": "www.ath.bielsko.pl"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Wdro\u017ceniowa",
+            "wojewodztwo": null,
+            "uczelnia": "Politechnika Gda\u0144ska",
+            "dyscypliny": [
+                "architektura i urbanistyka",
+                "in\u017cynieria biomedyczna",
+                "automatyka, elektronika i elektrotechnika",
+                "informatyka techniczna i telekomunikacja",
+                "in\u017cynieria l\u0105dowa i transport",
+                "in\u017cynieria materia\u0142owa",
+                "in\u017cynieria mechaniczna",
+                "in\u017cynieria \u015brodowiska, g\u00f3rnictwo i energetyka",
+                "in\u017cynieria l\u0105dowa, geodezja i transport",
+                "automatyka, elektronika, elektrotechnika i technologie kosmiczne",
+                "ekonomia i finanse",
+                "nauki o zarz\u0105dzaniu i jako\u015bci",
+                "matematyka",
+                "nauki chemiczne",
+                "nauki fizyczne"
+            ],
+            "www": "https://pg.edu.pl/szkola-doktorska-wdrozeniowa"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Akademii Sztuki Wojennej",
+            "wojewodztwo": null,
+            "uczelnia": "Akademia Sztuki Wojennej",
+            "dyscypliny": [
+                "nauki o bezpiecze\u0144stwie",
+                "nauki o zarz\u0105dzaniu i jako\u015bci",
+                "nauki prawne"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "SZKO\u0141A DOKTORSKA AKADEMII MAZOWIECKIEJ W P\u0141OCKU",
+            "wojewodztwo": null,
+            "uczelnia": "Akademia Mazowiecka w P\u0142ocku",
+            "dyscypliny": [
+                "nauki o polityce i administracji",
+                "pedagogika"
+            ],
+            "www": "https://mazowiecka.edu.pl"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Nauk Spo\u0142ecznych",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Warszawski",
+            "dyscypliny": [
+                "ekonomia i finanse",
+                "geografia spo\u0142eczno-ekonomiczna i gospodarka przestrzenna",
+                "nauki o bezpiecze\u0144stwie",
+                "nauki o komunikacji spo\u0142ecznej i mediach",
+                "nauki o polityce i administracji",
+                "nauki o zarz\u0105dzaniu i jako\u015bci",
+                "nauki prawne",
+                "nauki socjologiczne",
+                "pedagogika",
+                "psychologia"
+            ],
+            "www": "https://szkolydoktorskie.uw.edu.pl/sdns/"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Nauk Humanistycznych i Sztuki UMCS",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Marii Curie-Sk\u0142odowskiej w Lublinie",
+            "dyscypliny": [
+                "archeologia",
+                "filozofia",
+                "historia",
+                "j\u0119zykoznawstwo",
+                "literaturoznawstwo",
+                "nauki o kulturze i religii",
+                "sztuki muzyczne",
+                "sztuki plastyczne i konserwacja dzie\u0142 sztuki"
+            ],
+            "www": "https://www.umcs.pl/pl/szkoly-doktorskie,16879.htm"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Nauk Humanistycznych",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Warszawski",
+            "dyscypliny": [
+                "archeologia",
+                "filozofia",
+                "historia",
+                "j\u0119zykoznawstwo",
+                "literaturoznawstwo",
+                "nauki o kulturze i religii",
+                "nauki o sztuce"
+            ],
+            "www": "https://szkolydoktorskie.uw.edu.pl/sdnh/"
+        },
+        {
+            "uniwersytet": "Mi\u0119dzydziedzinowa Szko\u0142a Doktorska",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Warszawski",
+            "dyscypliny": [
+                "archeologia",
+                "filozofia",
+                "historia",
+                "j\u0119zykoznawstwo",
+                "literaturoznawstwo",
+                "nauki o kulturze i religii",
+                "nauki o sztuce",
+                "ekonomia i finanse",
+                "geografia spo\u0142eczno-ekonomiczna i gospodarka przestrzenna",
+                "nauki o bezpiecze\u0144stwie",
+                "nauki o komunikacji spo\u0142ecznej i mediach",
+                "nauki o polityce i administracji",
+                "nauki o zarz\u0105dzaniu i jako\u015bci",
+                "nauki prawne",
+                "nauki socjologiczne",
+                "pedagogika",
+                "psychologia",
+                "informatyka",
+                "matematyka",
+                "nauki biologiczne",
+                "nauki chemiczne",
+                "nauki fizyczne",
+                "nauki o Ziemi i \u015brodowisku",
+                "astronomia"
+            ],
+            "www": "https://szkolydoktorskie.uw.edu.pl/msd/kontakt/"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Nauk \u015acis\u0142ych i Przyrodniczych",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Warszawski",
+            "dyscypliny": [
+                "informatyka",
+                "matematyka",
+                "nauki biologiczne",
+                "nauki chemiczne",
+                "nauki fizyczne",
+                "nauki o Ziemi i \u015brodowisku",
+                "astronomia"
+            ],
+            "www": "https://szkolydoktorskie.uw.edu.pl/sdnsip/"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Federacji Naukowej WSB-DSW Merito",
+            "wojewodztwo": null,
+            "uczelnia": "Federacja Naukowa WSB-DSW",
+            "dyscypliny": [
+                "ekonomia i finanse",
+                "nauki o bezpiecze\u0144stwie",
+                "nauki o komunikacji spo\u0142ecznej i mediach",
+                "nauki o zarz\u0105dzaniu i jako\u015bci",
+                "pedagogika"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Szko\u0142y Wy\u017cszej Wymiaru Sprawiedliwo\u015bci",
+            "wojewodztwo": null,
+            "uczelnia": "Akademia Wymiaru Sprawiedliwo\u015bci",
+            "dyscypliny": [
+                "nauki o bezpiecze\u0144stwie",
+                "pedagogika"
+            ],
+            "www": "https://swws.edu.pl/"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Wojskowej Akademii Technicznej imienia Jaros\u0142awa D\u0105browskiego",
+            "wojewodztwo": null,
+            "uczelnia": "Wojskowa Akademia Techniczna im. Jaros\u0142awa D\u0105browskiego",
+            "dyscypliny": [
+                "informatyka techniczna i telekomunikacja",
+                "in\u017cynieria materia\u0142owa",
+                "in\u017cynieria mechaniczna",
+                "in\u017cynieria l\u0105dowa, geodezja i transport",
+                "automatyka, elektronika, elektrotechnika i technologie kosmiczne",
+                "nauki o bezpiecze\u0144stwie",
+                "nauki chemiczne"
+            ],
+            "www": "https://www.wojsko-polskie.pl/wat/szkola-doktorska/"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Akademii Kaliskiej im. Prezydenta Stanis\u0142awa Wojciechowskiego",
+            "wojewodztwo": null,
+            "uczelnia": "Akademia Kaliska im. Prezydenta Stanis\u0142awa Wojciechowskiego",
+            "dyscypliny": [
+                "nauki o zdrowiu",
+                "nauki o bezpiecze\u0144stwie",
+                "nauki o zarz\u0105dzaniu i jako\u015bci"
+            ],
+            "www": "https://akademia.kalisz.pl/jednostki/szkola-doktorska/"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Biotechnologii Uniwersytetu Gda\u0144skiego i Gda\u0144skiego Uniwersytetu Medycznego",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Gda\u0144ski",
+            "dyscypliny": [
+                "nauki medyczne",
+                "nauki biologiczne"
+            ],
+            "www": "https://sd.ug.edu.pl/biotechnologia/glowna"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Akademii Ignatianum w Krakowie",
+            "wojewodztwo": null,
+            "uczelnia": "Akademia Ignatianum w Krakowie",
+            "dyscypliny": [
+                "filozofia",
+                "nauki o kulturze i religii",
+                "nauki o polityce i administracji",
+                "pedagogika"
+            ],
+            "www": "https://ignatianum.edu.pl"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska w Uniwersytecie Rzeszowskim",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Rzeszowski",
+            "dyscypliny": [
+                "archeologia",
+                "filozofia",
+                "historia",
+                "j\u0119zykoznawstwo",
+                "literaturoznawstwo",
+                "informatyka techniczna i telekomunikacja",
+                "in\u017cynieria materia\u0142owa",
+                "nauki o kulturze fizycznej",
+                "nauki o zdrowiu",
+                "nauki medyczne",
+                "rolnictwo i ogrodnictwo",
+                "technologia \u017cywno\u015bci i \u017cywienia",
+                "ekonomia i finanse",
+                "nauki o polityce i administracji",
+                "nauki prawne",
+                "nauki socjologiczne",
+                "pedagogika",
+                "matematyka",
+                "nauki biologiczne",
+                "nauki fizyczne",
+                "sztuki muzyczne",
+                "sztuki plastyczne i konserwacja dzie\u0142 sztuki"
+            ],
+            "www": "www.ur.edu.pl/doktorant/szkola-doktorskadoctoral-school"
+        },
+        {
+            "uniwersytet": "Mi\u0119dzynarodowa Szko\u0142a Doktorska Uniwersytetu Medycznego w \u0141odzi",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Medyczny w \u0141odzi",
+            "dyscypliny": [
+                "nauki farmaceutyczne",
+                "nauki o zdrowiu",
+                "nauki medyczne"
+            ],
+            "www": "www.szkoladoktorska.umed.pl"
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska Uniwersytetu Ekonomicznego w Krakowie",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Ekonomiczny w Krakowie",
+            "dyscypliny": [
+                "ekonomia i finanse",
+                "geografia spo\u0142eczno-ekonomiczna i gospodarka przestrzenna",
+                "nauki o polityce i administracji",
+                "nauki o zarz\u0105dzaniu i jako\u015bci",
+                "nauki prawne"
+            ],
+            "www": {}
+        },
+        {
+            "uniwersytet": "Szko\u0142a Doktorska na Uniwersytecie Papieskim Jana Paw\u0142a II w Krakowie",
+            "wojewodztwo": null,
+            "uczelnia": "Uniwersytet Papieski Jana Paw\u0142a II w Krakowie",
+            "dyscypliny": [
+                "filozofia",
+                "historia",
+                "nauki o sztuce",
+                "nauki o komunikacji spo\u0142ecznej i mediach",
+                "nauki socjologiczne",
+                "prawo kanoniczne",
+                "nauki teologiczne"
+            ],
+            "www": "https://upjp2.edu.pl/"
+        }
+    ]
+}

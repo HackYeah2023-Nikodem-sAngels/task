@@ -1,0 +1,78 @@
+{
+      "profileName": "ogólnoakademicki",
+      "courseUuid": "07537f9d-6198-42b7-baf1-65fac62bae5b",
+      "iscedName": "Historia i archeologia",
+      "legalBasisTypeCode": "2",
+      "courseInstances": [
+        {
+          "courseInstanceUuid": "f37d9b92-5445-4866-a5e0-53e848d45557",
+          "courseInstanceCode": "8426",
+          "courseInstanceOldCode": "28033",
+          "courseName": "Historia",
+          "formCode": "2",
+          "formName": "niestacjonarne",
+          "titleCode": "1",
+          "titleName": "magister",
+          "languageCode": "pol",
+          "languageName": "polski",
+          "philologicalLanguages": [],
+          "educationStartDate": "2012-10-01",
+          "numberOfSemesters": "4",
+          "ects": "120",
+          "dual": "Nie",
+          "bridging": "Nie",
+          "statusCode": "3",
+          "statusName": "prowadzone",
+          "liquidationDate": null,
+          "coopWithVocational": "Nie"
+        }
+      ],
+      "courseCode": "6565",
+      "mainInstitutionUuid": "1cb32064-70d2-4de8-b43f-8e67b8a4286b",
+      "supervisingInstitutionUuid": "2b2e64d0-dc32-4575-ba6c-073f0757f4f9",
+      "liquidationDate": null,
+      "levelCode": "3",
+      "legalBasisNumber": "DNS-1-0145/194/TBM/96",
+      "currentStatusCode": "3",
+      "leadingInstitutionVoivodeship": "mazowieckie",
+      "teacherTraining": "Tak",
+      "leadingInstitutionCity": "Pułtusk",
+      "iscedCode": "0222",
+      "coLed": "Nie",
+      "courseOldCode": "5798",
+      "mainInstitutionKind": "Uczelnia niepubliczna",
+      "currentStatusName": "prowadzone",
+      "mainInstitutionKindCode": "10",
+      "lastRefresh": "1693484631112",
+      "legalBasisTypeName": "Decyzja ministra",
+      "philologicalLanguages": [],
+      "terminationInitializationDate": null,
+      "levelName": "drugiego stopnia",
+      "leadingInstitutionVoivodeshipCode": "7",
+      "creationDate": "1996-09-30",
+      "supervisingInstitutionName": "Minister Edukacji i Nauki (poprzednio MNiSW)",
+      "courseName": "Historia",
+      "leadingInstitutionName": "Akademia Finansów i Biznesu Vistula; Akademia im. Aleksandra Gieysztora",
+      "coLeadingInstitutions": [],
+      "disciplines": [
+        {
+          "disciplineCode": "DS010103N",
+          "disciplineName": "historia",
+          "disciplinePercentageShare": "100",
+          "disciplineLeading": "Tak"
+        }
+      ],
+      "legalBasisDate": "1996-09-30",
+      "leadingInstitutionIsForeign": "Nie",
+      "profileCode": "2",
+      "mainInstitutionName": "Akademia Finansów i Biznesu Vistula",
+      "organizationalUnits": [
+        {
+          "organizationalUnitUuid": "69a95f05-512c-4e59-acb6-027e0a55df2f",
+          "organizationalUnitFullName": "Akademia Finansów i Biznesu Vistula; Wydział Humanistyczny"
+        }
+      ],
+      "philological": "Nie",
+      "dataSource": "POLON",
+      "leadingInstitutionUuid": "e9b266c1-4aaf-4d2e-9c18-a679244f38a2"
+    },
