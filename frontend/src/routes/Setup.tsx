@@ -1,9 +1,11 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { RegionStep } from "./setup/RegionStep";
 import { StudiedStep } from "./setup/StudiedStep";
 import { StudyLevelStep } from "./setup/StudyLevelStep";
 import { InterestsStep } from "./setup/InterestsStep";
 import { useNavigate, useParams } from "react-router";
+import { useMutation } from "react-query";
+import { useDataStore } from "@/zustand";
 
 export interface StepProps {
     data: SetupData;
@@ -28,8 +30,7 @@ type Step =
 
 export function Setup() {
     const [step, setStep] = useState<Step>("studied");
-    const [data, setData] = useState<SetupData>({});
-    console.log(data, step);
+    const { data, setData } = useDataStore();
 
     return (
         <main className="flex h-full items-center justify-center">
@@ -46,11 +47,24 @@ export function Setup() {
 function CurrentStep(props: {
     data: SetupData;
     step: Step;
-    setData: React.Dispatch<React.SetStateAction<SetupData>>;
+    setData: (data: SetupData) => void;
     setStep: React.Dispatch<React.SetStateAction<Step>>;
 }) {
     const navigate = useNavigate();
     const { language } = useParams();
+    const mutation = useMutation(["setup"], () =>
+        fetch("/api/session", {
+            method: "POST",
+            body: JSON.stringify(props.data),
+            credentials: "include",
+        }),
+    );
+
+    useEffect(() => {
+        // @ts-expect-error dont care anymore
+        props.setData({ ...props.data, language });
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []);
 
     switch (props.step) {
         case "studied": {
@@ -94,8 +108,8 @@ function CurrentStep(props: {
             return (
                 <InterestsStep
                     data={props.data}
-                    onSubmit={(data) => {
-                        props.setData(data);
+                    onSubmit={async () => {
+                        await mutation.mutateAsync();
                         navigate(`/${language}/chat`);
                     }}
                 />

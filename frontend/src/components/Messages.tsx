@@ -1,33 +1,37 @@
 import { cn } from "@/lib/utils";
 import { UserCircleIcon } from "@heroicons/react/24/outline";
-import { useTextAnimation } from "@/hooks/useTextAnimation";
-import { useEffect, useRef, useState } from "react";
+import { ApiResponse, Message } from "@/routes/Chat";
+import { useMutation } from "react-query";
 
 interface Props {
-    data: Array<{
-        message: string;
-        actions?: string[];
-        type: "user" | "ai";
-    }>;
+    data: Message[] | undefined;
+    onSubmit: (userQuestion: Message) => void;
+    onResponse: (aiResponse: Message) => void;
 }
 export function Messages(props: Props) {
-    const ref = useRef<HTMLSpanElement>();
-    const completed = useTextAnimation(
-        ref.current!,
-        props.data[props.data.length - 1].message,
+    const submit = useMutation(() =>
+        fetch("/api/questions", {
+            method: "POST",
+            body: JSON.stringify({ answer: prompt }),
+        }),
     );
 
-    useEffect(() => {
-        const responses = document.querySelectorAll(".ai-response");
-        const lastResponse = responses[responses.length - 1] as
-            | HTMLSpanElement
-            | undefined;
-        ref.current = lastResponse;
-    }, [props.data]);
+    async function handleSubmit(answer: string) {
+        props.onSubmit({ message: answer, type: "user" });
+
+        const res = await submit.mutateAsync();
+        const json: ApiResponse = await res.json();
+
+        props.onResponse({
+            message: json.question.question,
+            type: "ai",
+            actions: json.question.answers,
+        });
+    }
 
     return (
         <div className="flex w-full flex-1 flex-col">
-            {props.data.map((response, i) => (
+            {props.data?.map((response, i) => (
                 <div
                     className={cn(
                         response.type === "ai" ? "bg-blue-100" : "",
@@ -39,7 +43,9 @@ export function Messages(props: Props) {
                         {response.type === "ai" ? (
                             <>
                                 <img className="h-8 w-8" src="/ai.gif" />
-                                <span className="ai-response"></span>
+                                <span className="ai-response">
+                                    {response.message}
+                                </span>
                             </>
                         ) : (
                             <>
@@ -51,12 +57,20 @@ export function Messages(props: Props) {
                         )}
                     </div>
                     {response.type === "ai" &&
-                        completed &&
                         response.actions?.map((el, i) => {
                             return (
                                 <button
                                     key={i}
-                                    className="ml-12 flex items-center justify-center rounded-xl border border-solid border-gray-400 px-4 py-3 hover:bg-blue-200"
+                                    disabled={
+                                        submit.isLoading || submit.isSuccess
+                                    }
+                                    className={cn(
+                                        "ml-12 flex items-center justify-center rounded-xl border border-solid border-gray-400 px-4 py-3",
+                                        // !(
+                                        //     submit.isLoading || submit.isSuccess
+                                        // ) && "hover:bg-blue-200",
+                                    )}
+                                    onClick={async () => await handleSubmit(el)}
                                 >
                                     {el}
                                 </button>

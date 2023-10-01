@@ -69,7 +69,10 @@ export function Homepage() {
                             size={"lg"}
                             variant={"secondary"}
                             className="flex gap-3 px-6 py-7 text-2xl font-medium"
-                            onClick={() => Cookies.remove("hackyeah")}
+                            onClick={() => {
+                                Cookies.remove("hackyeah");
+                                navigate("/");
+                            }}
                         >
                             {getTranslation("homepage_reset")}
                             <ArrowPathIcon className="w-6" />

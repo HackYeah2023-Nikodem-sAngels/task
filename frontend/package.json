@@ -27,7 +27,8 @@
     "react-router-dom": "^6.16.0",
     "react-textarea-autosize": "^8.5.3",
     "tailwind-merge": "^1.14.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "zustand": "^4.4.1"
   },
   "devDependencies": {
     "@types/js-cookie": "^3.0.4",
