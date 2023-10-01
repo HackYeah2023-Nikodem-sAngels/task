@@ -9,7 +9,7 @@ export function InterestsStep(props: StepProps) {
     const [entries, setEntries] = useState<string[]>([]);
 
     return (
-        <Card className="h-fit max-h-[75vh] overflow-auto p-8">
+        <Card className="flex h-fit max-h-[75vh] w-[400px] items-center justify-center overflow-auto p-8">
             <form
                 className="flex w-80 flex-col gap-4"
                 onSubmit={(e) => {
@@ -20,11 +20,12 @@ export function InterestsStep(props: StepProps) {
                     });
                 }}
             >
-                <h1 className="text-center text-xl font-medium">
+                <h1 className="text-center text-2xl font-medium">
                     Czym się interesujesz?
                 </h1>
-                <List value={entries} onChange={setEntries} />
-
+                <div className="mb-6 mt-4">
+                    <List value={entries} onChange={setEntries} />
+                </div>
                 <div className="flex justify-between">
                     <Button
                         className="flex gap-2 text-base"
