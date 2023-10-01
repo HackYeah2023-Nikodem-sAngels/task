@@ -9,7 +9,7 @@ export function InterestsStep(props: StepProps) {
     const [entries, setEntries] = useState<string[]>([]);
 
     return (
-        <Card className="flex h-fit max-h-[75vh] w-[400px] items-center justify-center overflow-auto p-8">
+        <Card className="flex h-fit max-h-[75vh] w-[400px] items-center justify-center overflow-auto p-8 opacity-80">
             <form
                 className="flex w-80 flex-col gap-4"
                 onSubmit={(e) => {

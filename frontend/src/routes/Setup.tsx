@@ -48,9 +48,7 @@ function CurrentStep(props: {
                     onSubmit={(data) => {
                         props.setData(data);
                         props.setStep(
-                            data.studyLevel === "1" ||
-                                data.studyLevel === "2" ||
-                                data.studyLevel === "1+2"
+                            data.studyLevel === "1" || data.studyLevel === "2"
                                 ? "studied/regions/level(1or2)-interests"
                                 : "studied/regions/level(3)-specialization",
                         );
@@ -82,7 +80,7 @@ export interface StepProps {
 
 export interface SetupData {
     regions?: string[];
-    studyLevel?: "1" | "2" | "3" | "1+2";
+    studyLevel?: "1" | "2" | "3";
     interests?: string[];
     // maturaResults?: string[];
     // futureSkills?: string[];

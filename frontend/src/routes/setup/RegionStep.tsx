@@ -9,7 +9,7 @@ export function RegionStep(props: StepProps) {
     const [regions, setRegions] = useState<string[]>([]);
 
     return (
-        <Card className="h-auto w-auto p-8 sm:h-[660px] sm:w-[540px] md:h-[720px] md:w-[640px]">
+        <Card className="h-auto w-auto p-8 opacity-80 sm:h-[660px] sm:w-[540px] md:h-[720px] md:w-[640px]">
             <form
                 className="flex h-full w-full flex-col gap-4"
                 onSubmit={(e) => {
@@ -21,7 +21,7 @@ export function RegionStep(props: StepProps) {
                 }}
             >
                 <h1 className="text-center text-2xl font-medium">
-                    Wybierz województwa twoich wymarzonych szkół
+                    Wybierz województwa uczelni
                 </h1>
                 <div className=" md:h-[calc(100% - 32px)] md:w-[calc(100% - 32px)] my-4">
                     <Map value={regions} onChange={setRegions} />

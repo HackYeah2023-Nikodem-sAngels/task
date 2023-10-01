@@ -10,14 +10,14 @@ export function StudyLevelStep(props: StepProps) {
     const [studyLevel, setStudyLevel] = useState("1");
 
     return (
-        <Card className="h-fit p-8">
+        <Card className="h-fit p-8 opacity-80">
             <form
                 className="flex flex-col gap-4"
                 onSubmit={(e) => {
                     e.preventDefault();
                     props.onSubmit({
                         ...props.data,
-                        studyLevel: studyLevel as "1" | "2" | "3" | "1+2",
+                        studyLevel: studyLevel as "1" | "2" | "3",
                     });
                 }}
             >
