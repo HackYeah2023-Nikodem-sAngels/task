@@ -14,8 +14,8 @@ import (
 var messageStart = "start"
 var messageSystemSetup = `
 you are a assistant that helps the user choose a major, by asking him personal questions
-you ALWAYS respond with a single question regarding the topic, and possible answers in separate lines, preceded by a number and a closing bracket
-NEVER provide any other type of response
+you ALWAYS respond with short major description generated from user's answers, FOLLOWED BY a single question regarding the topic, with AT LEAST 2 answers in separate lines, each starting with a number and a dot
+NEVER provide answer type of other
 
 ask about preferences, experience, interests
 
@@ -77,38 +77,67 @@ func (s *OpenAISession) ask(question string, role string, saveResponse bool) (st
 	return res.Content, nil
 }
 
-func (s *OpenAISession) getQuestion(question string) (t.Question, error) {
+func (s *OpenAISession) getQuestion(question string) ([]t.Major, t.Question, error) {
 	rawQuestion, err := s.ask(question, openai.ChatMessageRoleUser, true)
-	return ParseQuestion(rawQuestion), err
+	if err != nil {
+		return []t.Major{}, t.Question{}, err
+	}
+
+	perfectMajor, resQuestion := ParseResponse(rawQuestion)
+	return getRelatedMajors(perfectMajor), resQuestion, nil
 }
 
-func (s *OpenAISession) Start(startData t.BaseInformation, conf t.Config) (t.Question, error) {
+func (s *OpenAISession) Start(startData t.BaseInformation, conf t.Config) ([]t.Major, t.Question, error) {
 	var renderedTempl bytes.Buffer
 
 	err := conf.TEMPLATES.ExecuteTemplate(&renderedTempl, "firstMsg", startData)
 	fmt.Println(renderedTempl.String())
 	if err != nil {
-		return t.Question{}, err
+		return []t.Major{}, t.Question{}, err
 	}
 
 	return s.getQuestion(renderedTempl.String())
 }
 
-func (s *OpenAISession) AnswerAndGetNext(answer string, conf t.Config) (t.Question, error) {
+func (s *OpenAISession) AnswerAndGetNext(answer string, conf t.Config) ([]t.Major, t.Question, error) {
 	s.configData = conf
 	return s.getQuestion(answer)
 }
 
-func ParseQuestion(rawQuestion string) t.Question {
-	lines := strings.Split(rawQuestion, "\n")
+func ParseResponse(rawQuestion string) (string, t.Question) {
+	rlines := strings.Split(rawQuestion, "\n")
 
-	question := lines[0]
+	var lines []string
+	for _, line := range rlines[:] {
+		if line != "" {
+			lines = append(lines, line)
+		}
+	}
+
+	if len(lines) < 2 {
+		return lines[0], t.Question{}
+	}
+
+	startQuestion := 1
+	if lines[1][0] == '1' {
+		startQuestion = 0
+	}
+
+	question := lines[startQuestion]
 
 	var answers []string
-	for i, answer := range lines[1:] {
-		ans := strings.TrimPrefix(answer, fmt.Sprintf("%v) ", i+1))
+	for i, answer := range lines[startQuestion+1:] {
+		ans := strings.TrimPrefix(answer, fmt.Sprintf("%v. ", i+1))
 		answers = append(answers, ans)
 	}
 
-	return t.Question{question, answers}
+	if startQuestion == 1 {
+		return lines[0], t.Question{Question: question, Answers: answers}
+	} else {
+		return lines[1], t.Question{Question: question, Answers: answers}
+	}
+}
+
+func getRelatedMajors(major string) []t.Major {
+	return []t.Major{} // TODO: implement
 }

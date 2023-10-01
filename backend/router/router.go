@@ -15,6 +15,11 @@ import (
 	gpt "backend/gpt_api"
 )
 
+type Response struct {
+	Majors   []t.Major
+	Question t.Question
+}
+
 func CreateRouter(conf t.Config) (*gin.Engine, error) {
 	gob.Register(t.BaseInformation{})
 	gob.Register(gpt.OpenAISession{})
@@ -25,6 +30,29 @@ func CreateRouter(conf t.Config) (*gin.Engine, error) {
 	if err != nil {
 		return nil, err
 	}
+
+	r.GET("/justtesting", func(ctx *gin.Context) {
+		s, err := gpt.NewOpenAISession(conf)
+		if err != nil {
+			ctx.JSON(http.StatusServiceUnavailable, t.JsonErr{Message: "mati wez to jakos ogarnij na froncie bo gpt spadl z rowerka"})
+			return
+		}
+
+		baseData := t.BaseInformation{}
+		s.Start(baseData, conf)
+		if err != nil {
+			ctx.JSON(http.StatusServiceUnavailable, t.JsonErr{Message: "mati wez to jakos ogarnij na froncie bo gpt spadl z rowerka"})
+			return
+		}
+
+		Majors, Question, err := s.AnswerAndGetNext("1", conf)
+		if err != nil {
+			ctx.JSON(http.StatusServiceUnavailable, t.JsonErr{Message: "mati wez to jakos ogarnij na froncie bo gpt spadl z rowerka"})
+			return
+		}
+
+		ctx.JSON(http.StatusOK, Response{Majors, Question})
+	})
 
 	r.Use(sessions.Sessions("hackyeah", store))
 
@@ -59,7 +87,7 @@ func CreateRouter(conf t.Config) (*gin.Engine, error) {
 			return
 		}
 
-		res, err := s.Start(baseData, conf)
+		majors, question, err := s.Start(baseData, conf)
 		if err != nil {
 			ctx.JSON(http.StatusServiceUnavailable, t.JsonErr{Message: "mati wez to jakos ogarnij na froncie bo gpt spadl z rowerka"})
 			return
@@ -68,7 +96,7 @@ func CreateRouter(conf t.Config) (*gin.Engine, error) {
 		session.Set("chatData", s)
 		session.Save()
 
-		ctx.JSON(http.StatusOK, res)
+		ctx.JSON(http.StatusOK, Response{majors, question})
 	})
 
 	r.POST("/api/questions", func(ctx *gin.Context) {
@@ -84,7 +112,7 @@ func CreateRouter(conf t.Config) (*gin.Engine, error) {
 			return
 		}
 
-		res, err := chatData.AnswerAndGetNext(json.Answer, conf)
+		majors, question, err := chatData.AnswerAndGetNext(json.Answer, conf)
 		if err != nil {
 			log.Println(err)
 			ctx.JSON(http.StatusServiceUnavailable, t.JsonErr{Message: "mati wez to jakos ogarnij na froncie bo gpt spadl z rowerka"})
@@ -94,7 +122,7 @@ func CreateRouter(conf t.Config) (*gin.Engine, error) {
 		session.Set("chatData", chatData)
 		session.Save()
 
-		ctx.JSON(http.StatusOK, res)
+		ctx.JSON(http.StatusOK, Response{majors, question})
 	})
 
 	return r, nil
