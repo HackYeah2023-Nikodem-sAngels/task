@@ -103,7 +103,7 @@ export function Setup() {
     console.log(data, step);
 
     return (
-        <main className="grid grid-rows-[5rem_1rem] justify-center">
+        <main className="flex h-full w-full items-center justify-center sm:grid sm:grid-rows-[5rem_1rem] sm:items-baseline sm:justify-center">
             <CurrentStep
                 data={data}
                 step={step}
