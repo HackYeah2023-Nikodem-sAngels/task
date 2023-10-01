@@ -5,9 +5,15 @@ import { useState } from "react";
 import { List } from "@/components/List";
 import { Card } from "@/components/ui/card";
 import { useTranslation } from "@/hooks/useTranslation";
+import { Loader } from "@/components/Loader";
 
-export function InterestsStep(props: StepProps) {
+export function InterestsStep(
+    props: StepProps & {
+        loading: boolean;
+    },
+) {
     const [entries, setEntries] = useState<string[]>([]);
+    const [whichButton, setWhichButton] = useState<"next" | "skip">();
     const translate = useTranslation();
 
     return (
@@ -16,6 +22,7 @@ export function InterestsStep(props: StepProps) {
                 className="flex w-80 flex-col gap-4"
                 onSubmit={(e) => {
                     e.preventDefault();
+                    setWhichButton("next");
                     props.onSubmit({
                         ...props.data,
                         interests: entries,
@@ -32,17 +39,25 @@ export function InterestsStep(props: StepProps) {
                     <Button
                         className="flex gap-2 text-base"
                         variant={"secondary"}
-                        onClick={() => props.onSubmit(props.data)}
+                        disabled={props.loading}
+                        onClick={() => {
+                            setWhichButton("skip");
+                            props.onSubmit(props.data);
+                        }}
                     >
                         {translate("skip")}
+                        {props.loading && whichButton === "skip" && <Loader />}
                     </Button>
                     <Button
-                        disabled={entries.length === 0}
+                        disabled={entries.length === 0 || props.loading}
                         className="ml-auto flex gap-2 text-base"
                         type="submit"
                     >
                         {translate("next")}
-                        <ArrowRightIcon className="w-4" />
+                        {!props.loading && whichButton === "next" && (
+                            <ArrowRightIcon className="w-4" />
+                        )}
+                        {props.loading && whichButton === "next" && <Loader />}
                     </Button>
                 </div>
             </form>

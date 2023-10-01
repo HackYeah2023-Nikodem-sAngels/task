@@ -124,6 +124,7 @@ function CurrentStep(props: {
                         );
                         navigate(`/${language}/chat`, { replace: true });
                     }}
+                    loading={mutation.isLoading}
                 />
             );
         }
