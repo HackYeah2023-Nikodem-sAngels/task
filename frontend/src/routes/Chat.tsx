@@ -6,7 +6,7 @@ export function Chat() {
     return (
         <div className="flex h-full">
             <div className="grid-row mx-auto grid h-full gap-4 md:w-[680px] md:grid-cols-[5fr_2fr] lg:w-[940px] xl:w-[1200px]">
-                <Card className="order-1 mx-auto flex h-[480px] max-h-full flex-col gap-4 overflow-y-scroll sm:w-[60ch] md:h-auto md:w-[52ch] lg:w-[72ch] xl:w-[92ch]">
+                <Card className="order-1 mx-auto flex h-[480px] max-h-full flex-col gap-4 overflow-y-auto sm:w-[60ch] md:h-auto md:w-[52ch] lg:w-[72ch] xl:w-[92ch]">
                     <Messages
                         data={[
                             {
@@ -35,7 +35,7 @@ export function Chat() {
                 {/*     className="-m-4 text-gray-400 hover:text-gray-800 hover:cursor-col-resize" */}
                 {/* /> */}
 
-                <Card className="overflow-y-scroll p-6 md:order-1">
+                <Card className="overflow-y-auto p-6 md:order-1">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Hic repellat maiores esse ex, officia mollitia itaque dolor.
                     Tenetur ut sunt debitis, quasi, quos eligendi neque laborum
