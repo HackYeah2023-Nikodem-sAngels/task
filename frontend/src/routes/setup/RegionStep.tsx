@@ -9,7 +9,7 @@ export function RegionStep(props: StepProps) {
     const [regions, setRegions] = useState<string[]>([]);
 
     return (
-        <Card className="h-auto w-auto p-8 sm:h-[680px] sm:w-[540px] md:h-[800px] md:w-[720px]">
+        <Card className="h-auto w-auto p-8 sm:h-[660px] sm:w-[540px] md:h-[740px] md:w-[660px]">
             <form
                 className="flex h-full w-full flex-col gap-4"
                 onSubmit={(e) => {
