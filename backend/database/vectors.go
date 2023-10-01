@@ -110,7 +110,7 @@ func GetScoresL2(inf t.BaseInformation, vector mat.Vector) ([]courseScore, error
 
 		return scores, nil
 	} else {
-		query = `SELECT id, vector FROM studia_zwykle 
+		query = `SELECT id, vector::text FROM studia_zwykle 
         WHERE vector IS NOT NULL
         AND lang = $1
         AND degree = $2`
@@ -165,7 +165,7 @@ func GetScoresL3(inf t.BaseInformation, vector mat.Vector) ([]courseScore, error
 		scores []courseScore
 	)
 	if len(inf.Regions) != 0 {
-		query = `SELECT id, school_name, vector FROM studia_doktoranckie
+		query = `SELECT id, school_name, vector::text FROM studia_doktoranckie
         WHERE vector IS NOT NULL
         AND lang = $1
         AND voivodeship IN ($2)`
@@ -212,7 +212,7 @@ func GetScoresL3(inf t.BaseInformation, vector mat.Vector) ([]courseScore, error
 
 		return scores, nil
 	} else {
-		query = "SELECT id, vector FROM studia_zwykle WHERE vector IS NOT NULL AND lang = $1"
+		query = "SELECT id, vector::text FROM studia_doktoranckie WHERE vector IS NOT NULL AND lang = $1"
 
 		rows, err := DB.Query(query, inf.Language)
 		if err != nil {
