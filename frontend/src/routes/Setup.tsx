@@ -84,11 +84,11 @@ export interface SetupData {
     regions?: string[];
     studyLevel?: "1" | "2" | "3" | "1+2";
     interests?: string[];
-    maturaResults?: string[];
-    futureSkills?: string[];
-    specialization?: string;
+    // maturaResults?: string[];
+    // futureSkills?: string[];
+    // specialization?: string;
     language?: "pl" | "en";
-    lastStudies?: string;
+    // lastStudies?: string;
 }
 type Step =
     | "studied"

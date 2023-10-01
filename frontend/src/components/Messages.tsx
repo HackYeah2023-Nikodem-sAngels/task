@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 import { UserCircleIcon } from "@heroicons/react/24/outline";
 import { useTextAnimation } from "@/hooks/useTextAnimation";
-import React, { useRef } from "react";
+import { useRef } from "react";
 
 interface Props {
     data: Array<{

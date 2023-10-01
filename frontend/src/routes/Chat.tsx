@@ -1,8 +1,19 @@
 import { Prompt } from "@/components/Prompt";
 import { Messages } from "@/components/Messages";
 import { Card } from "@/components/ui/card";
+import Cookies from "js-cookie";
+import { useNavigate } from "react-router";
+import { useEffect } from "react";
 
 export function Chat() {
+    const navigate = useNavigate();
+    useEffect(() => {
+        if (!Cookies.get("hackyeah")) {
+            navigate("/");
+        }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []);
+
     return (
         <div className="flex h-full">
             <div className="grid-row mx-auto grid h-full gap-4 md:w-[680px] md:grid-cols-[5fr_2fr] lg:w-[940px] xl:w-[1200px]">
