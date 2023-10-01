@@ -1,0 +1,26 @@
+{{ define "firstMsg" }}
+{{ if not .NoInterests }}
+I am a person who is interested in: {{ range $_, $int := .Interests }}
+- {{ $int }}{{ end }}
+{{ end }}
+
+{{ if not .NoMaturaResults }}
+My matura results are as follows: {{ range $_, $res := .MaturaResults}}
+- {{ $res.Subject }}{{ if $res.Score }}: {{ $res.Score }} out of 100{{ end }}{{end}}
+{{ end }}
+
+{{ if not .NoFutureSkills }}
+In the future I would like to be able to perform such things: {{ range $_, $skill := .FutureSkills }}
+- {{ $skill }}{{ end }}
+{{ end }}
+
+{{ if .LastStudies }}
+My previous studies were {{ .LastStudies }}
+{{ end }}
+
+{{ if .Specialization }}
+I would like to get a PhD in {{ .Specialization }} 
+{{ end }}
+
+[start] ({{ .Language }})
+{{ end }}

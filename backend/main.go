@@ -1,18 +1,42 @@
 package main
 
 import (
-	// "github.com/gin-contrib/sessions"
-	// "github.com/gin-contrib/sessions/postgres"
-	"github.com/gin-gonic/gin"
-	"net/http"
+	db "backend/database"
+	r "backend/router"
+	t "backend/types"
+	"log"
+	"text/template"
+
+	"github.com/caarlos0/env/v9"
+	"github.com/joho/godotenv"
 )
 
 func main() {
-	r := gin.Default()
+	err := godotenv.Load()
+	if err != nil {
+		log.Fatalf("Error loading environmental variables:\n%v", err)
+	}
 
-	r.NoRoute(func(ctx *gin.Context) {
-		ctx.String(http.StatusNotFound, "404")
-	})
+	conf := t.Config{}
+	err = env.Parse(&conf)
+	if err != nil {
+		log.Fatalf("Error parsing environmental variables:\n%v", err)
+	}
 
-	r.Run()
+	conf.TEMPLATES, err = template.ParseFiles("./gpt_api/system_msg.tmpl")
+	if err != nil {
+		log.Fatalf("Error parsing templates:\n%v", err)
+	}
+
+	err = db.InitConnection(conf)
+	if err != nil {
+		log.Fatalf("Error connecting to database:\n%v", err)
+	}
+
+	router, err := r.CreateRouter(conf)
+	if err != nil {
+		log.Fatalf("Error creating web server:\n%v", err)
+	}
+
+	router.Run()
 }
