@@ -69,34 +69,32 @@ const voivodeships = [
 
 export function Map(props: FormFieldProps<string[]>) {
     return (
-        <div className="h-96 w-96">
-            <svg viewBox="5 0 497 463">
-                {voivodeships.map((el, index) => {
-                    return (
-                        <path
-                            key={index}
-                            d={el.path}
-                            onClick={() => {
-                                if (props.value.includes(el.name)) {
-                                    props.onChange(
-                                        props.value.filter(
-                                            (current) => current !== el.name,
-                                        ),
-                                    );
-                                } else {
-                                    props.onChange([...props.value, el.name]);
-                                }
-                            }}
-                            className={cn(
-                                props.value.includes(el.name)
-                                    ? "fill-blue-400"
-                                    : "fill-gray-200 hover:fill-blue-200",
-                                "hover:cursor-pointer",
-                            )}
-                        />
-                    );
-                })}
-            </svg>
-        </div>
+        <svg viewBox="0 0 497 463">
+            {voivodeships.map((el, index) => {
+                return (
+                    <path
+                        key={index}
+                        d={el.path}
+                        onClick={() => {
+                            if (props.value.includes(el.name)) {
+                                props.onChange(
+                                    props.value.filter(
+                                        (current) => current !== el.name,
+                                    ),
+                                );
+                            } else {
+                                props.onChange([...props.value, el.name]);
+                            }
+                        }}
+                        className={cn(
+                            props.value.includes(el.name)
+                                ? "fill-blue-400"
+                                : "fill-gray-200 hover:fill-blue-200",
+                            "hover:cursor-pointer",
+                        )}
+                    />
+                );
+            })}
+        </svg>
     );
 }
