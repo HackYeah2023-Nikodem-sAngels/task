@@ -6,12 +6,12 @@ export function Chat() {
     return (
         <div className="flex h-full">
             <div className="grid-row mx-auto grid h-full gap-4 md:w-[680px] md:grid-cols-[5fr_2fr] lg:w-[940px] xl:w-[1200px]">
-                <Card className="order-1 mx-auto flex max-h-full flex-col gap-4 overflow-scroll sm:w-[60ch] md:w-[52ch] lg:w-[72ch] xl:w-[92ch]">
+                <Card className="order-1 mx-auto flex h-[480px] max-h-full flex-col gap-4 overflow-scroll sm:w-[60ch] md:h-auto md:w-[52ch] lg:w-[72ch] xl:w-[92ch]">
                     <Messages
                         data={[
                             {
                                 message:
-                                    "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+                                    "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.orem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat. Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.orem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat. Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.orem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat. Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.orem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat. Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.orem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat. Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.orem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat. Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.orem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat. Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.orem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat. Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
                                 type: "ai",
                                 actions: [
                                     "napisz mi mega skompliklopwany esej ale taki serio dobry",
