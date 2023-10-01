@@ -38,7 +38,7 @@ export function Homepage() {
                         <ArrowRightIcon className="w-6" />
                     </Button>
 
-                    {!authed && (
+                    {authed && (
                         <Button
                             size={"lg"}
                             variant={"secondary"}

@@ -68,3 +68,16 @@
         @apply bg-background text-foreground;
     }
 }
+
+#bg {
+    background: url("/bg.jpeg") center -35vh fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    filter: blur(2rem);
+    transform: rotate(90deg) scale(2);
+    opacity: 0.65;
+}
