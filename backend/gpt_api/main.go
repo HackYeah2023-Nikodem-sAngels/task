@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"context"
 	"fmt"
+	"net/http"
 	"strings"
 
 	t "backend/types"
@@ -139,5 +140,38 @@ func ParseResponse(rawQuestion string) (string, t.Question) {
 }
 
 func getRelatedMajors(major string) []t.Major {
-	return []t.Major{} // TODO: implement
+	url := "http://localhost:3333/" // TODO: CHANGE TO ENVVAR!!!!!!
+	postData := []byte(major)
+
+	req, err := http.NewRequest("POST", url, bytes.NewBuffer(postData))
+	if err != nil {
+		return []t.Major{}
+	}
+
+	req.Header.Set("Content-Type", "text/plain")
+	client := &http.Client{}
+
+	resp, err := client.Do(req)
+	if err != nil {
+		fmt.Println("Error sending request:", err)
+		return []t.Major{}
+	}
+
+	defer resp.Body.Close()
+
+	if resp.StatusCode != http.StatusOK {
+		return []t.Major{}
+	}
+
+	responseBody := make([]byte, 1024)
+	n, err := resp.Body.Read(responseBody)
+	if err != nil {
+		return []t.Major{}
+	}
+
+	embedding := string(responseBody[:n])
+
+	fmt.Printf("Embedding: %v\n", embedding)
+
+	return []t.Major{}
 }
