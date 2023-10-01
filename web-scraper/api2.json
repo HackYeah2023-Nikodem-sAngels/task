@@ -1,0 +1,1464 @@
+{
+  "list": [
+    {
+      "name": "Akademia Ateneum w GdaĹsku",
+      "id": "9df5f47b-8e7f-4055-b23b-a776deb2eb40"
+    },
+    {
+      "name": "Akademia Bialska im. Jana PawĹa II",
+      "id": "e00984ad-9132-466e-bf83-83672b170fe6"
+    },
+    {
+      "name": "Akademia Ekonomiczno-Humanistyczna w Warszawie",
+      "id": "e1097367-29b7-4d04-9637-026720d2f09a"
+    },
+    {
+      "name": "Akademia FinansĂłw i Biznesu Vistula",
+      "id": "8f073cfe-e8b7-489f-ae4d-4467907f97b9"
+    },
+    {
+      "name": "Akademia GĂłrniczo-Hutnicza im. StanisĹawa Staszica w Krakowie",
+      "id": "6f6d264f-3407-4244-a944-3f10d1adcfea"
+    },
+    {
+      "name": "Akademia GĂłrnoĹlÄska im. Wojciecha Korfantego w Katowicach",
+      "id": "e7086a5a-33b8-4ba7-a79f-f1d920217ec7"
+    },
+    {
+      "name": "Akademia Handlowa Nauk Stosowanych w Radomiu",
+      "id": "2809fa46-9712-49e6-bcf9-692adeb6ae1e"
+    },
+    {
+      "name": "Akademia Humanistyczno-Ekonomiczna w Ĺodzi",
+      "id": "b901bb1e-694e-47ea-81a8-1e021604f3c3"
+    },
+    {
+      "name": "Akademia Humanitas",
+      "id": "f42372d8-5606-4020-a40a-54d7e98cd1b0"
+    },
+    {
+      "name": "Akademia Ignatianum w Krakowie",
+      "id": "63526c4a-28c5-4cfd-9a26-c03edc162281"
+    },
+    {
+      "name": "Akademia im. Jakuba z ParadyĹźa",
+      "id": "933338ec-75f9-41e7-9d2d-ffe8d5184ced"
+    },
+    {
+      "name": "Akademia JagielloĹska w Toruniu",
+      "id": "29e61bbc-f3e5-4be3-abc8-f29986fdb39d"
+    },
+    {
+      "name": "Akademia Kaliska im. Prezydenta StanisĹawa Wojciechowskiego",
+      "id": "9948a4c5-6e16-46af-a997-fba278073f89"
+    },
+    {
+      "name": "Akademia Katolicka w Warszawie",
+      "id": "d3c05465-3b8b-4035-970b-d2f6849108a2"
+    },
+    {
+      "name": "Akademia Kujawsko-Pomorska",
+      "id": "e3fcebbc-1776-45b4-8f1b-612904645b5c"
+    },
+    {
+      "name": "Akademia Kultury SpoĹecznej i Medialnej w Toruniu - Akademia Nauk Stosowanych",
+      "id": "1bdb96f1-8adb-4d5c-a528-58a9477ee99d"
+    },
+    {
+      "name": "Akademia Leona KoĹşmiĹskiego w Warszawie",
+      "id": "de35ce1a-a271-44a0-85dc-f5a6ef65aced"
+    },
+    {
+      "name": "Akademia ĹomĹźyĹska",
+      "id": "ee50f9cb-34ec-4f7a-a739-c0e92a1a6abc"
+    },
+    {
+      "name": "Akademia Marynarki Wojennej im. BohaterĂłw Westerplatte",
+      "id": "606c1392-918a-4d76-b820-49cd0fef3d9e"
+    },
+    {
+      "name": "Akademia Mazowiecka w PĹocku",
+      "id": "e5d4401b-62dc-42ba-9e07-06ae1ce91566"
+    },
+    {
+      "name": "Akademia Medycznych i SpoĹecznych Nauk Stosowanych",
+      "id": "04efbb5d-8f31-4101-858a-305b6cd6de6c"
+    },
+    {
+      "name": "Akademia Muzyczna im. Feliksa Nowowiejskiego w Bydgoszczy",
+      "id": "ab4784d4-4bc4-4fd7-a45e-6ef2e93c20d2"
+    },
+    {
+      "name": "Akademia Muzyczna im. GraĹźyny i Kiejstuta BacewiczĂłw w Ĺodzi",
+      "id": "5e0736ec-e3e8-4b08-b7e0-8f69c357047d"
+    },
+    {
+      "name": "Akademia Muzyczna im. Ignacego Jana Paderewskiego w Poznaniu",
+      "id": "0da873ab-5adc-47ba-b785-6f7f35dd916a"
+    },
+    {
+      "name": "Akademia Muzyczna im. Karola LipiĹskiego we WrocĹawiu",
+      "id": "f60b3ca5-6391-415f-b354-80ab0850e8c3"
+    },
+    {
+      "name": "Akademia Muzyczna im. Karola Szymanowskiego w Katowicach",
+      "id": "fa1d6826-0bd8-4aca-ab25-cb3c2d30f4ba"
+    },
+    {
+      "name": "Akademia Muzyczna im. Krzysztofa Pendereckiego w Krakowie",
+      "id": "a2e66fab-dbd7-4173-9028-676eba7ed09b"
+    },
+    {
+      "name": "Akademia Muzyczna im. StanisĹawa Moniuszki w GdaĹsku",
+      "id": "433fc5d3-4967-42e7-bc10-d1ac51c0acdf"
+    },
+    {
+      "name": "Akademia Nauk SpoĹecznych i Medycznych w Lublinie - Akademia Nauk Stosowanych",
+      "id": "19874cd5-e99b-491f-98f5-16469bfe76ed"
+    },
+    {
+      "name": "Akademia Nauk Stosowanych Angelusa Silesiusa",
+      "id": "327f082d-edf1-428e-a1b2-b0b16461f50a"
+    },
+    {
+      "name": "Akademia Nauk Stosowanych Gospodarki Krajowej w Kutnie",
+      "id": "74cb0a8c-71b1-4a0e-87ea-ce2552962efa"
+    },
+    {
+      "name": "Akademia Nauk Stosowanych im. Hipolita Cegielskiego w GnieĹşnie Uczelnia PaĹstwowa",
+      "id": "ed5140f5-264b-4bca-bb2f-8b03c6a0b354"
+    },
+    {
+      "name": "Akademia Nauk Stosowanych im. Jana Amosa KomeĹskiego w Lesznie",
+      "id": "055755b9-d8a7-4744-b753-c6144b2f4664"
+    },
+    {
+      "name": "Akademia Nauk Stosowanych im. JĂłzefa GoĹuchowskiego",
+      "id": "b434c938-dd25-431e-a1ce-2dbcf2eecb21"
+    },
+    {
+      "name": "Akademia Nauk Stosowanych im. KsiÄcia Mieszka I w Poznaniu",
+      "id": "fdeeacb5-f8b9-4ce8-9191-8e39d825ca9e"
+    },
+    {
+      "name": "Akademia Nauk Stosowanych im. prof. Edwarda LipiĹskiego w Kielcach",
+      "id": "88343fa9-834d-44ff-9fd7-f492bbb9b950"
+    },
+    {
+      "name": "Akademia Nauk Stosowanych im. StanisĹawa Staszica w Pile",
+      "id": "b78886dd-41dc-4ad9-ac86-0909d22479f5"
+    },
+    {
+      "name": "Akademia Nauk Stosowanych Mazovia",
+      "id": "6872e134-edfe-423e-acfd-87c7b7ccf622"
+    },
+    {
+      "name": "Akademia Nauk Stosowanych Stefana Batorego",
+      "id": "b06bec69-6851-4f6c-9ab8-5d34af6fc464"
+    },
+    {
+      "name": "Akademia Nauk Stosowanych Towarzystwa Wiedzy Powszechnej w Szczecinie",
+      "id": "532df8e8-edde-47d2-9220-5fddd5eaccfc"
+    },
+    {
+      "name": "Akademia Nauk Stosowanych w ElblÄgu",
+      "id": "a423679a-fbec-4102-8778-8e428c62f591"
+    },
+    {
+      "name": "Akademia Nauk Stosowanych we WrocĹawiu",
+      "id": "77caa60d-9d45-4953-8dd1-8c2a5d3c2657"
+    },
+    {
+      "name": "Akademia Nauk Stosowanych Wincentego Pola w Lublinie",
+      "id": "b55e9bb1-f4d6-43eb-9df9-b8122838f494"
+    },
+    {
+      "name": "Akademia Nauk Stosowanych w Koninie",
+      "id": "da5435b4-64fe-4832-9d92-17d94307a713"
+    },
+    {
+      "name": "Akademia Nauk Stosowanych w Nowym SÄczu",
+      "id": "fde3e38c-3668-4cda-be4c-780a9e834b9d"
+    },
+    {
+      "name": "Akademia Nauk Stosowanych w Raciborzu",
+      "id": "fab7ca49-de3d-4983-8085-90d86781b6bb"
+    },
+    {
+      "name": "Akademia Nauk Stosowanych w WaĹczu",
+      "id": "6958f4b6-7970-4fcd-87f0-71bc4c1e06a9"
+    },
+    {
+      "name": "Akademia Nauk Stosowanych - WyĹźsza SzkoĹa ZarzÄdzania i Administracji w Opolu",
+      "id": "c5981b93-e1cc-4aaa-a193-e633c47d1cc1"
+    },
+    {
+      "name": "Akademia Pedagogiki Specjalnej im. Marii Grzegorzewskiej w Warszawie",
+      "id": "15b7fa26-da1d-4fc1-b3a8-88baa8d07878"
+    },
+    {
+      "name": "Akademia Piotrkowska",
+      "id": "0a42faf6-fef4-4ff6-814f-6d1209697b88"
+    },
+    {
+      "name": "Akademia Policji w Szczytnie",
+      "id": "6b51f490-2cda-48a2-af1c-0cc00d6bccc9"
+    },
+    {
+      "name": "Akademia Polonijna w CzÄstochowie",
+      "id": "3defc9e5-ae66-45db-8fed-01b7acf6c013"
+    },
+    {
+      "name": "Akademia PoĹźarnicza",
+      "id": "7b58215b-3c2d-482a-8d94-6a696ee01308"
+    },
+    {
+      "name": "Akademia ĹlÄska",
+      "id": "de04cfc1-f0cb-42b6-9942-3b50b6bc6688"
+    },
+    {
+      "name": "Akademia Sztuki Wojennej",
+      "id": "4cf4e1df-86e0-4966-8e50-e91f8f36dcff"
+    },
+    {
+      "name": "Akademia Sztuki w Szczecinie",
+      "id": "48d6ce3a-0748-48d0-9521-5d1967273151"
+    },
+    {
+      "name": "Akademia Sztuk PiÄknych im. Eugeniusza Gepperta we WrocĹawiu",
+      "id": "6dcd4d54-42fc-42b8-ade0-8f4d95c247b7"
+    },
+    {
+      "name": "Akademia Sztuk PiÄknych im. Jana Matejki w Krakowie",
+      "id": "c8285ee2-0587-44ef-9f99-7d35585034ea"
+    },
+    {
+      "name": "Akademia Sztuk PiÄknych im. WĹadysĹawa StrzemiĹskiego w Ĺodzi",
+      "id": "a8e1375e-e52d-4f50-a2f1-af09c217142f"
+    },
+    {
+      "name": "Akademia Sztuk PiÄknych w GdaĹsku",
+      "id": "a84c385a-33b9-4768-b3ed-55866b9bb2bc"
+    },
+    {
+      "name": "Akademia Sztuk PiÄknych w Katowicach",
+      "id": "74cd55fd-2958-4387-974d-1e7e3ab6abc9"
+    },
+    {
+      "name": "Akademia Sztuk PiÄknych w Warszawie",
+      "id": "23d91121-551e-41cd-adc0-e987e086ce71"
+    },
+    {
+      "name": "Akademia Sztuk Teatralnych im. StanisĹawa WyspiaĹskiego w Krakowie",
+      "id": "1cf2a5af-bd56-4294-8e65-a76297ccd2c2"
+    },
+    {
+      "name": "Akademia Tarnowska",
+      "id": "378bf3fa-b8b8-4bfc-8b99-34a1db4eb6d1"
+    },
+    {
+      "name": "Akademia Teatralna im. Aleksandra Zelwerowicza w Warszawie",
+      "id": "9b784462-5438-48f1-8293-6190d205dd08"
+    },
+    {
+      "name": "Akademia Wojsk LÄdowych imienia generaĹa Tadeusza KoĹciuszki",
+      "id": "2f58a7eb-a113-4f7a-967f-b132f8822542"
+    },
+    {
+      "name": "Akademia WSB",
+      "id": "1e297b31-e2e3-443f-9d6b-59f578a57139"
+    },
+    {
+      "name": "Akademia Wychowania Fizycznego im. BronisĹawa Czecha w Krakowie",
+      "id": "2f297e86-680f-4b1a-843b-b29a230919a4"
+    },
+    {
+      "name": "Akademia Wychowania Fizycznego im. Eugeniusza Piaseckiego w Poznaniu",
+      "id": "cf6825d1-fa6e-454b-a316-6ece6573fafb"
+    },
+    {
+      "name": "Akademia Wychowania Fizycznego im. Jerzego Kukuczki w Katowicach",
+      "id": "55c024f0-c7ef-4444-9f92-44d5aa36a8a4"
+    },
+    {
+      "name": "Akademia Wychowania Fizycznego im. Polskich OlimpijczykĂłw we WrocĹawiu",
+      "id": "967edca2-6301-426d-90d4-74ff8f737387"
+    },
+    {
+      "name": "Akademia Wychowania Fizycznego i Sportu im. JÄdrzeja Ĺniadeckiego w GdaĹsku",
+      "id": "dd5905aa-7f8d-473c-85f8-ab10604dcfc5"
+    },
+    {
+      "name": "Akademia Wychowania Fizycznego JĂłzefa PiĹsudskiego w Warszawie",
+      "id": "39d8a574-bb33-4591-9cdc-fa2a31dedf31"
+    },
+    {
+      "name": "Akademia Wymiaru SprawiedliwoĹci",
+      "id": "dadda683-ed37-4527-af22-26bb3e2786a6"
+    },
+    {
+      "name": "Akademia Zamojska",
+      "id": "a941c2b3-18a1-49e0-8eb5-17f80570df51"
+    },
+    {
+      "name": "Bielska WyĹźsza SzkoĹa im. JĂłzefa Tyszkiewicza w Bielsku-BiaĹej",
+      "id": "b30f1a52-0958-4cee-8e7f-4226f48f7051"
+    },
+    {
+      "name": "Bydgoska SzkoĹa WyĹźsza w Bydgoszczy",
+      "id": "7588488f-6f75-499d-a53f-557c0b10ac7d"
+    },
+    {
+      "name": "Centrum Medyczne KsztaĹcenia Podyplomowego w Warszawie",
+      "id": "d42bc24d-986b-4665-84a6-26d821aa2074"
+    },
+    {
+      "name": "ChrzeĹcijaĹska Akademia Teologiczna w Warszawie",
+      "id": "a49a8b74-f8a3-419b-a680-688aaab718cb"
+    },
+    {
+      "name": "Collegium Balticum - Akademia Nauk Stosowanych z siedzibÄ w Szczecinie",
+      "id": "565b5c32-595a-4978-b157-36b4d314e6c8"
+    },
+    {
+      "name": "Collegium Civitas w Warszawie",
+      "id": "65d51a01-b4eb-4048-b55b-5934089b3b71"
+    },
+    {
+      "name": "Collegium Da Vinci z siedzibÄ w Poznaniu",
+      "id": "103012b5-5d2b-4f8e-b8aa-e3776571ac91"
+    },
+    {
+      "name": "Collegium Humanum - SzkoĹa GĹĂłwna MenedĹźerska",
+      "id": "1cf94355-ba60-4e70-a22d-35320a984b81"
+    },
+    {
+      "name": "Collegium Masoviense - WyĹźsza SzkoĹa Nauk o Zdrowiu w Ĺťyrardowie",
+      "id": "a6f1472b-5656-4d65-a85d-c4414e55be8b"
+    },
+    {
+      "name": "Collegium Verum",
+      "id": "20e751d4-9897-4c01-b5e9-7f13fbc47755"
+    },
+    {
+      "name": "Collegium Witelona Uczelnia PaĹstwowa",
+      "id": "6dbd6b8e-a9d9-4647-994c-c8cee4a113ca"
+    },
+    {
+      "name": "Europejska Uczelnia SpoĹeczno-Techniczna im. SĹugi BoĹźego Roberta Schumana",
+      "id": "416f1db7-5148-4cf1-abcd-c44593dc8fcd"
+    },
+    {
+      "name": "Europejska Uczelnia w Warszawie",
+      "id": "80ec3ecc-26eb-45d3-881f-4d7e868701d6"
+    },
+    {
+      "name": "Europejska WyĹźsza SzkoĹa Prawa i Administracji w Warszawie",
+      "id": "57b6f81b-70b2-4149-8843-b879c374ae39"
+    },
+    {
+      "name": "Ewangelikalna WyĹźsza SzkoĹa Teologiczna",
+      "id": "43404389-4c85-4d26-9c23-efac62ae23b0"
+    },
+    {
+      "name": "GdaĹska SzkoĹa WyĹźsza z siedzibÄ w GdaĹsku",
+      "id": "532b25b8-8fcc-46ab-a93f-1ca781f31151"
+    },
+    {
+      "name": "GdaĹska WyĹźsza SzkoĹa Humanistyczna",
+      "id": "4941c6ed-6646-4ca8-a845-5fe29cca2100"
+    },
+    {
+      "name": "GdaĹski Uniwersytet Medyczny",
+      "id": "d9259bdd-3787-43fd-ae51-e27899630f3e"
+    },
+    {
+      "name": "GnieĹşnieĹska SzkoĹa WyĹźsza Milenium z siedzibÄ w GnieĹşnie",
+      "id": "473e03e5-1e5f-4a26-9d5d-a1e21be6f192"
+    },
+    {
+      "name": "GĂłrnoĹlÄska WyĹźsza SzkoĹa PrzedsiÄbiorczoĹci im. Karola Goduli w Chorzowie",
+      "id": "84792369-45e9-49c0-b95f-6c9f6dfb6021"
+    },
+    {
+      "name": "Instytut Teologiczny im. bĹ. Wincentego KadĹubka w Sandomierzu",
+      "id": "dfa26335-5621-4a94-9189-3fcff1691975"
+    },
+    {
+      "name": "Instytut Teologiczny im. Ĺw. Jana Kantego w Bielsku-BiaĹej",
+      "id": "c24d4e2b-3188-4504-afa0-376822bd2477"
+    },
+    {
+      "name": "Karkonoska Akademia Nauk Stosowanych w Jeleniej GĂłrze",
+      "id": "3dd38d1a-644a-49f8-8555-6a6844460dd6"
+    },
+    {
+      "name": "Kaszubsko-Pomorska SzkoĹa WyĹźsza w Wejherowie",
+      "id": "0a82ef6d-4c59-4626-ac15-b22194a5a28d"
+    },
+    {
+      "name": "Katolicki Uniwersytet Lubelski Jana PawĹa II w Lublinie",
+      "id": "cf4ab844-ac8b-4789-b873-00dfd3051273"
+    },
+    {
+      "name": "KoszaliĹska WyĹźsza SzkoĹa Nauk Humanistycznych w Koszalinie",
+      "id": "c26c4b76-8eae-400a-8722-b7a028f252ad"
+    },
+    {
+      "name": "Krakowska Akademia im. Andrzeja Frycza Modrzewskiego w Krakowie",
+      "id": "6ec85937-58fb-4b29-8713-c10215525cc2"
+    },
+    {
+      "name": "Krakowska WyĹźsza SzkoĹa Promocji Zdrowia w Krakowie",
+      "id": "68d8b41e-c30a-46c1-a5b7-f85c92a04990"
+    },
+    {
+      "name": "Kujawska SzkoĹa WyĹźsza we WĹocĹawku",
+      "id": "2506defb-66cb-4b1d-83e8-4d3ea304df3d"
+    },
+    {
+      "name": "Lingwistyczna SzkoĹa WyĹźsza w Warszawie",
+      "id": "154f84aa-c7a2-450a-afeb-36cce54c8c41"
+    },
+    {
+      "name": "Lotnicza Akademia Wojskowa",
+      "id": "e04b82f2-52b1-47b9-9bb7-1f3c1508ed6a"
+    },
+    {
+      "name": "Lubelska Akademia WSEI",
+      "id": "d536148c-d600-4350-9d14-553238116177"
+    },
+    {
+      "name": "Lubelska SzkoĹa WyĹźsza w Rykach",
+      "id": "edfa6462-bf4f-493c-b1ff-e7ccf43a3ae8"
+    },
+    {
+      "name": "ĹuĹźycka SzkoĹa WyĹźsza im. Jana Benedykta Solfy z siedzibÄ w Ĺťarach",
+      "id": "4ad99b8f-9a90-4c6d-bc89-09527305bff6"
+    },
+    {
+      "name": "MaĹopolska Uczelnia PaĹstwowa im. rotmistrza Witolda Pileckiego w OĹwiÄcimiu",
+      "id": "29c2eed5-2ebb-4aef-979f-2d3a37af4583"
+    },
+    {
+      "name": "MaĹopolska WyĹźsza SzkoĹa Ekonomiczna z siedzibÄ w Tarnowie",
+      "id": "98f1f424-49b1-40c2-974e-4d01defe9ca5"
+    },
+    {
+      "name": "MenedĹźerska Akademia Nauk Stosowanych w Warszawie",
+      "id": "be03f84b-142d-4a8f-95d1-0be3a0241a29"
+    },
+    {
+      "name": "MiÄdzynarodowa Akademia Nauk Stosowanych w ĹomĹźy",
+      "id": "d377420c-d2c8-457b-b6bb-dce160785ea4"
+    },
+    {
+      "name": "MiÄdzynarodowa WyĹźsza SzkoĹa Logistyki i Transportu we WrocĹawiu",
+      "id": "d53694e4-5b7e-4c2f-b1a9-037d85331c26"
+    },
+    {
+      "name": "NadbuĹźaĹska SzkoĹa WyĹźsza im. Marka J. Karpia w Siemiatyczach",
+      "id": "33768f83-4dd3-4de8-a636-2ef762b56bd5"
+    },
+    {
+      "name": "NiepaĹstwowa WyĹźsza SzkoĹa Pedagogiczna w BiaĹymstoku",
+      "id": "9a2c0a05-031f-4689-9ce2-b8b532f577c3"
+    },
+    {
+      "name": "Niepubliczna WyĹźsza SzkoĹa Medyczna we WrocĹawiu",
+      "id": "3ca001f0-ab45-42f0-a8ec-c4b8457a43f1"
+    },
+    {
+      "name": "OlsztyĹska SzkoĹa WyĹźsza",
+      "id": "e671df8d-5f2d-4085-89a9-3fd63764b1f0"
+    },
+    {
+      "name": "PaĹstwowa Akademia Nauk Stosowanych w CheĹmie",
+      "id": "a6bcd298-70c7-45a5-9c2c-c61cd1f873ed"
+    },
+    {
+      "name": "PaĹstwowa Akademia Nauk Stosowanych we WĹocĹawku",
+      "id": "e4e98a1c-d460-4bcc-b474-9dfd299cba7f"
+    },
+    {
+      "name": "PaĹstwowa Akademia Nauk Stosowanych w KroĹnie",
+      "id": "9bfd3bce-76e4-4eb5-ac7f-983d7aff3b73"
+    },
+    {
+      "name": "PaĹstwowa Akademia Nauk Stosowanych w Nysie",
+      "id": "c3486dcf-bce7-40f9-9efb-2ab1646af39a"
+    },
+    {
+      "name": "PaĹstwowa Akademia Nauk Stosowanych w PrzemyĹlu",
+      "id": "355c656e-3b3b-4407-abbb-4827191f7672"
+    },
+    {
+      "name": "PaĹstwowa Uczelnia Zawodowa im. Ignacego MoĹcickiego w Ciechanowie",
+      "id": "2b08e25e-a687-4f7e-abff-64d1f5cc882e"
+    },
+    {
+      "name": "PaĹstwowa Uczelnia Zawodowa im. prof. Edwarda F. Szczepanika w SuwaĹkach",
+      "id": "d4f0388f-e532-412d-9338-d8c69d2ee2bc"
+    },
+    {
+      "name": "PaĹstwowa Uczelnia Zawodowa im. prof. StanisĹawa Tarnowskiego w Tarnobrzegu",
+      "id": "135ed473-73f1-4430-aab3-2570db147bc3"
+    },
+    {
+      "name": "PaĹstwowa WyĹźsza SzkoĹa Filmowa, Telewizyjna i Teatralna im. Leona Schillera w Ĺodzi",
+      "id": "ccd0a881-65d6-477c-8b77-cbee8988562b"
+    },
+    {
+      "name": "PaĹstwowa WyĹźsza SzkoĹa Techniczno-Ekonomiczna im. ks. BronisĹawa Markiewicza w JarosĹawiu",
+      "id": "8401c6e3-44bd-432a-9f66-0137bf6b7552"
+    },
+    {
+      "name": "PaĹstwowa WyĹźsza SzkoĹa Zawodowa w GĹogowie",
+      "id": "730c301e-c411-4240-bf83-2b96163d4a59"
+    },
+    {
+      "name": "PaĹstwowa WyĹźsza SzkoĹa Zawodowa w Koszalinie",
+      "id": "df893c7b-795e-4588-bdd1-381ffda0afb2"
+    },
+    {
+      "name": "Papieski WydziaĹ Teologiczny we WrocĹawiu",
+      "id": "d9955030-0599-434b-adbf-43af9bf63c87"
+    },
+    {
+      "name": "Pedagogium WyĹźsza SzkoĹa Nauk SpoĹecznych w Warszawie",
+      "id": "21de5771-a36e-4a25-bdaf-a976fead5395"
+    },
+    {
+      "name": "PodhalaĹska PaĹstwowa Uczelnia Zawodowa w Nowym Targu",
+      "id": "b0975574-2e19-408c-9d6b-bf3015f6da6b"
+    },
+    {
+      "name": "Podkarpacka SzkoĹa WyĹźsza im. bĹ. ks. WĹadysĹawa Findysza w JaĹle",
+      "id": "7bc32f1a-01f4-4cc7-ad29-b25341eb6178"
+    },
+    {
+      "name": "Politechnika BiaĹostocka",
+      "id": "ba7036d3-3bc2-4e5d-bbc9-90846b31fa3a"
+    },
+    {
+      "name": "Politechnika Bydgoska im. Jana i JÄdrzeja Ĺniadeckich",
+      "id": "48106176-3dff-4132-9a1a-e1f99508c2a7"
+    },
+    {
+      "name": "Politechnika CzÄstochowska",
+      "id": "557dd0fa-3201-4802-a51e-d8f8744f7eea"
+    },
+    {
+      "name": "Politechnika GdaĹska",
+      "id": "9e75a9ef-51d0-4667-9e15-77452e852cfe"
+    },
+    {
+      "name": "Politechnika KoszaliĹska",
+      "id": "0e025030-a683-4c7d-8cda-8748c317efb2"
+    },
+    {
+      "name": "Politechnika Krakowska im. Tadeusza KoĹciuszki",
+      "id": "333d8a7e-72b3-4a80-8b81-280ff9d1cc7f"
+    },
+    {
+      "name": "Politechnika ĹĂłdzka",
+      "id": "6aad81fa-8f25-45ec-89e0-4af419cbccb1"
+    },
+    {
+      "name": "Politechnika Lubelska",
+      "id": "c4261fe2-ed87-4517-9d1c-6a5d7e861f18"
+    },
+    {
+      "name": "Politechnika Morska w Szczecinie",
+      "id": "bb1b5a1d-37db-4c60-b332-66fd17a604b3"
+    },
+    {
+      "name": "Politechnika Opolska",
+      "id": "5ca28eee-f848-4c2b-b5fb-9b55e114299a"
+    },
+    {
+      "name": "Politechnika PoznaĹska",
+      "id": "ab908a87-0728-4f4f-9e30-f54043383c9e"
+    },
+    {
+      "name": "Politechnika Rzeszowska im. Ignacego Ĺukasiewicza",
+      "id": "9699116c-e647-4c81-9c9c-61266c7d9166"
+    },
+    {
+      "name": "Politechnika ĹlÄska",
+      "id": "c3382738-02af-4729-b8fa-b562d15afa43"
+    },
+    {
+      "name": "Politechnika ĹwiÄtokrzyska",
+      "id": "438ce3b0-2621-4ee8-a46c-c39ff7910e90"
+    },
+    {
+      "name": "Politechnika Warszawska",
+      "id": "ab93c9ad-64b1-4718-a05a-27045888cdde"
+    },
+    {
+      "name": "Politechnika WrocĹawska",
+      "id": "db9559dd-c51b-4303-8269-8a6946f74283"
+    },
+    {
+      "name": "Polsko-JapoĹska Akademia Technik Komputerowych",
+      "id": "090d00e6-c34b-4bab-9217-c4e76c338f13"
+    },
+    {
+      "name": "Pomorska SzkoĹa WyĹźsza w Starogardzie GdaĹskim",
+      "id": "db5fe64a-cbd3-4e8d-bf43-44f1c352d67d"
+    },
+    {
+      "name": "Pomorska WyĹźsza SzkoĹa Nauk Stosowanych w Gdyni",
+      "id": "50b2c19c-f9f6-40fa-9a25-a52b8176dec1"
+    },
+    {
+      "name": "Pomorski Uniwersytet Medyczny w Szczecinie",
+      "id": "9b4abb5e-23da-4587-a932-cdc14b598677"
+    },
+    {
+      "name": "PowiĹlaĹska SzkoĹa WyĹźsza",
+      "id": "0ee6c0a7-c104-4053-bb5f-d828b3c8baf1"
+    },
+    {
+      "name": "Powszechna WyĹźsza SzkoĹa Humanistyczna Pomerania w Chojnicach",
+      "id": "949677fc-155f-4e5e-9923-27f9ffe290e0"
+    },
+    {
+      "name": "PrawosĹawne Seminarium Duchowne w Warszawie",
+      "id": "c136cf16-2be8-47cd-943f-5bf0c3871182"
+    },
+    {
+      "name": "Prywatna WyĹźsza SzkoĹa Ochrony Ĺrodowiska w Radomiu",
+      "id": "2ed45054-81c6-40ee-afc1-ceeaf80d3884"
+    },
+    {
+      "name": "Radomska SzkoĹa WyĹźsza",
+      "id": "20f775e0-477e-49e7-9e72-fe2d1d23b2c7"
+    },
+    {
+      "name": "ĹlÄska WyĹźsza SzkoĹa Medyczna w Katowicach",
+      "id": "f865093f-a748-4d3d-bb7f-aaa970c30a7d"
+    },
+    {
+      "name": "ĹlÄski Uniwersytet Medyczny w Katowicach",
+      "id": "d215bfd2-e764-423e-9026-2177e0d9c55a"
+    },
+    {
+      "name": "Sopocka Akademia Nauk Stosowanych",
+      "id": "e7fd39f4-238f-44f2-a4e2-db9521ee5438"
+    },
+    {
+      "name": "SpoĹeczna Akademia Nauk z siedzibÄ w Ĺodzi",
+      "id": "2a80e2fa-cdbc-49e8-b393-279ef058cc39"
+    },
+    {
+      "name": "Staropolska Akademia Nauk Stosowanych w Kielcach",
+      "id": "6aacc70b-6071-4a4b-99a5-0e4eb31667ab"
+    },
+    {
+      "name": "ĹwiÄtokrzyska SzkoĹa WyĹźsza w Kielcach",
+      "id": "95036e77-140e-4450-9edb-0493605ed879"
+    },
+    {
+      "name": "SWPS Uniwersytet HumanistycznospoĹeczny z siedzibÄ w Warszawie",
+      "id": "853ef414-7729-40ad-bc95-7015f6f4a70e"
+    },
+    {
+      "name": "SzkoĹa GĹĂłwna Gospodarstwa Wiejskiego w Warszawie",
+      "id": "1e832319-c71d-4fe6-8dd2-bd989193cd1e"
+    },
+    {
+      "name": "SzkoĹa GĹĂłwna Handlowa w Warszawie",
+      "id": "bfb4fcf9-7222-464a-a33b-17289f51e37c"
+    },
+    {
+      "name": "SzkoĹa GĹĂłwna Krajowa z siedzibÄ w Warszawie",
+      "id": "7a35f4fc-b5ec-4f5e-8f3c-e04ab4059805"
+    },
+    {
+      "name": "SzkoĹa GĹĂłwna MikoĹaja Kopernika",
+      "id": "f435bfa9-ff33-47e1-b11e-f8556036b8cd"
+    },
+    {
+      "name": "SzkoĹa GĹĂłwna Turystyki i Hotelarstwa Vistula",
+      "id": "7ba08992-14a1-496b-8352-f8b8a424f5ec"
+    },
+    {
+      "name": "SzkoĹa WyĹźsza Ekonomii i ZarzÄdzania w Ĺodzi",
+      "id": "87924a15-be46-4339-90bb-2e0100b39555"
+    },
+    {
+      "name": "SzkoĹa WyĹźsza im. Bogdana JaĹskiego w Warszawie",
+      "id": "12c39eb8-0b7b-4988-b847-cbb5d50c2bc5"
+    },
+    {
+      "name": "SzkoĹa WyĹźsza im. PawĹa WĹodkowica w PĹocku",
+      "id": "766fdb16-93d4-42fd-b862-c006a69078bc"
+    },
+    {
+      "name": "SzkoĹa WyĹźsza RzemiosĹ Artystycznych i ZarzÄdzania we WrocĹawiu",
+      "id": "1658ba8e-12f7-49f9-94d2-61c485fecbbf"
+    },
+    {
+      "name": "Tarnowska SzkoĹa WyĹźsza Akademia Nauk Stosowanych",
+      "id": "fffc50fe-49b8-4124-b81f-9dcc0d89a19e"
+    },
+    {
+      "name": "Uczelnia ASBIRO",
+      "id": "a95f5f22-44ec-4491-8832-dc4232073579"
+    },
+    {
+      "name": "Uczelnia Collegium Intermarium",
+      "id": "610820ba-0495-4d54-8cca-accad3058bf7"
+    },
+    {
+      "name": "Uczelnia Jana WyĹźykowskiego",
+      "id": "c7e48fa5-5c42-488d-8407-6c930e3e3f27"
+    },
+    {
+      "name": "Uczelnia JaĹskiego z siedzibÄ w ĹomĹźy",
+      "id": "4a94e5da-7809-4b26-89ea-0bbf49ecca5e"
+    },
+    {
+      "name": "Uczelnia Korczaka - Akademia Nauk Stosowanych",
+      "id": "3f5e163b-f08b-4284-a8b9-d6e62550e935"
+    },
+    {
+      "name": "Uczelnia Ĺazarskiego w Warszawie",
+      "id": "51746b28-1ce9-4c1a-b936-484692f280de"
+    },
+    {
+      "name": "Uczelnia Lingwistyczno-Techniczna w Przasnyszu",
+      "id": "b1901858-04d3-4350-922c-a55f94ab9a3a"
+    },
+    {
+      "name": "Uczelnia Ĺukaszewski ",
+      "id": "60121f94-b16e-4e95-b3c7-63c1346f6384"
+    },
+    {
+      "name": "Uczelnia Medyczna im. Marii SkĹodowskiej - Curie w Warszawie",
+      "id": "a3517e9b-20b2-4589-b95b-c8be49b828d4"
+    },
+    {
+      "name": "Uczelnia Metropolitalna",
+      "id": "666be900-52c4-4d0b-82ef-9fc949317dd4"
+    },
+    {
+      "name": "Uczelnia Nauk SpoĹecznych",
+      "id": "be1a951e-e189-4c59-9e5f-5353551e939d"
+    },
+    {
+      "name": "Uczelnia PaĹstwowa im. Jana Grodka w Sanoku",
+      "id": "e0b1798e-9c50-4dee-b956-d50165a7e48b"
+    },
+    {
+      "name": "Uczelnia SpoĹeczno-Medyczna w Warszawie",
+      "id": "7e1c9e2f-e824-428c-8d13-7a2c7606362b"
+    },
+    {
+      "name": "Uczelnia Techniczno-Handlowa im. Heleny Chodkowskiej",
+      "id": "6ac394a3-16aa-461d-980b-ff76ad9d1350"
+    },
+    {
+      "name": "Uczelnia WSB Merito w Warszawie",
+      "id": "55974513-48c7-4861-81b6-6dbe7aa554db"
+    },
+    {
+      "name": "Uniwersytet Artystyczny im. Magdaleny Abakanowicz w Poznaniu",
+      "id": "f72324e3-2714-4735-a609-43001885972f"
+    },
+    {
+      "name": "Uniwersytet Bielsko-Bialski",
+      "id": "6132c7a5-2400-4a8d-b907-92324419dd2c"
+    },
+    {
+      "name": "Uniwersytet DolnoĹlÄski DSW we WrocĹawiu",
+      "id": "a8ecf152-62c2-4aee-a79c-d9fd64b906b7"
+    },
+    {
+      "name": "Uniwersytet Ekonomiczny we WrocĹawiu",
+      "id": "e0bf30e3-b83f-4151-a390-52fb127b0fce"
+    },
+    {
+      "name": "Uniwersytet Ekonomiczny w Katowicach",
+      "id": "aaf037df-5636-4cda-b33e-1fd7a2484b4d"
+    },
+    {
+      "name": "Uniwersytet Ekonomiczny w Krakowie",
+      "id": "9e70af1c-f14d-47aa-9599-0f352d486805"
+    },
+    {
+      "name": "Uniwersytet Ekonomiczny w Poznaniu",
+      "id": "5de26dd9-419b-40b9-ac01-4f4842443ee3"
+    },
+    {
+      "name": "Uniwersytet GdaĹski",
+      "id": "c7139cde-b38e-49c0-97b8-1093a0ed3974"
+    },
+    {
+      "name": "Uniwersytet im. Adama Mickiewicza w Poznaniu",
+      "id": "ff18a6d6-a663-417e-acdf-0055461a54ae"
+    },
+    {
+      "name": "Uniwersytet JagielloĹski w Krakowie",
+      "id": "8ec35ec6-e2c0-41dc-8796-c91a2564e67c"
+    },
+    {
+      "name": "Uniwersytet Jana DĹugosza w CzÄstochowie",
+      "id": "aa7a35d8-960c-4953-8ad4-665be1f7727c"
+    },
+    {
+      "name": "Uniwersytet Jana Kochanowskiego w Kielcach",
+      "id": "c157152d-b606-4778-8712-8079d092e5b7"
+    },
+    {
+      "name": "Uniwersytet KardynaĹa Stefana WyszyĹskiego w Warszawie",
+      "id": "a3da16a9-c1d2-4e8e-ac06-a8d32851ac90"
+    },
+    {
+      "name": "Uniwersytet Kazimierza Wielkiego w Bydgoszczy",
+      "id": "48ea4d08-3dfd-4aa3-9e47-8b740bb91fec"
+    },
+    {
+      "name": "Uniwersytet ĹĂłdzki",
+      "id": "c89b9e94-22ae-41e8-8386-1b5a0f1e4453"
+    },
+    {
+      "name": "Uniwersytet Marii Curie-SkĹodowskiej w Lublinie",
+      "id": "b4d641bd-178e-4cde-92ab-5c96957f2ff3"
+    },
+    {
+      "name": "Uniwersytet Medyczny im. Karola Marcinkowskiego w Poznaniu",
+      "id": "74802b0c-c3b3-4643-9a6f-7a1480ff24b0"
+    },
+    {
+      "name": "Uniwersytet Medyczny im. PiastĂłw ĹlÄskich we WrocĹawiu",
+      "id": "cf3aea9f-ffd1-44ab-bac5-3e231bf8588e"
+    },
+    {
+      "name": "Uniwersytet Medyczny w BiaĹymstoku",
+      "id": "cead29a1-20aa-4ce8-a35a-d4ce533410fb"
+    },
+    {
+      "name": "Uniwersytet Medyczny w Ĺodzi",
+      "id": "a508414f-69b2-493b-ba7a-2475d22dd9bf"
+    },
+    {
+      "name": "Uniwersytet Medyczny w Lublinie",
+      "id": "d41dfa16-d87e-4c4c-be00-d33912afe121"
+    },
+    {
+      "name": "Uniwersytet MikoĹaja Kopernika w Toruniu",
+      "id": "c472e1ae-11a0-4fa9-a9a0-1837d45fd78b"
+    },
+    {
+      "name": "Uniwersytet Morski w Gdyni",
+      "id": "dfd17269-f57d-4c7e-a168-03f135463d8e"
+    },
+    {
+      "name": "Uniwersytet Muzyczny Fryderyka Chopina w Warszawie",
+      "id": "198854ee-7c1d-45b3-a64e-0962b1e248a0"
+    },
+    {
+      "name": "Uniwersytet Opolski",
+      "id": "6678151f-b248-4ef5-91ef-2c4b14ee543d"
+    },
+    {
+      "name": "Uniwersytet Papieski Jana PawĹa II w Krakowie",
+      "id": "aff67fca-e621-40da-af59-3cdefb1ce3d1"
+    },
+    {
+      "name": "Uniwersytet Pedagogiczny im. Komisji Edukacji Narodowej w Krakowie",
+      "id": "ffff187e-f623-412a-b2cf-287f1b3ecede"
+    },
+    {
+      "name": "Uniwersytet Pomorski w SĹupsku",
+      "id": "5702f365-36b7-4bdf-9af1-ade7c55c65c3"
+    },
+    {
+      "name": "Uniwersytet Przyrodniczo-Humanistyczny w Siedlcach",
+      "id": "a2ac64a6-dc48-40d1-961f-f1cf00307164"
+    },
+    {
+      "name": "Uniwersytet Przyrodniczy we WrocĹawiu",
+      "id": "d778e2c4-879d-4833-93b0-814f3bac9d8c"
+    },
+    {
+      "name": "Uniwersytet Przyrodniczy w Lublinie",
+      "id": "34458486-d9e9-4c20-8ca8-4c7a56c4b2f1"
+    },
+    {
+      "name": "Uniwersytet Przyrodniczy w Poznaniu",
+      "id": "3804d89d-6c75-4351-bd88-d48fc77e555c"
+    },
+    {
+      "name": "Uniwersytet Radomski im. Kazimierza PuĹaskiego",
+      "id": "fa2b8260-5a66-458d-94cb-0eb4b5226df0"
+    },
+    {
+      "name": "Uniwersytet Rolniczy im. Hugona KoĹĹÄtaja w Krakowie",
+      "id": "ab66b734-191c-4e9e-80f7-de3ae1c0d9bb"
+    },
+    {
+      "name": "Uniwersytet Rzeszowski",
+      "id": "42199c97-35c0-44ac-8ad8-b3e1c82813da"
+    },
+    {
+      "name": "Uniwersytet ĹlÄski w Katowicach",
+      "id": "c0b8e6f2-c67d-43b1-8236-af2833698e60"
+    },
+    {
+      "name": "Uniwersytet SzczeciĹski",
+      "id": "7435084a-7367-4ed5-aca2-8df71867de57"
+    },
+    {
+      "name": "Uniwersytet WarmiĹsko-Mazurski w Olsztynie",
+      "id": "e017a679-db74-4980-95b6-02022714ef10"
+    },
+    {
+      "name": "Uniwersytet Warszawski",
+      "id": "9f22c14a-2d1a-42f5-bbc5-6e2f95f83df3"
+    },
+    {
+      "name": "Uniwersytet w BiaĹymstoku",
+      "id": "588dc1af-7d7b-4899-84ed-5554cc79b7ee"
+    },
+    {
+      "name": "Uniwersytet WrocĹawski",
+      "id": "2124e6d2-a717-433a-bca9-84edb710fa1d"
+    },
+    {
+      "name": "Uniwersytet WSB Merito we WrocĹawiu",
+      "id": "900d977a-749a-4abe-b2d6-629b9a9d662d"
+    },
+    {
+      "name": "Uniwersytet WSB Merito w GdaĹsku",
+      "id": "47e37910-ea20-4bd7-ace6-8bca222eda97"
+    },
+    {
+      "name": "Uniwersytet WSB Merito w Poznaniu",
+      "id": "97cdb9de-a775-45e3-b675-b7e254aa030b"
+    },
+    {
+      "name": "Uniwersytet WSB Merito w Toruniu",
+      "id": "ecc0e7e1-642b-48f5-9fa4-89ad306bb0b9"
+    },
+    {
+      "name": "Uniwersytet ZielonogĂłrski",
+      "id": "717f8b7b-cd5a-4334-a615-cdfbae79dee8"
+    },
+    {
+      "name": "VIAMODA SzkoĹa WyĹźsza z siedzibÄ w Warszawie",
+      "id": "39ae7d14-e7b9-40a3-bb7c-f653f977554a"
+    },
+    {
+      "name": "Warszawska Akademia Medyczna Nauk Stosowanych",
+      "id": "9fb16949-6aa2-49f2-ad89-bcb5e5b3b15e"
+    },
+    {
+      "name": "Warszawska SzkoĹa Filmowa z siedzibÄ w Warszawie",
+      "id": "35140971-a299-4f73-910a-c683d87f7b9f"
+    },
+    {
+      "name": "Warszawska SzkoĹa ZarzÄdzania - SzkoĹa WyĹźsza w Warszawie",
+      "id": "67c17180-6d2f-4c43-9300-e051ba4b8452"
+    },
+    {
+      "name": "Warszawska Uczelnia Medyczna im. Tadeusza KoĹşluka",
+      "id": "986caf6f-01f3-44a7-b3df-c91a4ded230c"
+    },
+    {
+      "name": "Warszawska WyĹźsza SzkoĹa Biznesu z siedzibÄ w Warszawie",
+      "id": "cfd33e3c-e63d-4d9d-858c-b669d12bc600"
+    },
+    {
+      "name": "Warszawska WyĹźsza SzkoĹa Humanistyczna im. BolesĹawa Prusa (decyzja z dnia 06.07.2006 r.)",
+      "id": "b463c834-9e17-4cbf-ac11-a7603c2b4b59"
+    },
+    {
+      "name": "Warszawska WyĹźsza SzkoĹa Informatyki w Warszawie",
+      "id": "76351e5c-620d-4361-bcea-203577b1769c"
+    },
+    {
+      "name": "Warszawska WyĹźsza SzkoĹa Nauk SpoĹecznych im. RafaĹa Lemkina ",
+      "id": "89a58fac-0362-466b-b2ec-a8f893a93e37"
+    },
+    {
+      "name": "Warszawski Uniwersytet Medyczny",
+      "id": "7d886827-68cc-4011-b015-e2e772db41a7"
+    },
+    {
+      "name": "Wielkopolska Akademia SpoĹeczno - Ekonomiczna w Ĺrodzie Wielkopolskiej - Akademia Nauk Stosowanych",
+      "id": "53fc6140-283d-4b43-84d8-b3b1ec201e1b"
+    },
+    {
+      "name": "Wojskowa Akademia Techniczna im. JarosĹawa DÄbrowskiego",
+      "id": "aba8311d-4694-4281-a5d6-be28675124c0"
+    },
+    {
+      "name": "WrocĹawska Akademia Biznesu w Naukach Stosowanych",
+      "id": "4fe99cb2-74b8-4489-aa72-ec945824d5c8"
+    },
+    {
+      "name": "WrocĹawska WyĹźsza SzkoĹa Informatyki Stosowanej we WrocĹawiu",
+      "id": "b16fda24-730f-4824-9113-d5ffa93d8577"
+    },
+    {
+      "name": "Wschodnioeuropejska Akademia Nauk Stosowanych w BiaĹymstoku",
+      "id": "997a1b58-0fb5-40d4-a484-ecc821116feb"
+    },
+    {
+      "name": "WschĂłd-ZachĂłd SzkoĹa WyĹźsza im. Henryka JĂłĹşwiaka",
+      "id": "6fdeb8ea-ca4c-442e-b934-f574bb3725a0"
+    },
+    {
+      "name": "WSHIU Akademia Nauk Stosowanych",
+      "id": "380cc76b-9863-4620-a701-bc010a085a13"
+    },
+    {
+      "name": "Wszechnica Polska Akademia Nauk Stosowanych w Warszawie",
+      "id": "2f902a94-01e4-41db-a022-777d523fe0e2"
+    },
+    {
+      "name": "Wszechnica ĹwiÄtokrzyska w Kielcach",
+      "id": "fcbbc62d-77ba-4e6a-b4aa-6291a4978309"
+    },
+    {
+      "name": "WyĹźsza InĹźynierska SzkoĹa BezpieczeĹstwa i Organizacji Pracy w Radomiu",
+      "id": "bb343be3-b7cb-430d-aa43-9063c69ea7f6"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Administracji i Biznesu im. Eugeniusza Kwiatkowskiego w Gdyni",
+      "id": "04f91dfa-f484-4010-9e35-65855c331e96"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Administracji Publicznej w Kielcach",
+      "id": "40c1361b-46d0-4e3d-aca8-654472ddf1e2"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Administracji Publicznej w OstroĹÄce",
+      "id": "a2d9362c-2a89-4dda-919c-5431529e5a6b"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Administracji Publicznej w Szczecinie",
+      "id": "5ff81363-ca52-4804-a265-4d02b58e4978"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Administracji w Bielsku-BiaĹej",
+      "id": "170a4a40-0bec-4e31-9129-ae940bfe2d44"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Artystyczna w Warszawie",
+      "id": "cac99e9e-387c-4e42-97fc-4ab9028040d3"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa BezpieczeĹstwa i Ochrony im. MarszaĹka JĂłzefa PiĹsudskiego z siedzibÄ w Warszawie",
+      "id": "79f4decd-9a62-4f3b-8c71-5de690957515"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa BezpieczeĹstwa Publicznego i Indywidualnego Apeiron w Krakowie",
+      "id": "1217e3df-51ea-4933-a672-d0c8382833f0"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa BezpieczeĹstwa WewnÄtrznego w Ĺodzi",
+      "id": "fddf4b50-c1e4-4d10-934c-b9a7605e056c"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa BezpieczeĹstwa w Poznaniu",
+      "id": "577bac16-9ae1-453d-a372-00b04dc08049"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Biznesu i Nauk o Zdrowiu w Ĺodzi",
+      "id": "56598da7-4b0e-4f08-9a06-6468ad572b0d"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Biznesu i ZarzÄdzania z siedzibÄ w Ciechanowie",
+      "id": "b0c43012-d961-4c59-b40a-33daf2d436e8"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Biznesu, MediĂłw i Reklamy",
+      "id": "96f80d75-cdf3-4dbb-9318-b6f015e6dc5c"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Biznesu - National Louis University z siedzibÄ w Nowym SÄczu",
+      "id": "3c05f6fa-33f3-4290-9b50-5fdcaab81fc5"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Biznesu w Gorzowie Wlkp.",
+      "id": "998f24f1-4468-4616-9d1e-72688d91c272"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa COSINUS w Ĺodzi",
+      "id": "7219fdd6-e967-42ea-8650-f9cfee0719e6"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Demokracji im. ks. Jerzego PopieĹuszki w GrudziÄdzu",
+      "id": "601a40e6-fbae-42b2-9263-c5ee197602c4"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa - Edukacja w Sporcie w Warszawie",
+      "id": "265951d8-4925-40c7-8dbd-e94e3f261102"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Edukacji i Terapii im. prof. Kazimiery Milanowskiej z siedzibÄ w Poznaniu",
+      "id": "72b3d95a-0e40-4097-9fb6-172026390a85"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Ekologii i ZarzÄdzania w Warszawie",
+      "id": "83a76794-f991-4cfc-b402-c8d437ae921c"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Ekonomiczna w BiaĹymstoku",
+      "id": "1fcec84d-8626-4995-bec4-edba0403cd4b"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Ekonomiczna z siedzibÄ w Stalowej Woli",
+      "id": "916c5a68-758e-4c62-805e-88d65eb28830"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Ekonomiczno-Humanistyczna w Bielsku-BiaĹej",
+      "id": "e410aa6a-a35d-49d6-9ed3-0b299bd53306"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Ekonomii i Informatyki w Krakowie",
+      "id": "e3652365-860a-4281-bacf-07854882126b"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Europejska im. Ks. JĂłzefa Tischnera w Krakowie",
+      "id": "0ae1e262-834d-423c-8180-e33f347d04f4"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa FinansĂłw i Informatyki im. prof. Janusza ChechliĹskiego w Ĺodzi",
+      "id": "fc604f66-bacd-42ab-8f16-3d4a46821a28"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa FinansĂłw i Prawa w Bielsku-BiaĹej",
+      "id": "5e819b9a-1276-4b3b-8a61-9ff134b1617a"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Fizjoterapii we WrocĹawiu",
+      "id": "67285be6-a589-4918-ad96-509a8324015b"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Gospodarki Euroregionalnej im. Alcide De Gasperi w JĂłzefowie",
+      "id": "f0948450-a5e5-47b0-97e2-9786621fb446"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Gospodarki i ZarzÄdzania",
+      "id": "fb1fd13c-d33b-47b8-abaa-6228cb094597"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Gospodarki w Bydgoszczy",
+      "id": "68d1c3a0-8989-4957-aaf5-a7a8cfd4c8d8"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Hotelarstwa i Gastronomii w Poznaniu w restrukturyzacji",
+      "id": "fd5f938a-b5dc-456b-b4c9-97e8780fee17"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Humanistyczna im. KrĂłla StanisĹawa LeszczyĹskiego w Lesznie",
+      "id": "934cca2d-382f-4f93-9eec-d14583ad8315"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Humanistyczna we WrocĹawiu",
+      "id": "101f9a9a-f8c0-4e68-808b-8fd996867bf1"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Humanistyczno-Ekonomiczna im. J. Zamoyskiego w ZamoĹciu",
+      "id": "17b5e8d1-5f36-466c-ad73-b5a70bc860fe"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Humanistyczno-Ekonomiczna w Brzegu",
+      "id": "b21568d5-4ab0-4114-bfda-9645a46655ae"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Humanistyczno-Przyrodnicza Studium Generale Sandomiriense w Sandomierzu",
+      "id": "c74b1641-8aff-44ba-bf72-28285d8b6ccd"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Informatyki i UmiejÄtnoĹci z siedzibÄ w Ĺodzi",
+      "id": "72250623-4444-4a8a-b5a3-954d17231523"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Informatyki i ZarzÄdzania COPERNICUS we WrocĹawiu",
+      "id": "cd499091-058d-46a3-a0f1-32b033adb719"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Informatyki i ZarzÄdzania w Bielsku-BiaĹej",
+      "id": "3d9bc282-1a44-4d45-8d90-39e8be2b1f53"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Informatyki i ZarzÄdzania z siedzibÄ w Rzeszowie",
+      "id": "3c5dddb2-86e1-4522-9731-1dfc03922a5d"
+    },
+    {
+      "name": " WyĹźsza SzkoĹa Informatyki i Zdrowia",
+      "id": "24294474-8576-4888-80c1-7bc05698687a"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Informatyki Stosowanej i ZarzÄdzania w Warszawie",
+      "id": "f45e3a34-8b62-426d-847a-81d4b32f53fc"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Integracji Europejskiej w Szczecinie",
+      "id": "da737b9f-8a74-4a2e-bade-42ba5349f102"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa InĹźynierii Gospodarki w SĹupsku",
+      "id": "0908d83d-124f-46a2-ac70-539264113531"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa InĹźynierii i Zdrowia w Warszawie",
+      "id": "ee063a34-0f61-415f-bbc8-25713b4317a2"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa JÄzykĂłw Obcych im. Samuela BogumiĹa Lindego z siedzibÄ w Poznaniu",
+      "id": "28e43073-26a6-43f9-9548-8875244335f9"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Kadr MenedĹźerskich",
+      "id": "8a198792-235d-424f-8b77-9c19242ec024"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Komunikacji i ZarzÄdzania",
+      "id": "a5efad6b-8a79-4c06-a4fd-1cd318786f28"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Komunikacji SpoĹecznej w Gdyni",
+      "id": "8195b6fa-6d2e-444a-ba0a-71fc44b964ca"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Kosmetyki i Nauk o Zdrowiu w Ĺodzi",
+      "id": "72d81714-3bf8-4c04-914d-87f2b39d0e58"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa KsztaĹcenia Zawodowego",
+      "id": "9e8bebc0-caef-4388-bfb0-85ffa191ff43"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Kultury Fizycznej i Turystyki imienia Haliny Konopackiej w Pruszkowie",
+      "id": "3b6428fc-b155-4126-b3ac-594a7427a637"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Lingwistyczna w CzÄstochowie",
+      "id": "36507e5c-18ab-423f-9f84-10e90a812cb4"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Logistyki w Poznaniu",
+      "id": "3e407028-7d71-43ae-b68e-dbe1b4b994c8"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Medyczna w KĹodzku",
+      "id": "144cbaf9-791b-4ca5-806e-664cf4591ed9"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Medyczna w Legnicy z siedzibÄ w Legnicy",
+      "id": "41e01a7e-4c4e-48a1-9207-3918b0a77670"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Medyczna w Sosnowcu",
+      "id": "81d1f19b-d484-48a4-b639-33e06cef4e62"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Medyczna z siedzibÄ w BiaĹymstoku",
+      "id": "00b685e6-37e7-415a-96a6-f1c6b71dc102"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Nauk o Zdrowiu w Bydgoszczy",
+      "id": "556d66d6-a803-46e8-a31f-d64cc7ed30ec"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Nauk Pedagogicznych",
+      "id": "137b6df9-4392-43aa-a69b-d43409464c92"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Nauk Prawnych  i Administracji im. Leona PetraĹźyckiego z siedzibÄ w WoĹominie",
+      "id": "c025cd19-7f9f-4dec-8be3-cef01681f693"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Nauk Stosowanych w Rudzie ĹlÄskiej",
+      "id": "679a16b9-f49a-4722-95e4-f7e4fbc8383d"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Pedagogiczno-Techniczna w Koninie",
+      "id": "6d5fec1e-fd21-4d77-88e6-31d88b3a7cfd"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Planowania Strategicznego w DÄbrowie GĂłrniczej",
+      "id": "cfc33417-3bfa-47f8-8347-764549b87dae"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Prawa i Administracji Rzeszowska SzkoĹa WyĹźsza z siedzibÄ w Rzeszowie",
+      "id": "20799e6f-33a2-4f1e-b207-065e5cdf3c6e"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Prawa we WrocĹawiu",
+      "id": "7803437e-4c23-4e41-b972-75544db82709"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Promocji, MediĂłw i Show Businessu z siedzibÄ w Warszawie",
+      "id": "a6434a48-fbaa-44ab-8198-0d8559cb8d04"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa PrzedsiÄbiorczoĹci i Administracji w Lublinie",
+      "id": "4d259ac8-4395-4ea6-a225-2d2367f7a764"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa PrzedsiÄbiorczoĹci imienia KsiÄcia Kazimierza Kujawskiego z siedzibÄ w InowrocĹawiu",
+      "id": "2af360a6-cd85-4425-9f2c-ae8dd6d5181a"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Rehabilitacji w Warszawie",
+      "id": "5a8a5898-0933-4e71-bf82-4b071803cb2f"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa SpoĹeczno-Ekonomiczna w GdaĹsku z siedzibÄ w GdaĹsku",
+      "id": "44e50741-c3a3-438f-b878-631a7444c7c2"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa SpoĹeczno-Gospodarcza",
+      "id": "e335f092-2660-4227-a4f2-b5fc824fa8c3"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Sportu",
+      "id": "21069827-499d-4b7b-b8ac-861d6a81d989"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa StosunkĂłw MiÄdzynarodowych i Amerykanistyki w Warszawie",
+      "id": "11e716bb-7b40-41c7-aa71-9d864a1ff0a2"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Sztuki i Projektowania w Ĺodzi",
+      "id": "3b39405a-b0ef-47b8-b4d8-afc8c5b6bf50"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Technik Komputerowych i Telekomunikacji w Kielcach",
+      "id": "f131b35d-dff6-4ccc-9060-37068ab397bf"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Technologii Informatycznych w Katowicach",
+      "id": "a97e315c-ecb9-48d4-8b17-139cd00cf1b0"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Teologiczno-Humanistyczna im. MichaĹa Beliny-Czechowskiego w Podkowie LeĹnej",
+      "id": "319f7f9e-76e6-4375-80af-2146ef9d233d"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa TeologicznoâSpoĹeczna w Warszawie",
+      "id": "4aecf29f-7608-4f43-bc94-857164701d2d"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Turystyki i Ekologii w Suchej Beskidzkiej",
+      "id": "51e4a538-dc3e-4804-8016-dcb1f9cb5403"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Turystyki i Hotelarstwa w GdaĹsku",
+      "id": "4766cee7-9db8-487a-9b5c-0bc907959d06"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Turystyki i JÄzykĂłw Obcych w Warszawie",
+      "id": "6608c591-5c9e-43d2-9728-208712676af2"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa UmiejÄtnoĹci SpoĹecznych im. prof. MichaĹa Iwaszkiewicza",
+      "id": "5de5a414-15da-419b-9d20-25386c4e6668"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa UmiejÄtnoĹci Zawodowych w PiĹczowie",
+      "id": "d59cb93d-2828-4aae-a428-ca67b197d496"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Uni-Terra z siedzibÄ w Poznaniu",
+      "id": "e1acc9a8-8dde-4f56-95a2-47f48ecd38be"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa WspĂłĹpracy MiÄdzynarodowej i Regionalnej im. Zygmunta Glogera z siedzibÄ w WoĹominie",
+      "id": "01cbd4f6-a30e-4fbd-8c99-00edae5e20ce"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa ZarzÄdzania Edukacja we WrocĹawiu",
+      "id": "86ff091b-80b2-496d-b605-11b62cd31c53"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa ZarzÄdzania i BankowoĹci w Krakowie",
+      "id": "c59b173f-dc1e-45d4-953b-ac287f9f462f"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa ZarzÄdzania i BankowoĹci w Poznaniu",
+      "id": "1adee364-c40c-4907-bf64-3a996722aeaf"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa ZarzÄdzania i PrzedsiÄbiorczoĹci z siedzibÄ w WaĹbrzychu",
+      "id": "c3e10b74-9d98-46a4-976a-4cd814b37dcb"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa ZarzÄdzania OchronÄ Pracy w Katowicach",
+      "id": "ab7d0879-d980-4e0f-ac78-17ee415556c0"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa ZarzÄdzania Ĺrodowiskiem w Tucholi",
+      "id": "2548492e-69a5-40b0-a2d2-b9935fec0ac7"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa ZarzÄdzania w CzÄstochowie",
+      "id": "0c328e29-8775-4361-82e9-4807b8afdada"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Zawodowa ĹĂłdzkiej Korporacji OĹwiatowej w Ĺodzi",
+      "id": "eb172801-41df-437e-a49a-318a914d0ef2"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Zawodowa Ochrony Zdrowia TWP w ĹomĹźy z siedzibÄ w ĹomĹźy",
+      "id": "bd6cd845-3f7b-4048-9130-10e207c37a5a"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Zawodowa w Gorzowie Wielkopolskim",
+      "id": "918b27f7-787e-47e1-b102-2556702871b4"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Zdrowia, Urody i Edukacji w Poznaniu",
+      "id": "bdc1496e-6893-46d2-9c7c-aae16736c49d"
+    },
+    {
+      "name": "WyĹźsza SzkoĹa Zdrowia w GdaĹsku",
+      "id": "a29a02e7-e750-465c-b925-26dd8dffb03f"
+    },
+    {
+      "name": "WyĹźsze Seminarium Duchowne Diecezji PelpliĹskiej",
+      "id": "a3e9ea32-d000-47c3-a97b-956c903ac4d7"
+    },
+    {
+      "name": "WyĹźsze Seminarium Duchowne KoĹcioĹa Polskokatolickiego w Warszawie",
+      "id": "25aafc77-2627-48e3-a571-8ab459ebf596"
+    },
+    {
+      "name": "WyĹźsze Seminarium Duchowne Towarzystwa SalezjaĹskiego w LÄdzie",
+      "id": "ebd9f691-1e0c-4ebd-8caa-e3dea0271a8b"
+    },
+    {
+      "name": "WyĹźsze Seminarium Duchowne w PrzemyĹlu",
+      "id": "da4dfb50-4b7e-4fc5-a519-bcd6a50f1080"
+    },
+    {
+      "name": "WyĹźsze Seminarium Duchowne w Rzeszowie",
+      "id": "8f397075-6c82-4e7d-91eb-165f852a697b"
+    },
+    {
+      "name": "WyĹźsze Seminarium Teologiczne imienia Jana Ĺaskiego w Warszawie",
+      "id": "44bb8fe2-6b6e-4244-aa94-f699cdb54464"
+    },
+    {
+      "name": "WyĹźszy Instytut Teologiczny w CzÄstochowie",
+      "id": "16aee23e-2e14-4f19-9cd5-ecba5b96dfe3"
+    },
+    {
+      "name": "Zachodniopomorska SzkoĹa Biznesu - Akademia Nauk Stosowanych",
+      "id": "1ee35a5d-c458-4b50-bd98-3cd10b031744"
+    },
+    {
+      "name": "Zachodniopomorski Uniwersytet Technologiczny w Szczecinie",
+      "id": "cbb942c6-1d86-46e5-9ed8-b5e06f440d82"
+    }
+  ]
+}
