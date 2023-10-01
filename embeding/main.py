@@ -1,6 +1,9 @@
 # imports
 import pandas as pd
 import pickle
+import psycopg2
+
+import sys
 
 import openai as openai
 from openai.embeddings_utils import (
@@ -20,8 +23,8 @@ with open(".env") as f:
 FILE = "test"
 
 # load data
-dataset_path = f"data/{FILE}.csv"
-df = pd.read_csv(dataset_path, delimiter="#")
+# dataset_path = f"data/{FILE}.csv"
+# df = pd.read_csv(dataset_path, delimiter="#")
 
 # establish a cache of embeddings to avoid recomputing
 # cache is a dict of tuples (text, model) -> embedding, saved as a pickle file
@@ -37,11 +40,10 @@ except FileNotFoundError:
 with open(embedding_cache_path, "wb") as embedding_cache_file:
     pickle.dump(embedding_cache, embedding_cache_file)
 
+
 # define a function to retrieve embeddings from the cache if present, and otherwise request via the API
 def embedding_from_string(
-    string: str,
-    model: str = EMBEDDING_MODEL,
-    embedding_cache=embedding_cache
+    string: str, model: str = EMBEDDING_MODEL, embedding_cache=embedding_cache
 ) -> list:
     """Return embedding of given string, using a cache to avoid recomputing."""
     if (string, model) not in embedding_cache.keys():
@@ -49,6 +51,7 @@ def embedding_from_string(
         with open(embedding_cache_path, "wb") as embedding_cache_file:
             pickle.dump(embedding_cache, embedding_cache_file)
     return embedding_cache[(string, model)]
+
 
 # as an example, take the first description from the dataset
 # example_string = "duya123"
@@ -63,9 +66,10 @@ def embedding_from_string(
 #
 # print(f"\nz1: {z1}...")
 # print(f"\nzall: {zall}...")
-# zall.to_csv('zall') 
+# zall.to_csv('zall')
 #
 # print("dot: ", zall.dot(z1))
+
 
 def print_recommendations_from_strings(
     strings,
@@ -77,7 +81,6 @@ def print_recommendations_from_strings(
     # get embeddings for all strings
     embeddings = [embedding_from_string(string, model=model) for string in strings]
     print(f"Embeddings: {[e[:4] for e in embeddings]}")
-
 
     # get the embedding of the source string
     # query_embedding = embeddings[index_of_source_string]
@@ -110,10 +113,59 @@ def print_recommendations_from_strings(
 
     # return indices_of_nearest_neighbors
 
-article_descriptions = df["description"].tolist()
 
-print_recommendations_from_strings(
-    strings=article_descriptions,  # let's base similarity off of the article description
-    index_of_source_string=0,  # let's look at articles similar to the first one about Tony Blair
-    k_nearest_neighbors=5,  # let's look at the 5 most similar articles
+conn = psycopg2.connect(
+    database="hackyeah",
+    user="u1",
+    password="2oxREaU8tmqUANruiQDS62tWJtsBPYW82xsfgY6w",
+    host="192.168.72.190",
+    port="5432",
 )
+cursor = conn.cursor()
+
+
+def update_one(id):
+    try:
+        qs = f"SELECT description FROM studia_zwykle WHERE id = {id}"
+        cursor.execute(qs)
+        desc = cursor.fetchone()[0]
+
+        print(id, desc)
+        if desc is None:
+            return
+
+        vec = embedding_from_string(desc)
+
+        qu = (
+            "UPDATE studia_zwykle SET vector = ('{"
+            + ", ".join([str(i) for i in vec])
+            + "}') WHERE id = "
+            + str(id)
+        )
+        cursor.execute(qu)
+        conn.commit()
+    except:
+        print()
+
+
+def from_to(start, end):
+    for i in range(start, end):
+        update_one(i)
+
+
+fr = int(sys.argv[1])
+to = fr + 200
+# fr = 4171
+# to = 6255
+print(fr, to)
+from_to(fr, to)
+
+conn.close()
+
+# article_descriptions = df["description"].tolist()
+#
+# print_recommendations_from_strings(
+#     strings=article_descriptions,  # let's base similarity off of the article description
+#     index_of_source_string=0,  # let's look at articles similar to the first one about Tony Blair
+#     k_nearest_neighbors=5,  # let's look at the 5 most similar articles
+# )

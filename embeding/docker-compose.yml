@@ -8,4 +8,14 @@ services:
       - "8888:8888"
     volumes:
       - ./:/app/
-    command: ["python", "main.py"]
+    command: ["python", "main.py", "1"]
+
+  inoutapi:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3333:3333"
+    volumes:
+      - ./:/app/
+    command: ["python", "pluj_wypluj_api.py"]
