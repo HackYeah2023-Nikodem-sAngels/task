@@ -18,7 +18,7 @@ export function StudiedStep(props: StepProps) {
                         e.preventDefault();
                         props.onSubmit({
                             ...props.data,
-                            studyLevel: studied === "no" ? "1" : undefined,
+                            studyLevel: studied === "no" ? 1 : undefined,
                         });
                     }}
                 >

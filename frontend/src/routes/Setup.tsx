@@ -5,6 +5,44 @@ import { StudyLevelStep } from "./setup/StudyLevelStep";
 import { InterestsStep } from "./setup/InterestsStep";
 import { useNavigate, useParams } from "react-router";
 
+export interface StepProps {
+    data: SetupData;
+    onSubmit: (data: SetupData) => void;
+}
+
+export interface SetupData {
+    regions?: string[];
+    studyLevel?: 0 | 1 | 2 | 3;
+    interests?: string[];
+    // maturaResults?: string[];
+    // futureSkills?: string[];
+    // specialization?: string;
+    language?: "pl" | "en";
+    // lastStudies?: string;
+}
+type Step =
+    | "studied"
+    | "studied/regions"
+    | "studied/regions/level"
+    | "studied/regions/level/interests";
+
+export function Setup() {
+    const [step, setStep] = useState<Step>("studied");
+    const [data, setData] = useState<SetupData>({});
+    console.log(data, step);
+
+    return (
+        <main className="flex h-full w-full items-center justify-center sm:grid sm:grid-rows-[5rem_1rem] sm:items-baseline sm:justify-center">
+            <CurrentStep
+                data={data}
+                step={step}
+                setStep={setStep}
+                setData={setData}
+            />
+        </main>
+    );
+}
+
 function CurrentStep(props: {
     data: SetupData;
     step: Step;
@@ -33,8 +71,8 @@ function CurrentStep(props: {
                     onSubmit={(data) => {
                         props.setData(data);
                         props.setStep(
-                            data.studyLevel === "1"
-                                ? "studied/regions/level(1or2)-interests"
+                            data.studyLevel === 1
+                                ? "studied/regions/level/interests"
                                 : "studied/regions/level",
                         );
                     }}
@@ -47,16 +85,12 @@ function CurrentStep(props: {
                     data={props.data}
                     onSubmit={(data) => {
                         props.setData(data);
-                        props.setStep(
-                            data.studyLevel === "1" || data.studyLevel === "2"
-                                ? "studied/regions/level(1or2)-interests"
-                                : "studied/regions/level(3)-specialization",
-                        );
+                        props.setStep("studied/regions/level/interests");
                     }}
                 />
             );
         }
-        case "studied/regions/level(1or2)-interests": {
+        case "studied/regions/level/interests": {
             return (
                 <InterestsStep
                     data={props.data}
@@ -67,47 +101,5 @@ function CurrentStep(props: {
                 />
             );
         }
-        case "studied/regions/level(3)-specialization": {
-            return "3";
-        }
     }
-}
-
-export interface StepProps {
-    data: SetupData;
-    onSubmit: (data: SetupData) => void;
-}
-
-export interface SetupData {
-    regions?: string[];
-    studyLevel?: "1" | "2" | "3";
-    interests?: string[];
-    // maturaResults?: string[];
-    // futureSkills?: string[];
-    // specialization?: string;
-    language?: "pl" | "en";
-    // lastStudies?: string;
-}
-type Step =
-    | "studied"
-    | "studied/regions"
-    | "studied/regions/level"
-    | "studied/regions/level(1or2)-interests"
-    | "studied/regions/level(3)-specialization";
-
-export function Setup() {
-    const [step, setStep] = useState<Step>("studied");
-    const [data, setData] = useState<SetupData>({});
-    console.log(data, step);
-
-    return (
-        <main className="flex h-full w-full items-center justify-center sm:grid sm:grid-rows-[5rem_1rem] sm:items-baseline sm:justify-center">
-            <CurrentStep
-                data={data}
-                step={step}
-                setStep={setStep}
-                setData={setData}
-            />
-        </main>
-    );
 }

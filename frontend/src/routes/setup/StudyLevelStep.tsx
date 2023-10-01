@@ -2,12 +2,12 @@ import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
-import { StepProps } from "../Setup";
+import { SetupData, StepProps } from "../Setup";
 import { useState } from "react";
 import { Card } from "@/components/ui/card";
 
 export function StudyLevelStep(props: StepProps) {
-    const [studyLevel, setStudyLevel] = useState("1");
+    const [studyLevel, setStudyLevel] = useState(1);
 
     return (
         <Card className="h-fit p-8 opacity-80">
@@ -17,7 +17,7 @@ export function StudyLevelStep(props: StepProps) {
                     e.preventDefault();
                     props.onSubmit({
                         ...props.data,
-                        studyLevel: studyLevel as "1" | "2" | "3",
+                        studyLevel: studyLevel as SetupData["studyLevel"],
                     });
                 }}
             >
@@ -25,9 +25,9 @@ export function StudyLevelStep(props: StepProps) {
                     Na jakie studia się wybierasz?
                 </h1>
                 <RadioGroup
-                    defaultValue={studyLevel}
-                    value={studyLevel}
-                    onValueChange={setStudyLevel}
+                    defaultValue={studyLevel.toString()}
+                    value={studyLevel.toString()}
+                    onValueChange={(value) => setStudyLevel(Number(value))}
                     className="mb-6 mt-4 flex flex-col gap-4"
                 >
                     <div className="flex items-center space-x-2">
@@ -39,8 +39,8 @@ export function StudyLevelStep(props: StepProps) {
                         <Label htmlFor="2">2. stopnia</Label>
                     </div>
                     <div className="flex items-center space-x-2">
-                        <RadioGroupItem value="1+2" id="1+2" />
-                        <Label htmlFor="1+2">Jednolite magisterskie</Label>
+                        <RadioGroupItem value="0" id="0" />
+                        <Label htmlFor="0">Jednolite magisterskie</Label>
                     </div>
                     <div className="flex items-center space-x-2">
                         <RadioGroupItem value="3" id="3" />

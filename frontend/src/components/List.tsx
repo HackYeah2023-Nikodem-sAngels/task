@@ -1,57 +1,60 @@
 import { FormFieldProps } from "@/lib/utils";
 import { Input } from "./ui/input";
 import { Button } from "./ui/button";
-import { TrashIcon } from "@heroicons/react/24/outline";
+import { useState } from "react";
+import { useAutoAnimate } from "@formkit/auto-animate/react";
 
 export function List(props: FormFieldProps<string[]>) {
-    return (
-        <div className="flex flex-col gap-2">
-            {props.value.map((v, i) => (
-                <div key={i} className="flex gap-2">
-                    <Input
-                        id="list-input"
-                        value={v}
-                        onKeyDown={(e) => {
-                            if (e.key === "Enter") {
-                                e.preventDefault();
-                                const newValue = [...props.value];
-                                newValue.push("");
-                                props.onChange(newValue);
-                            }
-                        }}
-                        onChange={(e) => {
-                            const newValue = [...props.value];
-                            newValue[i] = e.target.value;
-                            props.onChange(newValue);
-                        }}
-                    />
-                    <Button
-                        variant={"simple"}
-                        onClick={() => {
-                            const newValue = [...props.value];
-                            newValue.pop();
-                            props.onChange(newValue);
+    const [newEntry, setNewEntry] = useState("");
+    const [parent] = useAutoAnimate();
 
-                            console.log(
-                                document.querySelectorAll("#list-input"),
-                            );
-                            const newInput = document.querySelectorAll(
-                                "#list-input",
-                            )[i + 1] as HTMLInputElement;
-                            newInput.focus();
-                        }}
-                    >
-                        <TrashIcon className="w-5 text-destructive" />
-                    </Button>
+    return (
+        <div className="flex flex-col gap-2" ref={parent}>
+            {props.value.map((entry, i) => (
+                <div className="flex gap-2" key={i}>
+                    <div className="flex w-full items-center justify-between gap-2 px-2">
+                        <span className="text-sm">{entry}</span>
+                        <Button
+                            className="text-sm"
+                            variant={"link"}
+                            onClick={() => {
+                                props.onChange(
+                                    props.value.filter((_, j) => i !== j),
+                                );
+                            }}
+                        >
+                            Usuń
+                        </Button>
+                    </div>
                 </div>
             ))}
-            <Button
-                size={"sm"}
-                variant={"secondary"}
-                onClick={() => props.onChange([...props.value, ""])}
-            >
-                Dodaj
-            </Button>
+
+            <div className="flex gap-2">
+                <Input
+                    placeholder="Wpisz tutaj"
+                    value={newEntry}
+                    onChange={(e) => setNewEntry(e.target.value)}
+                    onKeyDown={(e) => {
+                        if (e.key === "Enter") {
+                            e.preventDefault();
+                            if (newEntry.trim() !== "") {
+                                props.onChange([...props.value, newEntry]);
+                                setNewEntry("");
+                            }
+                        }
+                    }}
+                />
+                <Button
+                    variant="secondary"
+                    disabled={newEntry.trim() === ""}
+                    onClick={() => {
+                        props.onChange([...props.value, newEntry]);
+                        setNewEntry("");
+                    }}
+                >
+                    Dodaj
+                </Button>
+            </div>
         </div>
     );
 }
