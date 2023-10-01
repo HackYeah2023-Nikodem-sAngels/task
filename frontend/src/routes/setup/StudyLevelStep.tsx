@@ -32,19 +32,27 @@ export function StudyLevelStep(props: StepProps) {
                 >
                     <div className="flex items-center space-x-2">
                         <RadioGroupItem value="1" id="1" />
-                        <Label htmlFor="1">1. stopnia</Label>
+                        <Label htmlFor="1" className="text-lg">
+                            1. stopnia
+                        </Label>
                     </div>
                     <div className="flex items-center space-x-2">
                         <RadioGroupItem value="2" id="2" />
-                        <Label htmlFor="2">2. stopnia</Label>
+                        <Label htmlFor="2" className="text-lg">
+                            2. stopnia
+                        </Label>
                     </div>
                     <div className="flex items-center space-x-2">
                         <RadioGroupItem value="0" id="0" />
-                        <Label htmlFor="0">Jednolite magisterskie</Label>
+                        <Label htmlFor="0" className="text-lg">
+                            Jednolite magisterskie
+                        </Label>
                     </div>
                     <div className="flex items-center space-x-2">
                         <RadioGroupItem value="3" id="3" />
-                        <Label htmlFor="1+2">Doktorackie</Label>
+                        <Label htmlFor="3" className="text-lg">
+                            Doktorackie
+                        </Label>
                     </div>
                 </RadioGroup>
 
