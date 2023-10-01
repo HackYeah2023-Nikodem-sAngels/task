@@ -15,7 +15,7 @@
         dev-go-script = pkgs.writeShellScriptBin "dev-back"
           ''
             PROJECT_DIR=$(echo "$DIRENV_DIR" | cut -c 2-)
-            cd "$PROJECT_DIR:=./backend" || return
+            cd "$PROJECT_DIR/backend" || return
             reflex -r '\.go$' -s -- go run .
           '';
       in
@@ -28,6 +28,7 @@
               shellcheck.enable = true;
               eslint.enable = true;
               gofmt.enable = true;
+              black.enable = true;
             };
           };
         };
@@ -45,12 +46,12 @@
           '';
 
           buildInputs = with pkgs; [
+            python312
             bun
             reflex
             go
           ] ++ [
             dev-go-script
-            # dev-front-script
           ];
         };
       }
