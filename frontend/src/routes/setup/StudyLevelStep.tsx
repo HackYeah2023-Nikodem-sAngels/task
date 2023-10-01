@@ -21,13 +21,14 @@ export function StudyLevelStep(props: StepProps) {
                     });
                 }}
             >
-                <h1 className="text-center text-xl font-medium">
+                <h1 className="text-center text-2xl font-medium">
                     Na jakie studia się wybierasz?
                 </h1>
                 <RadioGroup
                     defaultValue={studyLevel}
                     value={studyLevel}
                     onValueChange={setStudyLevel}
+                    className="mb-6 mt-4 flex flex-col gap-4"
                 >
                     <div className="flex items-center space-x-2">
                         <RadioGroupItem value="1" id="1" />
