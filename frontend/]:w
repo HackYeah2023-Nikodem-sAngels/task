@@ -4,13 +4,11 @@ import { Card } from "@/components/ui/card";
 import Cookies from "js-cookie";
 import { useNavigate } from "react-router";
 import { useEffect, useState } from "react";
-import { useQuery } from "react-query";
+import { useMutation, useQuery } from "react-query";
 import { useUserDataStore } from "@/zustand";
-import { Loader } from "@/components/Loader";
-import { cn } from "@/lib/utils";
 
 export interface Message {
-    message: React.ReactNode;
+    message: string;
     actions?: string[];
     type: "user" | "ai";
 }
@@ -92,9 +90,8 @@ export function Chat() {
                     <Messages
                         data={[
                             {
-                                message: questions.data?.question?.question ?? (
-                                    <Loader />
-                                ),
+                                message:
+                                    questions.data?.question?.question ?? "...",
                                 type: "ai",
                                 actions: questions.data?.question?.answers,
                             },
@@ -117,35 +114,11 @@ export function Chat() {
                     />
                 </Card>
 
-                <Card className="overflow-y-auto p-0 md:order-1">
-                    <div className="flex flex-col text-sm">
+                <Card className="overflow-y-auto p-6 md:order-1">
+                    <div className="flex flex-col gap-2">
                         {data.studyLevel === 3
-                            ? unilist2.data?.map((el, i) => (
-                                  <p
-                                      className={cn(
-                                          i % 2 === 0 ? "bg-blue-100" : "",
-                                          "px-4 py-4",
-                                      )}
-                                  >
-                                      {el.Uni}:{" "}
-                                      <span className="text-primary">
-                                          {el.Name}
-                                      </span>
-                                  </p>
-                              )) ?? <Loader className="m-4" />
-                            : unilist2.data?.map((el, i) => (
-                                  <p
-                                      className={cn(
-                                          i % 2 === 0 ? "bg-blue-100" : "",
-                                          "px-4 py-4",
-                                      )}
-                                  >
-                                      {el.Uni}:{" "}
-                                      <span className="text-primary">
-                                          {el.Name}
-                                      </span>
-                                  </p>
-                              )) ?? <Loader className="m-4" />}
+                            ? unilist2.data?.map((el) => el.Uni) ?? "...2"
+                            : unilist1.data?.map((el) => el.Uni) ?? "...1"}
                     </div>
                 </Card>
             </div>

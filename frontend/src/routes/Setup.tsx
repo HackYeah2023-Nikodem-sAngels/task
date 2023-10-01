@@ -5,7 +5,7 @@ import { StudyLevelStep } from "./setup/StudyLevelStep";
 import { InterestsStep } from "./setup/InterestsStep";
 import { useNavigate, useParams } from "react-router";
 import { useMutation } from "react-query";
-import { useDataStore } from "@/zustand";
+import { useUserDataStore } from "@/zustand";
 
 export interface StepProps {
     data: SetupData;
@@ -30,7 +30,7 @@ type Step =
 
 export function Setup() {
     const [step, setStep] = useState<Step>("studied");
-    const { data, setData } = useDataStore();
+    const { data, setData } = useUserDataStore();
 
     return (
         <main className="flex h-full items-center justify-center">
