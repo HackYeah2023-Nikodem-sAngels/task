@@ -17,9 +17,11 @@ import (
 )
 
 type Response struct {
-	Majors   []t.Major  `json:"majors"`
+	Majors   []float64  `json:"majors"`
 	Question t.Question `json:"question"`
 }
+
+var Token []float64
 
 func CreateRouter(conf t.Config) (*gin.Engine, error) {
 	gob.Register(t.BaseInformation{})
@@ -49,7 +51,7 @@ func CreateRouter(conf t.Config) (*gin.Engine, error) {
 	r.GET("/api/uniList1", func(ctx *gin.Context) {
 		session := sessions.Default(ctx)
 		base := session.Get("base").(t.BaseInformation)
-		arr := []float64{0.01156950555741787, -0.006257174536585808, 0.0035254855174571276, -0.020580865442752838, -0.03393721580505371, 0.03303736820816994, -0.02424454316496849, -0.01626158319413662, 0.010476830415427685, -0.016865769401192665}
+		arr := Token
 
 		res, err := database.GetScoresL2(base, mat.NewVecDense(len(arr), arr))
 		// res, err := database.MockGetScoresL2()
@@ -65,7 +67,7 @@ func CreateRouter(conf t.Config) (*gin.Engine, error) {
 	r.GET("/api/uniList2", func(ctx *gin.Context) {
 		session := sessions.Default(ctx)
 		base := session.Get("base").(t.BaseInformation)
-		arr := []float64{0.01156950555741787, -0.006257174536585808, 0.0035254855174571276, -0.020580865442752838, -0.03393721580505371, 0.03303736820816994, -0.02424454316496849, -0.01626158319413662, 0.010476830415427685, -0.016865769401192665}
+		arr := Token
 
 		res, err := database.GetScoresL3(base, mat.NewVecDense(len(arr), arr))
 		// res, err := database.MockGetScoresL2()
@@ -102,6 +104,8 @@ func CreateRouter(conf t.Config) (*gin.Engine, error) {
 			ctx.JSON(http.StatusServiceUnavailable, t.JsonErr{Message: "mati wez to jakos ogarnij na froncie bo gpt spadl z rowerka"})
 			return
 		}
+
+		Token = majors
 
 		session.Set("chatData", s)
 		session.Save()

@@ -5,6 +5,7 @@ import (
 	"context"
 	"fmt"
 	"net/http"
+	"strconv"
 	"strings"
 
 	t "backend/types"
@@ -78,29 +79,29 @@ func (s *OpenAISession) ask(question string, role string, saveResponse bool) (st
 	return res.Content, nil
 }
 
-func (s *OpenAISession) getQuestion(question string) ([]t.Major, t.Question, error) {
+func (s *OpenAISession) getQuestion(question string) ([]float64, t.Question, error) {
 	rawQuestion, err := s.ask(question, openai.ChatMessageRoleUser, true)
 	if err != nil {
-		return []t.Major{}, t.Question{}, err
+		return []float64{}, t.Question{}, err
 	}
 
 	perfectMajor, resQuestion := ParseResponse(rawQuestion)
 	return getRelatedMajors(perfectMajor), resQuestion, nil
 }
 
-func (s *OpenAISession) Start(startData t.BaseInformation, conf t.Config) ([]t.Major, t.Question, error) {
+func (s *OpenAISession) Start(startData t.BaseInformation, conf t.Config) ([]float64, t.Question, error) {
 	var renderedTempl bytes.Buffer
 
 	err := conf.TEMPLATES.ExecuteTemplate(&renderedTempl, "firstMsg", startData)
 	fmt.Println(renderedTempl.String())
 	if err != nil {
-		return []t.Major{}, t.Question{}, err
+		return []float64{}, t.Question{}, err
 	}
 
 	return s.getQuestion(renderedTempl.String())
 }
 
-func (s *OpenAISession) AnswerAndGetNext(answer string, conf t.Config) ([]t.Major, t.Question, error) {
+func (s *OpenAISession) AnswerAndGetNext(answer string, conf t.Config) ([]float64, t.Question, error) {
 	s.configData = conf
 	return s.getQuestion(answer)
 }
@@ -139,13 +140,14 @@ func ParseResponse(rawQuestion string) (string, t.Question) {
 	}
 }
 
-func getRelatedMajors(major string) []t.Major {
+func getRelatedMajors(major string) []float64 {
 	url := "http://localhost:3333/" // TODO: CHANGE TO ENVVAR!!!!!!
 	postData := []byte(major)
 
 	req, err := http.NewRequest("POST", url, bytes.NewBuffer(postData))
 	if err != nil {
-		return []t.Major{}
+		return []float64{}
+		// return []t.Major{}
 	}
 
 	req.Header.Set("Content-Type", "text/plain")
@@ -154,24 +156,42 @@ func getRelatedMajors(major string) []t.Major {
 	resp, err := client.Do(req)
 	if err != nil {
 		fmt.Println("Error sending request:", err)
-		return []t.Major{}
+		return []float64{}
+		// return []t.Major{}
 	}
 
 	defer resp.Body.Close()
 
 	if resp.StatusCode != http.StatusOK {
-		return []t.Major{}
+		return []float64{}
+		// return []t.Major{}
 	}
 
 	responseBody := make([]byte, 1024)
 	n, err := resp.Body.Read(responseBody)
 	if err != nil {
-		return []t.Major{}
+		return []float64{}
+		// return []t.Major{}
 	}
 
 	embedding := string(responseBody[:n])
 
-	fmt.Printf("Embedding: %v\n", embedding)
+	fmt.Print("Response: ", embedding)
 
-	return []t.Major{}
+	var vec []float64
+	embedding = strings.Trim(embedding, "[")
+	embedding = strings.Trim(embedding, "]")
+	vecArr := strings.Split(embedding, ",")
+	for _, p := range vecArr {
+		a, err := strconv.ParseFloat(p, 64)
+		if err != nil {
+			return []float64{}
+			// return nil, []t.Major{}
+		}
+
+		vec = append(vec, a)
+	}
+
+	return vec
+	// return []t.Major{}
 }
