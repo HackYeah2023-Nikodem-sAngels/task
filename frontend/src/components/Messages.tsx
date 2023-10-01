@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 import { UserCircleIcon } from "@heroicons/react/24/outline";
 import { useTextAnimation } from "@/hooks/useTextAnimation";
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 interface Props {
     data: Array<{
@@ -11,14 +11,22 @@ interface Props {
     }>;
 }
 export function Messages(props: Props) {
-    const ref = useRef<HTMLElement>(null);
-    const isFinished = useTextAnimation(
+    const ref = useRef<HTMLSpanElement>();
+    const completed = useTextAnimation(
         ref.current!,
         props.data[props.data.length - 1].message,
     );
 
+    useEffect(() => {
+        const responses = document.querySelectorAll(".ai-response");
+        const lastResponse = responses[responses.length - 1] as
+            | HTMLSpanElement
+            | undefined;
+        ref.current = lastResponse;
+    }, [props.data]);
+
     return (
-        <div className="flex flex-1 flex-col">
+        <div className="flex w-full flex-1 flex-col">
             {props.data.map((response, i) => (
                 <div
                     className={cn(
@@ -31,7 +39,7 @@ export function Messages(props: Props) {
                         {response.type === "ai" ? (
                             <>
                                 <img className="h-8 w-8" src="/ai.gif" />
-                                <span ref={ref}></span>
+                                <span className="ai-response"></span>
                             </>
                         ) : (
                             <>
@@ -43,7 +51,7 @@ export function Messages(props: Props) {
                         )}
                     </div>
                     {response.type === "ai" &&
-                        isFinished &&
+                        completed &&
                         response.actions?.map((el, i) => {
                             return (
                                 <button

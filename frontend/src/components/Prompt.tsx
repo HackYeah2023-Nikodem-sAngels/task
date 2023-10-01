@@ -18,6 +18,12 @@ export function Prompt() {
                 onHeightChange={(height) => {
                     setIsMultiline(height > 50);
                 }}
+                onKeyDown={(e) => {
+                    if (e.key === "Enter" && !e.shiftKey) {
+                        e.preventDefault();
+                        console.log("submit");
+                    }
+                }}
             />
             <Button
                 variant={isMultiline ? "default" : "ghost"}
