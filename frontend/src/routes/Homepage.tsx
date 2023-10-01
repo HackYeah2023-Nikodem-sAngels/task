@@ -21,7 +21,7 @@ export function Homepage() {
             <Button
                 size={"lg"}
                 className="flex gap-2 text-lg font-medium"
-                onClick={() => navigate("/pl/setup")}
+                onClick={() => navigate(`/${language}/setup`)}
             >
                 Rozpocznij
                 <ArrowRightIcon className="w-5" />

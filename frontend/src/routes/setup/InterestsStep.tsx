@@ -1,45 +1,45 @@
-import { Map } from "@/components/Map";
 import { Button } from "@/components/ui/button";
-import { useState } from "react";
-import { StepProps } from "../Setup";
-import { Card } from "@/components/ui/card";
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
+import { StepProps } from "../Setup";
+import { useState } from "react";
+import { List } from "@/components/List";
+import { Card } from "@/components/ui/card";
 
-export function RegionStep(props: StepProps) {
-    const [regions, setRegions] = useState<string[]>([]);
+export function InterestsStep(props: StepProps) {
+    const [entries, setEntries] = useState<string[]>([]);
 
     return (
-        <Card className="h-fit p-8">
+        <Card className="h-fit max-h-[75vh] overflow-auto p-8">
             <form
-                className="flex flex-col gap-4"
+                className="flex w-80 flex-col gap-4"
                 onSubmit={(e) => {
                     e.preventDefault();
                     props.onSubmit({
                         ...props.data,
-                        regions: regions,
+                        interests: entries,
                     });
                 }}
             >
-                <h1 className="text-center text-lg font-medium">
-                    Wybierz województwa twoich wymarzonych szkół
+                <h1 className="text-center text-xl font-medium">
+                    Czym się interesujesz?
                 </h1>
-                <Map value={regions} onChange={setRegions} />
+                <List value={entries} onChange={setEntries} />
 
                 <div className="flex justify-between">
                     <Button
-                        className="text-base"
+                        className="flex gap-2 text-base"
                         variant={"secondary"}
                         onClick={() => props.onSubmit(props.data)}
                     >
                         Pomiń
                     </Button>
                     <Button
+                        disabled={entries.length === 0}
                         className="ml-auto flex gap-2 text-base"
                         type="submit"
-                        disabled={regions.length === 0}
                     >
-                        Dalej
-                        <ArrowRightIcon className="w-5" />
+                        Zakończ
+                        <ArrowRightIcon className="w-4" />
                     </Button>
                 </div>
             </form>

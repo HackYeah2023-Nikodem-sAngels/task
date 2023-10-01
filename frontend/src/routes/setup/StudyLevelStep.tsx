@@ -47,7 +47,7 @@ export function StudyLevelStep(props: StepProps) {
                     </div>
                 </RadioGroup>
 
-                <Button className="ml-auto flex gap-2" type="submit">
+                <Button className="ml-auto flex gap-2 text-base" type="submit">
                     Dalej
                     <ArrowRightIcon className="w-4" />
                 </Button>
