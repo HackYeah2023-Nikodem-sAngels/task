@@ -6,6 +6,7 @@ import { InterestsStep } from "./setup/InterestsStep";
 import { useNavigate, useParams } from "react-router";
 import { useMutation } from "react-query";
 import { useUserDataStore } from "@/zustand";
+import Cookies from "js-cookie";
 
 export interface StepProps {
     data: SetupData;
@@ -31,6 +32,14 @@ type Step =
 export function Setup() {
     const [step, setStep] = useState<Step>("studied");
     const { data, setData } = useUserDataStore();
+    const navigate = useNavigate();
+
+    useEffect(() => {
+        if (Cookies.get("hackyeah")) {
+            navigate("/");
+        }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []);
 
     return (
         <main className="flex h-full items-center justify-center">
@@ -113,7 +122,7 @@ function CurrentStep(props: {
                         await new Promise<void>((resolve) =>
                             setTimeout(resolve, 500),
                         );
-                        navigate(`/${language}/chat`);
+                        navigate(`/${language}/chat`, { replace: true });
                     }}
                 />
             );
