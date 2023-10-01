@@ -5,9 +5,11 @@ import { ArrowRightIcon } from "@heroicons/react/24/outline";
 import { SetupData, StepProps } from "../Setup";
 import { useState } from "react";
 import { Card } from "@/components/ui/card";
+import { useTranslation } from "@/hooks/useTranslation";
 
 export function StudyLevelStep(props: StepProps) {
     const [studyLevel, setStudyLevel] = useState(1);
+    const translate = useTranslation();
 
     return (
         <Card className="h-fit p-8 opacity-80">
@@ -22,7 +24,7 @@ export function StudyLevelStep(props: StepProps) {
                 }}
             >
                 <h1 className="text-center text-2xl font-medium">
-                    Na jakie studia się wybierasz?
+                    {translate("study_level_title")}
                 </h1>
                 <RadioGroup
                     defaultValue={studyLevel.toString()}
@@ -33,31 +35,31 @@ export function StudyLevelStep(props: StepProps) {
                     <div className="flex items-center space-x-2">
                         <RadioGroupItem value="1" id="1" />
                         <Label htmlFor="1" className="text-lg">
-                            1. stopnia
+                            {translate("study_level_1")}
                         </Label>
                     </div>
                     <div className="flex items-center space-x-2">
                         <RadioGroupItem value="2" id="2" />
                         <Label htmlFor="2" className="text-lg">
-                            2. stopnia
+                            {translate("study_level_2")}
                         </Label>
                     </div>
                     <div className="flex items-center space-x-2">
                         <RadioGroupItem value="0" id="0" />
                         <Label htmlFor="0" className="text-lg">
-                            Jednolite magisterskie
+                            {translate("study_level_0")}
                         </Label>
                     </div>
                     <div className="flex items-center space-x-2">
                         <RadioGroupItem value="3" id="3" />
                         <Label htmlFor="3" className="text-lg">
-                            Doktorackie
+                            {translate("study_level_3")}
                         </Label>
                     </div>
                 </RadioGroup>
 
                 <Button className="ml-auto flex gap-2 text-base" type="submit">
-                    Dalej
+                    {translate("next")}
                     <ArrowRightIcon className="w-4" />
                 </Button>
             </form>

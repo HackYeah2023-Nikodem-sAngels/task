@@ -4,9 +4,11 @@ import { StepProps } from "../Setup";
 import { useState } from "react";
 import { List } from "@/components/List";
 import { Card } from "@/components/ui/card";
+import { useTranslation } from "@/hooks/useTranslation";
 
 export function InterestsStep(props: StepProps) {
     const [entries, setEntries] = useState<string[]>([]);
+    const translate = useTranslation();
 
     return (
         <Card className="flex h-fit max-h-[75vh] w-[400px] items-center justify-center overflow-auto p-8 opacity-80">
@@ -21,7 +23,7 @@ export function InterestsStep(props: StepProps) {
                 }}
             >
                 <h1 className="text-center text-2xl font-medium">
-                    Czym się interesujesz?
+                    {translate("interests_title")}
                 </h1>
                 <div className="mb-6 mt-4">
                     <List value={entries} onChange={setEntries} />
@@ -32,14 +34,14 @@ export function InterestsStep(props: StepProps) {
                         variant={"secondary"}
                         onClick={() => props.onSubmit(props.data)}
                     >
-                        Pomiń
+                        {translate("skip")}
                     </Button>
                     <Button
                         disabled={entries.length === 0}
                         className="ml-auto flex gap-2 text-base"
                         type="submit"
                     >
-                        Zakończ
+                        {translate("next")}
                         <ArrowRightIcon className="w-4" />
                     </Button>
                 </div>

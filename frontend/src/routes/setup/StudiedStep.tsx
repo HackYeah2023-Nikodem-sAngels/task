@@ -5,12 +5,14 @@ import { ArrowRightIcon } from "@heroicons/react/24/outline";
 import { StepProps } from "../Setup";
 import { useState } from "react";
 import { Card } from "@/components/ui/card";
+import { useTranslation } from "@/hooks/useTranslation";
 
 export function StudiedStep(props: StepProps) {
     const [studied, setStudied] = useState("no");
+    const translate = useTranslation();
 
     return (
-        <div className="h-[calc(100vh - 2rem)] flex w-screen items-center justify-center sm:items-baseline">
+        <div className="flex w-full items-center justify-center sm:items-baseline">
             <Card className="h-[320px] w-[440px] p-8 pb-6 opacity-80">
                 <form
                     className="flex h-full flex-col gap-4"
@@ -23,7 +25,7 @@ export function StudiedStep(props: StepProps) {
                     }}
                 >
                     <h1 className="text-center text-2xl font-medium">
-                        Czy już studiowałeś/aś?
+                        {translate("studied_question")}
                     </h1>
                     <RadioGroup
                         defaultValue={studied}
@@ -34,13 +36,13 @@ export function StudiedStep(props: StepProps) {
                         <div className="flex items-center space-x-2">
                             <RadioGroupItem value="yes" id="yes" />
                             <Label htmlFor="yes" className="text-lg">
-                                Tak
+                                {translate("yes")}
                             </Label>
                         </div>
                         <div className="flex items-center space-x-2">
                             <RadioGroupItem value="no" id="no" />
                             <Label htmlFor="no" className="text-lg">
-                                Nie
+                                {translate("no")}
                             </Label>
                         </div>
                     </RadioGroup>
@@ -49,7 +51,7 @@ export function StudiedStep(props: StepProps) {
                         className="ml-auto flex gap-2 text-base"
                         type="submit"
                     >
-                        Dalej
+                        {translate("next")}
                         <ArrowRightIcon className="w-4" />
                     </Button>
                 </form>

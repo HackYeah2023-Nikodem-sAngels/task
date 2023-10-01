@@ -3,10 +3,12 @@ import { Input } from "./ui/input";
 import { Button } from "./ui/button";
 import { useState } from "react";
 import { useAutoAnimate } from "@formkit/auto-animate/react";
+import { useTranslation } from "@/hooks/useTranslation";
 
 export function List(props: FormFieldProps<string[]>) {
     const [newEntry, setNewEntry] = useState("");
     const [parent] = useAutoAnimate();
+    const translate = useTranslation();
 
     return (
         <div className="flex flex-col gap-2" ref={parent}>
@@ -23,7 +25,7 @@ export function List(props: FormFieldProps<string[]>) {
                                 );
                             }}
                         >
-                            Usuń
+                            {translate("delete")}
                         </Button>
                     </div>
                 </div>
@@ -31,7 +33,7 @@ export function List(props: FormFieldProps<string[]>) {
 
             <div className="flex gap-2">
                 <Input
-                    placeholder="Wpisz tutaj"
+                    placeholder={translate("interests_placeholder")}
                     value={newEntry}
                     onChange={(e) => setNewEntry(e.target.value)}
                     onKeyDown={(e) => {
@@ -52,7 +54,7 @@ export function List(props: FormFieldProps<string[]>) {
                         setNewEntry("");
                     }}
                 >
-                    Dodaj
+                    {translate("add")}
                 </Button>
             </div>
         </div>

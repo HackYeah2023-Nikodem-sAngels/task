@@ -4,9 +4,11 @@ import { useState } from "react";
 import { StepProps } from "../Setup";
 import { Card } from "@/components/ui/card";
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
+import { useTranslation } from "@/hooks/useTranslation";
 
 export function RegionStep(props: StepProps) {
     const [regions, setRegions] = useState<string[]>([]);
+    const translate = useTranslation();
 
     return (
         <Card className="h-auto w-auto p-8 opacity-80 sm:h-[660px] sm:w-[540px] md:h-[720px] md:w-[640px]">
@@ -21,7 +23,7 @@ export function RegionStep(props: StepProps) {
                 }}
             >
                 <h1 className="text-center text-2xl font-medium">
-                    Wybierz województwa uczelni
+                    {translate("region_select_title")}
                 </h1>
                 <div className=" md:h-[calc(100% - 32px)] md:w-[calc(100% - 32px)] my-4">
                     <Map value={regions} onChange={setRegions} />
@@ -32,14 +34,14 @@ export function RegionStep(props: StepProps) {
                         variant={"secondary"}
                         onClick={() => props.onSubmit(props.data)}
                     >
-                        Pomiń
+                        {translate("skip")}
                     </Button>
                     <Button
                         className="ml-auto flex gap-2 text-base"
                         type="submit"
                         disabled={regions.length === 0}
                     >
-                        Dalej
+                        {translate("next")}
                         <ArrowRightIcon className="w-5" />
                     </Button>
                 </div>
