@@ -14,4 +14,4 @@ RUN pip install pandas openai jupyter matplotlib plotly scipy scikit-learn
 EXPOSE 8888
 
 # Run Jupyter Notebook
-CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8888", "--allow-root", "--no-browser"]
+CMD ["python", "main.py"]
