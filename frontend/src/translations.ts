@@ -22,8 +22,8 @@ export const translations: Record<string, { en: string; pl: string }> = {
         pl: "Na jakie studia się wybierasz?",
     },
     study_level_1: { en: "Undergraduate", pl: "1. stopnia" },
-    study_level_2: { en: "Graduate", pl: "1. stopnia" },
-    study_level_0: { en: "Long-cycle masters", pl: "Jednolite magisterskie" },
+    study_level_2: { en: "Graduate", pl: "2. stopnia" },
+    study_level_0: { en: "Uniform Master's", pl: "Jednolite magisterskie" },
     study_level_3: { en: "Doctorate", pl: "Doktorackie" },
     interests_title: {
         en: "What are your interests?",
