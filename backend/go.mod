@@ -9,6 +9,7 @@ require (
 	github.com/joho/godotenv v1.5.1
 	github.com/lib/pq v1.10.9
 	github.com/sashabaranov/go-openai v1.15.3
+	gonum.org/v1/gonum v0.14.0
 )
 
 require (

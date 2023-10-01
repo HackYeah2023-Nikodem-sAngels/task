@@ -61,7 +61,7 @@ func setBaseData(ctx *gin.Context) {
 	}
 
 	session := sessions.Default(ctx)
-	session.Set("chatData", data)
+	session.Set("base", data)
 
 	err = session.Save()
 	if err != nil {

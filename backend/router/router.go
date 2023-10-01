@@ -9,6 +9,7 @@ import (
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-contrib/sessions/postgres"
 	"github.com/gin-gonic/gin"
+	"gonum.org/v1/gonum/mat"
 
 	"net/http"
 
@@ -16,8 +17,8 @@ import (
 )
 
 type Response struct {
-	Majors   []t.Major
-	Question t.Question
+	Majors   []t.Major  `json:"majors"`
+	Question t.Question `json:"question"`
 }
 
 func CreateRouter(conf t.Config) (*gin.Engine, error) {
@@ -31,29 +32,6 @@ func CreateRouter(conf t.Config) (*gin.Engine, error) {
 		return nil, err
 	}
 
-	r.GET("/justtesting", func(ctx *gin.Context) {
-		s, err := gpt.NewOpenAISession(conf)
-		if err != nil {
-			ctx.JSON(http.StatusServiceUnavailable, t.JsonErr{Message: "mati wez to jakos ogarnij na froncie bo gpt spadl z rowerka"})
-			return
-		}
-
-		baseData := t.BaseInformation{}
-		s.Start(baseData, conf)
-		if err != nil {
-			ctx.JSON(http.StatusServiceUnavailable, t.JsonErr{Message: "mati wez to jakos ogarnij na froncie bo gpt spadl z rowerka"})
-			return
-		}
-
-		Majors, Question, err := s.AnswerAndGetNext("1", conf)
-		if err != nil {
-			ctx.JSON(http.StatusServiceUnavailable, t.JsonErr{Message: "mati wez to jakos ogarnij na froncie bo gpt spadl z rowerka"})
-			return
-		}
-
-		ctx.JSON(http.StatusOK, Response{Majors, Question})
-	})
-
 	r.Use(sessions.Sessions("hackyeah", store))
 
 	r.NoRoute(func(ctx *gin.Context) {
@@ -64,18 +42,50 @@ func CreateRouter(conf t.Config) (*gin.Engine, error) {
 
 	r.GET("/tmp-api/session", func(ctx *gin.Context) {
 		session := sessions.Default(ctx)
-		base := session.Get("chatData")
+		base := session.Get("base")
 		ctx.JSON(http.StatusOK, base)
+	})
+
+	r.GET("/api/uniList1", func(ctx *gin.Context) {
+		session := sessions.Default(ctx)
+		base := session.Get("base").(t.BaseInformation)
+		arr := []float64{0.01156950555741787, -0.006257174536585808, 0.0035254855174571276, -0.020580865442752838, -0.03393721580505371, 0.03303736820816994, -0.02424454316496849, -0.01626158319413662, 0.010476830415427685, -0.016865769401192665}
+
+		res, err := database.GetScoresL2(base, mat.NewVecDense(len(arr), arr))
+		// res, err := database.MockGetScoresL2()
+		if err != nil {
+			log.Println(err)
+			ctx.String(http.StatusInternalServerError, "err")
+			return
+		}
+
+		ctx.JSON(http.StatusOK, res)
+	})
+
+	r.GET("/api/uniList2", func(ctx *gin.Context) {
+		session := sessions.Default(ctx)
+		base := session.Get("base").(t.BaseInformation)
+		arr := []float64{0.01156950555741787, -0.006257174536585808, 0.0035254855174571276, -0.020580865442752838, -0.03393721580505371, 0.03303736820816994, -0.02424454316496849, -0.01626158319413662, 0.010476830415427685, -0.016865769401192665}
+
+		res, err := database.GetScoresL3(base, mat.NewVecDense(len(arr), arr))
+		// res, err := database.MockGetScoresL2()
+		if err != nil {
+			log.Println(err)
+			ctx.String(http.StatusInternalServerError, "err")
+			return
+		}
+
+		ctx.JSON(http.StatusOK, res)
 	})
 
 	r.GET("/api/questions", func(ctx *gin.Context) {
 		session := sessions.Default(ctx)
-		if session.Get("chatData") == nil {
+		if session.Get("base") == nil {
 			ctx.JSON(http.StatusBadRequest, t.JsonErr{Message: "No session created"})
 			return
 		}
 
-		var baseData t.BaseInformation = session.Get("chatData").(t.BaseInformation)
+		var baseData t.BaseInformation = session.Get("base").(t.BaseInformation)
 		if baseData.Language == "" {
 			ctx.JSON(http.StatusBadRequest, t.JsonErr{Message: "you did not provide a language"})
 			return
