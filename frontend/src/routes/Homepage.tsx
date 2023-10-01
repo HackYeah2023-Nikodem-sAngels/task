@@ -56,7 +56,11 @@ export function Homepage() {
                     <Button
                         size={"lg"}
                         className="flex gap-3 px-6 py-7 text-2xl font-medium"
-                        onClick={() => navigate(`/${language}/setup`)}
+                        onClick={() =>
+                            authed
+                                ? navigate(`/${language}/chat`)
+                                : navigate(`/${language}/setup`)
+                        }
                     >
                         {authed
                             ? getTranslation("homepage_continue")

@@ -4,7 +4,7 @@ export const translations: Record<string, { en: string; pl: string }> = {
     homepage_reset: { en: "New profile", pl: "Nowy profil" },
     homepage_hero_1: { en: "Find a", pl: "Znajdź" },
     homepage_hero_2: { en: "school", pl: "uczelnię" },
-    homepage_hero_3: { en: "just for you", pl: "dla siebie" },
+    homepage_hero_3: { en: "just for you", pl: "specjalnie dla ciebie" },
     studied_question: {
         en: "Did you study at a university before?",
         pl: "Czy już studiowałeś/aś?",

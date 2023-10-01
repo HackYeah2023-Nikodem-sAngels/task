@@ -18,7 +18,7 @@ export interface SetupData {
     interests?: string[];
     // maturaResults?: string[];
     // futureSkills?: string[];
-    // specialization?: string;
+    specialization?: string;
     language?: "pl" | "en";
     // lastStudies?: string;
 }
@@ -62,7 +62,7 @@ function CurrentStep(props: {
 
     useEffect(() => {
         // @ts-expect-error dont care anymore
-        props.setData({ ...props.data, language });
+        props.setData({ ...props.data, language, specialization: "lorem" });
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
@@ -110,6 +110,9 @@ function CurrentStep(props: {
                     data={props.data}
                     onSubmit={async () => {
                         await mutation.mutateAsync();
+                        await new Promise<void>((resolve) =>
+                            setTimeout(resolve, 500),
+                        );
                         navigate(`/${language}/chat`);
                     }}
                 />
