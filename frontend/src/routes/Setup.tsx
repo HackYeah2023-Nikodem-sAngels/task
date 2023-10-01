@@ -119,9 +119,6 @@ function CurrentStep(props: {
                     data={props.data}
                     onSubmit={async () => {
                         await mutation.mutateAsync();
-                        await new Promise<void>((resolve) =>
-                            setTimeout(resolve, 500),
-                        );
                         navigate(`/${language}/chat`, { replace: true });
                     }}
                     loading={mutation.isLoading}
